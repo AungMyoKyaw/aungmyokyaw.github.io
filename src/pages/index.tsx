@@ -23,6 +23,15 @@ function HomepageHeader() {
             to="/docs/intro">
             Docusaurus Tutorial - 5min ⏱️
           </Link>
+         <div style={{marginTop: 16}}>
+           <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener noreferrer">
+             <img
+               src="https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png"
+               alt="Creative Commons BY-NC-SA 4.0 License"
+               style={{verticalAlign: 'middle'}}
+             />
+           </a>
+         </div>
         </div>
       </div>
     </header>

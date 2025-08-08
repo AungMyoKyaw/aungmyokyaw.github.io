@@ -103,6 +103,10 @@ const config: Config = {
               label: 'Tutorial',
               to: '/docs/intro',
             },
+              {
+                label: 'License',
+                to: '/docs/license',
+              },
           ],
         },
         {
@@ -136,7 +140,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+  copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus. Content licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC-SA 4.0</a>.`,
     },
     prism: {
       theme: prismThemes.github,
