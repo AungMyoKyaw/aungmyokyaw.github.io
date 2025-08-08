@@ -9,8 +9,8 @@
 <details>
 	<summary>🗂️ <strong>Table of Contents</strong> (click to expand/collapse)</summary>
 
-    - [About](#about)
-    - [License](#license)
+- [About](#about)
+- [License](#license)
 
 </details>
 
