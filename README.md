@@ -1,3 +1,5 @@
+> **Note:** This repository is where I keep my public notes and knowledge that I want to save and publish. It is built and published using [Docusaurus](https://docusaurus.io).
+
 # 📚 meta-knowledge
 
 ![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-green?style=flat-square)
@@ -18,7 +20,9 @@
 
 ## 📝 About
 
-meta-knowledge is a collaborative platform for curating and sharing knowledge. It encourages open learning and creative contribution, while respecting the rights of original authors.
+**meta-knowledge** is my personal knowledge base and public notes repository. Here, I curate, organize, and share information, ideas, and resources that I want to save and publish for myself and others. The site is built and published using [Docusaurus](https://docusaurus.io), making it easy to browse and contribute.
+
+It encourages open learning and creative contribution, while respecting the rights of original authors.
 
 ---
 
@@ -33,4 +37,3 @@ You are free to share and adapt the material for **non-commercial purposes**, as
 For full legal terms, see the [LICENSE](./LICENSE) file or visit the [official license page](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en).
 
 ---
-
