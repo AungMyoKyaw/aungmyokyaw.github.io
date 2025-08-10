@@ -90,8 +90,20 @@ body {
 }
 
 .button--primary {
-  background: var(--professional-gradient);
-  border: 2px solid transparent;
+  background: #3b237a;
+  color: #fff;
+  border: 2px solid #3b237a;
+  box-shadow: 0 4px 16px rgba(59, 35, 122, 0.15);
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.button--primary:focus,
+.button--primary:hover {
+  background: #5025c6;
+  color: #fff;
+  border-color: #5025c6;
+  box-shadow: 0 6px 24px rgba(80, 37, 198, 0.18);
 }
 
 .button--secondary {

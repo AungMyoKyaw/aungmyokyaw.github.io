@@ -143,7 +143,7 @@ const config: Config = {
           ]
         }
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Aung Myo Kyaw. Built with Docusaurus. Content licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC-SA 4.0</a>.`
+      copyright: `Copyright © ${new Date().getFullYear()} Aung Myo Kyaw. Built with Docusaurus. Content licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC-SA 4.0</a>.<br/><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener noreferrer" style="display:inline-block;margin-top:0.5em;"><img src="https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png" alt="Creative Commons BY-NC-SA 4.0 License" style="vertical-align:middle;opacity:0.8;"/></a>`
     },
     prism: {
       theme: prismThemes.github,

@@ -37,32 +37,6 @@ function HomepageHeader() {
                 Read Blog 📝
               </Link>
             </div>
-            <div className={styles.socialLinks}>
-              <a
-                href="https://github.com/AungMyoKyaw"
-                target="_blank"
-                rel="noopener noreferrer"
-                className={styles.socialLink}
-              >
-                GitHub
-              </a>
-              <a
-                href="https://linkedin.com/in/aungmyokyaw/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className={styles.socialLink}
-              >
-                LinkedIn
-              </a>
-              <a
-                href="https://aungmyokyaw.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className={styles.socialLink}
-              >
-                Portfolio
-              </a>
-            </div>
           </div>
           <div className={styles.heroImage}>
             <img
@@ -71,19 +45,6 @@ function HomepageHeader() {
               className={styles.profileImage}
             />
           </div>
-        </div>
-        <div className={styles.licenseInfo}>
-          <a
-            href="https://creativecommons.org/licenses/by-nc-sa/4.0/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src="https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png"
-              alt="Creative Commons BY-NC-SA 4.0 License"
-              className={styles.licenseImage}
-            />
-          </a>
         </div>
       </div>
     </header>

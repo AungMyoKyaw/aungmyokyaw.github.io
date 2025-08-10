@@ -101,16 +101,21 @@
 }
 
 .heroButtons .button--primary {
-  background: rgba(255, 255, 255, 0.15);
-  color: white;
-  border-color: rgba(255, 255, 255, 0.3);
-  backdrop-filter: blur(10px);
+  background: #3b237a;
+  color: #fff;
+  border-color: #3b237a;
+  box-shadow: 0 4px 16px rgba(59, 35, 122, 0.15);
+  font-weight: 700;
+  letter-spacing: 0.02em;
 }
 
-.heroButtons .button--primary:hover {
-  background: rgba(255, 255, 255, 0.25);
+.heroButtons .button--primary:hover,
+.heroButtons .button--primary:focus {
+  background: #5025c6;
+  color: #fff;
+  border-color: #5025c6;
+  box-shadow: 0 6px 24px rgba(80, 37, 198, 0.18);
   transform: translateY(-2px);
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
 }
 
 .heroButtons .button--secondary {
@@ -146,20 +151,6 @@
   background: rgba(255, 255, 255, 0.15);
   transform: translateY(-2px);
   text-decoration: none;
-}
-
-.licenseInfo {
-  margin-top: 3rem;
-  text-align: center;
-  opacity: 0.7;
-}
-
-.licenseImage {
-  transition: opacity 0.3s ease;
-}
-
-.licenseImage:hover {
-  opacity: 0.9;
 }
 
 /* Responsive Design */
