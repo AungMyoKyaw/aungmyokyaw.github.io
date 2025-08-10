@@ -115,9 +115,122 @@ export default function ProfessionalHighlights(): ReactNode {
   return (
     <section className={styles.highlights}>
       <div className="container">
-        {/* Certifications Section */}
-        <div className={styles.section}>
-          <Heading as="h2" className={styles.sectionTitle}>
+        {/* Key Achievements Section (Three Columns) */}
+        <section
+          className="margin-bottom--xl"
+          aria-labelledby="achievements-heading"
+        >
+          <Heading
+            as="h2"
+            id="achievements-heading"
+            className="text--center text--primary margin-bottom--lg"
+          >
+            Key Achievements
+          </Heading>
+          <div className="row">
+            {/* Solution Architecture */}
+            <div className="col col--4 margin-bottom--lg">
+              <article className="card shadow--md padding--lg h-100">
+                <h3 className="text--center text--primary">
+                  Solution Architecture
+                </h3>
+                <p className="text--center">
+                  Designing scalable, efficient systems that meet both technical
+                  and business needs. Leading teams to align requirements and
+                  drive key projects with strategic vision.
+                </p>
+                <div className="margin-top--md">
+                  <h4 className="text--left">
+                    <span
+                      role="img"
+                      aria-label="Trophy"
+                      className="margin-right--sm"
+                    >
+                      🏆
+                    </span>
+                    Key Achievements:
+                  </h4>
+                  <ul>
+                    <li>Led e-commerce platform migration to microservices</li>
+                    <li>Designed cloud-based CI/CD pipelines</li>
+                    <li>Reduced deployment time by 80%</li>
+                  </ul>
+                </div>
+              </article>
+            </div>
+            {/* DevOps Excellence */}
+            <div className="col col--4 margin-bottom--lg">
+              <article className="card shadow--md padding--lg h-100">
+                <h3 className="text--center text--primary">
+                  DevOps Excellence
+                </h3>
+                <p className="text--center">
+                  Streamlining software development processes with robust CI/CD
+                  pipelines, containerization, and infrastructure automation for
+                  optimal efficiency.
+                </p>
+                <div className="margin-top--md">
+                  <h4 className="text--left">
+                    <span
+                      role="img"
+                      aria-label="Trophy"
+                      className="margin-right--sm"
+                    >
+                      🏆
+                    </span>
+                    Key Achievements:
+                  </h4>
+                  <ul>
+                    <li>Implemented Docker &amp; Kubernetes orchestration</li>
+                    <li>Automated testing and quality gates</li>
+                    <li>Managed scalable cloud infrastructure</li>
+                  </ul>
+                </div>
+              </article>
+            </div>
+            {/* Technical Leadership */}
+            <div className="col col--4 margin-bottom--lg">
+              <article className="card shadow--md padding--lg h-100">
+                <h3 className="text--center text--primary">
+                  Technical Leadership
+                </h3>
+                <p className="text--center">
+                  Mentoring teams, enforcing coding standards, and fostering
+                  collaborative environments. Driving innovation while ensuring
+                  high-quality software delivery.
+                </p>
+                <div className="margin-top--md">
+                  <h4 className="text--left">
+                    <span
+                      role="img"
+                      aria-label="Trophy"
+                      className="margin-right--sm"
+                    >
+                      🏆
+                    </span>
+                    Key Achievements:
+                  </h4>
+                  <ul>
+                    <li>Led global teams with Agile workflows</li>
+                    <li>Mentored developers across multiple projects</li>
+                    <li>Enforced coding standards for quality delivery</li>
+                  </ul>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        {/* Professional Certifications Section */}
+        <section
+          className={styles.section}
+          aria-labelledby="certifications-heading"
+        >
+          <Heading
+            as="h2"
+            id="certifications-heading"
+            className={styles.sectionTitle}
+          >
             Professional Certifications
           </Heading>
           <p className={styles.sectionSubtitle}>
@@ -129,11 +242,15 @@ export default function ProfessionalHighlights(): ReactNode {
               <CertificationCard key={cert.name} {...cert} />
             ))}
           </div>
-        </div>
+        </section>
 
-        {/* Key Projects Section */}
-        <div className={styles.section}>
-          <Heading as="h2" className={styles.sectionTitle}>
+        {/* Featured Projects Section */}
+        <section className={styles.section} aria-labelledby="projects-heading">
+          <Heading
+            as="h2"
+            id="projects-heading"
+            className={styles.sectionTitle}
+          >
             Featured Projects
           </Heading>
           <p className={styles.sectionSubtitle}>
@@ -144,11 +261,11 @@ export default function ProfessionalHighlights(): ReactNode {
               <ProjectCard key={project.name} {...project} />
             ))}
           </div>
-        </div>
+        </section>
 
         {/* Technology Stack Section */}
-        <div className={styles.section}>
-          <Heading as="h2" className={styles.sectionTitle}>
+        <section className={styles.section} aria-labelledby="tech-heading">
+          <Heading as="h2" id="tech-heading" className={styles.sectionTitle}>
             Technology Expertise
           </Heading>
           <div className={styles.techCategories}>
@@ -183,7 +300,7 @@ export default function ProfessionalHighlights(): ReactNode {
               </div>
             </div>
           </div>
-        </div>
+        </section>
       </div>
     </section>
   );
