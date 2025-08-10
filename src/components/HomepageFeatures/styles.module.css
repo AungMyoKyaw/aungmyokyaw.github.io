@@ -120,12 +120,12 @@
   .features {
     padding: 4rem 0;
   }
-  
+
   .featureSvg {
     height: 150px;
     width: 150px;
   }
-  
+
   .features .container .row .col {
     margin-bottom: 2rem;
   }
@@ -135,21 +135,21 @@
   .features {
     padding: 3rem 0;
   }
-  
+
   .featureSvg {
     height: 120px;
     width: 120px;
     margin-bottom: 1.5rem;
   }
-  
+
   .features h3 {
     font-size: 1.5rem;
   }
-  
+
   .features p {
     font-size: 1rem;
   }
-  
+
   .achievements {
     padding: 1rem;
   }

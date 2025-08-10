@@ -250,19 +250,19 @@
   .highlights {
     padding: 4rem 0;
   }
-  
+
   .certGrid {
     grid-template-columns: 1fr;
   }
-  
+
   .projectGrid {
     grid-template-columns: 1fr;
   }
-  
+
   .techCategories {
     grid-template-columns: 1fr;
   }
-  
+
   .sectionTitle {
     font-size: 2rem;
   }
@@ -272,37 +272,37 @@
   .highlights {
     padding: 3rem 0;
   }
-  
+
   .section {
     margin-bottom: 3rem;
   }
-  
+
   .sectionTitle {
     font-size: 1.8rem;
   }
-  
+
   .sectionSubtitle {
     font-size: 1.1rem;
   }
-  
+
   .certCard {
     padding: 1.5rem;
   }
-  
+
   .projectCard {
     padding: 2rem;
   }
-  
+
   .techCategory {
     padding: 1.5rem;
   }
-  
+
   .certHeader {
     flex-direction: column;
     align-items: flex-start;
     gap: 0.5rem;
   }
-  
+
   .certLevel {
     align-self: flex-start;
   }
@@ -313,19 +313,21 @@
     grid-template-columns: 1fr;
     gap: 1.5rem;
   }
-  
+
   .projectGrid {
     gap: 2rem;
   }
-  
-  .certCard, .projectCard, .techCategory {
+
+  .certCard,
+  .projectCard,
+  .techCategory {
     padding: 1.5rem;
   }
-  
+
   .techList {
     gap: 0.5rem;
   }
-  
+
   .techList span {
     padding: 0.4rem 0.8rem;
     font-size: 0.85rem;

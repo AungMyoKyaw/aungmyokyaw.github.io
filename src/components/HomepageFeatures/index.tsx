@@ -1,4 +1,4 @@
-import type {ReactNode} from 'react';
+import type { ReactNode } from 'react';
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
@@ -16,8 +16,9 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Designing scalable, efficient systems that meet both technical and business needs. 
-        Leading teams to align requirements and drive key projects with strategic vision.
+        Designing scalable, efficient systems that meet both technical and
+        business needs. Leading teams to align requirements and drive key
+        projects with strategic vision.
       </>
     ),
     achievements: [
@@ -31,7 +32,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Streamlining software development processes with robust CI/CD pipelines, 
+        Streamlining software development processes with robust CI/CD pipelines,
         containerization, and infrastructure automation for optimal efficiency.
       </>
     ),
@@ -46,8 +47,9 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Mentoring teams, enforcing coding standards, and fostering collaborative environments. 
-        Driving innovation while ensuring high-quality software delivery.
+        Mentoring teams, enforcing coding standards, and fostering collaborative
+        environments. Driving innovation while ensuring high-quality software
+        delivery.
       </>
     ),
     achievements: [
@@ -55,10 +57,10 @@ const FeatureList: FeatureItem[] = [
       'Mentored developers across multiple projects',
       'Enforced coding standards for quality delivery'
     ]
-  },
+  }
 ];
 
-function Feature({title, Svg, description, achievements}: FeatureItem) {
+function Feature({ title, Svg, description, achievements }: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">

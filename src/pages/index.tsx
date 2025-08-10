@@ -1,4 +1,4 @@
-import type {ReactNode} from 'react';
+import type { ReactNode } from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
@@ -10,7 +10,7 @@ import Heading from '@theme/Heading';
 import styles from './index.module.css';
 
 function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
+  const { siteConfig } = useDocusaurusContext();
   return (
     <header className={clsx('hero', styles.heroBanner)}>
       <div className="container">
@@ -21,43 +21,63 @@ function HomepageHeader() {
             </Heading>
             <p className={styles.heroSubtitle}>{siteConfig.tagline}</p>
             <p className={styles.heroDescription}>
-              Passionate IT professional specializing in solution architecture, DevOps, and full-stack development. 
-              I design scalable, efficient systems and drive end-to-end development with Agile practices and robust CI/CD pipelines.
+              Passionate IT professional specializing in solution architecture,
+              DevOps, and full-stack development. I design scalable, efficient
+              systems and drive end-to-end development with Agile practices and
+              robust CI/CD pipelines.
             </p>
             <div className={styles.heroButtons}>
               <Link
                 className="button button--primary button--lg"
-                to="/docs/intro">
+                to="/docs/intro"
+              >
                 Explore Knowledge Base 📚
               </Link>
-              <Link
-                className="button button--secondary button--lg"
-                to="/blog">
+              <Link className="button button--secondary button--lg" to="/blog">
                 Read Blog 📝
               </Link>
             </div>
             <div className={styles.socialLinks}>
-              <a href="https://github.com/AungMyoKyaw" target="_blank" rel="noopener noreferrer" className={styles.socialLink}>
+              <a
+                href="https://github.com/AungMyoKyaw"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.socialLink}
+              >
                 GitHub
               </a>
-              <a href="https://linkedin.com/in/aungmyokyaw/" target="_blank" rel="noopener noreferrer" className={styles.socialLink}>
+              <a
+                href="https://linkedin.com/in/aungmyokyaw/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.socialLink}
+              >
                 LinkedIn
               </a>
-              <a href="https://aungmyokyaw.com" target="_blank" rel="noopener noreferrer" className={styles.socialLink}>
+              <a
+                href="https://aungmyokyaw.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.socialLink}
+              >
                 Portfolio
               </a>
             </div>
           </div>
           <div className={styles.heroImage}>
-            <img 
-              src="https://avatars.githubusercontent.com/u/9404824?v=4" 
+            <img
+              src="https://avatars.githubusercontent.com/u/9404824?v=4"
               alt="Aung Myo Kyaw"
               className={styles.profileImage}
             />
           </div>
         </div>
         <div className={styles.licenseInfo}>
-          <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               src="https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png"
               alt="Creative Commons BY-NC-SA 4.0 License"
@@ -71,11 +91,12 @@ function HomepageHeader() {
 }
 
 export default function Home(): ReactNode {
-  const {siteConfig} = useDocusaurusContext();
+  const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
       title={`${siteConfig.title} - Software Engineer & Solution Architect`}
-      description="Professional portfolio and knowledge base of Aung Myo Kyaw - Software Engineer specializing in solution architecture, DevOps, and full-stack development.">
+      description="Professional portfolio and knowledge base of Aung Myo Kyaw - Software Engineer specializing in solution architecture, DevOps, and full-stack development."
+    >
       <HomepageHeader />
       <main>
         <HomepageFeatures />

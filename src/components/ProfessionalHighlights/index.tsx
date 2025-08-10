@@ -1,4 +1,4 @@
-import type {ReactNode} from 'react';
+import type { ReactNode } from 'react';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 
@@ -44,42 +44,55 @@ const certifications: CertificationItem[] = [
 const keyProjects: ProjectItem[] = [
   {
     name: 'DevFolio AI',
-    description: 'Personal portfolio website generator with AI capabilities for content generation',
+    description:
+      'Personal portfolio website generator with AI capabilities for content generation',
     impact: 'Integrated Gemini API for AI-powered cover letter generation',
     technologies: ['JavaScript', 'Tailwind CSS', 'Gemini API', 'JSON Schema']
   },
   {
     name: 'Cloud-Based CI/CD Pipeline',
-    description: 'Fully automated CI/CD pipeline for microservices-based application',
+    description:
+      'Fully automated CI/CD pipeline for microservices-based application',
     impact: 'Reduced deployment time by 80% and increased deployment frequency',
     technologies: ['AWS CodePipeline', 'Docker', 'Jenkins', 'Terraform']
   },
   {
     name: 'Real-time Analytics Dashboard',
-    description: 'Real-time data analytics dashboard for visualizing key business metrics',
+    description:
+      'Real-time data analytics dashboard for visualizing key business metrics',
     impact: 'Handled high-volume data streams with live updates',
     technologies: ['Node.js', 'WebSocket', 'D3.js', 'MongoDB']
   }
 ];
 
-function CertificationCard({name, issuer, date, level, skills}: CertificationItem) {
+function CertificationCard({
+  name,
+  issuer,
+  date,
+  level,
+  skills
+}: CertificationItem) {
   return (
     <div className={styles.certCard}>
       <div className={styles.certHeader}>
         <h4 className={styles.certName}>{name}</h4>
         <span className={styles.certLevel}>{level}</span>
       </div>
-      <p className={styles.certIssuer}>{issuer} • {date}</p>
+      <p className={styles.certIssuer}>
+        {issuer} • {date}
+      </p>
       <div className={styles.skillsTags}>
         {skills.map((skill) => (
-          <span key={skill} className={styles.skillTag}>{skill}</span>
+          <span key={skill} className={styles.skillTag}>
+            {skill}
+          </span>
         ))}
       </div>
     </div>
   );
 }
 
-function ProjectCard({name, description, impact, technologies}: ProjectItem) {
+function ProjectCard({ name, description, impact, technologies }: ProjectItem) {
   return (
     <div className={styles.projectCard}>
       <h4 className={styles.projectName}>{name}</h4>
@@ -89,7 +102,9 @@ function ProjectCard({name, description, impact, technologies}: ProjectItem) {
       </div>
       <div className={styles.techStack}>
         {technologies.map((tech) => (
-          <span key={tech} className={styles.techTag}>{tech}</span>
+          <span key={tech} className={styles.techTag}>
+            {tech}
+          </span>
         ))}
       </div>
     </div>
@@ -106,7 +121,8 @@ export default function ProfessionalHighlights(): ReactNode {
             Professional Certifications
           </Heading>
           <p className={styles.sectionSubtitle}>
-            Continuously expanding expertise through industry-recognized certifications
+            Continuously expanding expertise through industry-recognized
+            certifications
           </p>
           <div className={styles.certGrid}>
             {certifications.map((cert) => (
@@ -139,19 +155,31 @@ export default function ProfessionalHighlights(): ReactNode {
             <div className={styles.techCategory}>
               <h4>Cloud & DevOps</h4>
               <div className={styles.techList}>
-                <span>AWS</span><span>Docker</span><span>Kubernetes</span><span>Terraform</span><span>Jenkins</span>
+                <span>AWS</span>
+                <span>Docker</span>
+                <span>Kubernetes</span>
+                <span>Terraform</span>
+                <span>Jenkins</span>
               </div>
             </div>
             <div className={styles.techCategory}>
               <h4>Frontend Development</h4>
               <div className={styles.techList}>
-                <span>React</span><span>TypeScript</span><span>Tailwind CSS</span><span>Next.js</span><span>Svelte</span>
+                <span>React</span>
+                <span>TypeScript</span>
+                <span>Tailwind CSS</span>
+                <span>Next.js</span>
+                <span>Svelte</span>
               </div>
             </div>
             <div className={styles.techCategory}>
               <h4>Backend & Databases</h4>
               <div className={styles.techList}>
-                <span>Node.js</span><span>NestJS</span><span>Express.js</span><span>MongoDB</span><span>MySQL</span>
+                <span>Node.js</span>
+                <span>NestJS</span>
+                <span>Express.js</span>
+                <span>MongoDB</span>
+                <span>MySQL</span>
               </div>
             </div>
           </div>
