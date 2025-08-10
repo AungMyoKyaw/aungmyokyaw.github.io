@@ -71,10 +71,12 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'Aung Myo Kyaw',
+      title: 'AMK',
       logo: {
-        alt: 'Aung Myo Kyaw Logo',
-        src: 'img/logo.svg'
+        alt: 'AMK Monogram',
+        src: 'img/logo.svg', // Optionally, replace with a new monogram SVG if available
+        width: 36,
+        height: 36
       },
       items: [
         {
