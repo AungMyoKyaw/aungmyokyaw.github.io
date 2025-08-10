@@ -1,30 +1,222 @@
 /**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
+ * Professional Portfolio Custom Styles
+ * Modern design system for Aung Myo Kyaw's professional portfolio
  */
 
-/* You can override the default Infima variables here. */
+/* Professional Color Palette */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  /* Primary Professional Colors */
+  --ifm-color-primary: #667eea;
+  --ifm-color-primary-dark: #5a6fd8;
+  --ifm-color-primary-darker: #5368d4;
+  --ifm-color-primary-darkest: #4554b8;
+  --ifm-color-primary-light: #728dfc;
+  --ifm-color-primary-lighter: #7f94ff;
+  --ifm-color-primary-lightest: #99a9ff;
+  
+  /* Professional Typography */
   --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-font-family-base: 'Inter', 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  --ifm-font-family-monospace: 'JetBrains Mono', 'Fira Code', 'Consolas', 'Monaco', monospace;
+  
+  /* Enhanced Spacing */
+  --ifm-spacing-horizontal: 1.5rem;
+  --ifm-spacing-vertical: 1.5rem;
+  
+  /* Modern Borders */
+  --ifm-global-border-width: 1px;
+  --ifm-global-radius: 12px;
+  
+  /* Professional Shadows */
+  --ifm-global-shadow-lw: 0 4px 6px rgba(0, 0, 0, 0.07);
+  --ifm-global-shadow-md: 0 8px 25px rgba(0, 0, 0, 0.1);
+  --ifm-global-shadow-tl: 0 20px 50px rgba(0, 0, 0, 0.15);
+  
+  /* Code highlighting */
+  --docusaurus-highlighted-code-line-bg: rgba(102, 126, 234, 0.1);
+  
+  /* Custom Professional Variables */
+  --professional-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  --text-gradient: linear-gradient(135deg, #667eea, #764ba2);
+  --card-background: #ffffff;
+  --section-background: #f8f9fa;
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
+/* Dark mode professional colors */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-color-primary: #8b9cf7;
+  --ifm-color-primary-dark: #7a8df5;
+  --ifm-color-primary-darker: #6e83f4;
+  --ifm-color-primary-darkest: #5066f0;
+  --ifm-color-primary-light: #9cabf9;
+  --ifm-color-primary-lighter: #a3b2fa;
+  --ifm-color-primary-lightest: #b8c4fc;
+  --docusaurus-highlighted-code-line-bg: rgba(139, 156, 247, 0.2);
+  
+  /* Dark mode adjustments */
+  --card-background: #2a2d34;
+  --section-background: #1e1f23;
+}
+
+/* Enhanced Global Styles */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-feature-settings: 'kern' 1, 'liga' 1, 'calt' 1;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Professional Button Enhancements */
+.button {
+  border-radius: 50px;
+  font-weight: 600;
+  text-transform: none;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--ifm-global-shadow-md);
+}
+
+.button--primary {
+  background: var(--professional-gradient);
+  border: 2px solid transparent;
+}
+
+.button--secondary {
+  background: transparent;
+  border: 2px solid var(--ifm-color-primary);
+  color: var(--ifm-color-primary);
+}
+
+.button--secondary:hover {
+  background: var(--ifm-color-primary);
+  color: white;
+}
+
+/* Enhanced Navbar */
+.navbar {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.05);
+}
+
+.navbar__brand {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.navbar__item {
+  font-weight: 500;
+}
+
+/* Enhanced Footer */
+.footer {
+  background: linear-gradient(135deg, #2a2d34 0%, #1e1f23 100%);
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.footer__title {
+  color: white;
+  font-weight: 600;
+}
+
+.footer__link-item {
+  color: rgba(255, 255, 255, 0.8);
+  transition: color 0.3s ease;
+}
+
+.footer__link-item:hover {
+  color: var(--ifm-color-primary-lighter);
+}
+
+/* Professional Cards */
+.card {
+  border-radius: var(--ifm-global-radius);
+  box-shadow: var(--ifm-global-shadow-lw);
+  transition: all 0.3s ease;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--ifm-global-shadow-md);
+}
+
+/* Enhanced Code Blocks */
+.prism-code {
+  border-radius: var(--ifm-global-radius);
+  box-shadow: var(--ifm-global-shadow-lw);
+}
+
+/* Responsive Typography */
+@media screen and (max-width: 996px) {
+  .navbar__item {
+    font-size: 0.9rem;
+  }
+}
+
+/* Professional animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+/* Professional focus states */
+*:focus {
+  outline: 2px solid var(--ifm-color-primary);
+  outline-offset: 2px;
+}
+
+/* Enhanced link styles */
+a {
+  color: var(--ifm-color-primary);
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--ifm-color-primary-dark);
+  text-decoration: none;
+}
+
+/* Professional table styles */
+table {
+  border-radius: var(--ifm-global-radius);
+  overflow: hidden;
+  box-shadow: var(--ifm-global-shadow-lw);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--ifm-color-primary);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--ifm-color-primary-dark);
 }

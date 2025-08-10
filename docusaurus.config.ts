@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Aung Myo Kyaw',
+  tagline: 'Software Engineer • Solution Architect • DevOps Expert',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -73,9 +73,9 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: 'Aung Myo Kyaw',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Aung Myo Kyaw Logo',
         src: 'img/logo.svg',
       },
       items: [
@@ -83,12 +83,17 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Knowledge Base',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/AungMyoKyaw',
           label: 'GitHub',
+          position: 'right',
+        },
+        {
+          href: 'https://linkedin.com/in/aungmyokyaw/',
+          label: 'LinkedIn',
           position: 'right',
         },
       ],
@@ -97,32 +102,32 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Knowledge',
           items: [
             {
-              label: 'Tutorial',
+              label: 'Knowledge Base',
               to: '/docs/intro',
             },
-              {
-                label: 'License',
-                to: '/docs/license',
-              },
+            {
+              label: 'License',
+              to: '/docs/license',
+            },
           ],
         },
         {
-          title: 'Community',
+          title: 'Professional',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'LinkedIn',
+              href: 'https://linkedin.com/in/aungmyokyaw/',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'GitHub',
+              href: 'https://github.com/AungMyoKyaw',
             },
             {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
+              label: 'Portfolio',
+              href: 'https://aungmyokyaw.com',
             },
           ],
         },
@@ -134,13 +139,13 @@ const config: Config = {
               to: '/blog',
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: 'Contact',
+              href: 'mailto:realAungMyoKyaw@duck.com',
             },
           ],
         },
       ],
-  copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus. Content licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC-SA 4.0</a>.`,
+  copyright: `Copyright © ${new Date().getFullYear()} Aung Myo Kyaw. Built with Docusaurus. Content licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC-SA 4.0</a>.`,
     },
     prism: {
       theme: prismThemes.github,

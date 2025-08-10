@@ -1,0 +1,333 @@
+/* Professional Highlights Section Styles */
+
+.highlights {
+  padding: 6rem 0;
+  background: linear-gradient(180deg, #ffffff 0%, #f8f9fa 50%, #ffffff 100%);
+}
+
+.section {
+  margin-bottom: 5rem;
+}
+
+.section:last-child {
+  margin-bottom: 0;
+}
+
+.sectionTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 1rem;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.sectionSubtitle {
+  font-size: 1.2rem;
+  color: #5e6c84;
+  text-align: center;
+  margin-bottom: 3rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Certifications Grid */
+.certGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.certCard {
+  background: white;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  border-left: 4px solid #667eea;
+  position: relative;
+  overflow: hidden;
+}
+
+.certCard::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #667eea, #764ba2);
+}
+
+.certCard:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+}
+
+.certHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+  gap: 1rem;
+}
+
+.certName {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #2e3440;
+  margin: 0;
+  flex: 1;
+  line-height: 1.3;
+}
+
+.certLevel {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.certIssuer {
+  color: #5e6c84;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+}
+
+.skillsTags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.skillTag {
+  background: rgba(102, 126, 234, 0.1);
+  color: #667eea;
+  padding: 0.4rem 0.8rem;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  border: 1px solid rgba(102, 126, 234, 0.2);
+}
+
+/* Projects Grid */
+.projectGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 2.5rem;
+}
+
+.projectCard {
+  background: white;
+  padding: 2.5rem;
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  position: relative;
+}
+
+.projectCard:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.15);
+}
+
+.projectName {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #2e3440;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.projectName::before {
+  content: '🚀';
+  font-size: 1.2em;
+}
+
+.projectDescription {
+  color: #5e6c84;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.projectImpact {
+  background: #f8f9fa;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  border-left: 3px solid #28a745;
+  font-size: 0.95rem;
+}
+
+.projectImpact strong {
+  color: #28a745;
+}
+
+.techStack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.techTag {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+  padding: 0.4rem 0.8rem;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+/* Technology Categories */
+.techCategories {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.techCategory {
+  background: white;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.techCategory:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+}
+
+.techCategory h4 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #2e3440;
+  margin-bottom: 1.5rem;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.techList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.8rem;
+}
+
+.techList span {
+  background: rgba(102, 126, 234, 0.1);
+  color: #667eea;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  border: 1px solid rgba(102, 126, 234, 0.2);
+  transition: all 0.2s ease;
+}
+
+.techList span:hover {
+  background: rgba(102, 126, 234, 0.2);
+  transform: translateY(-2px);
+}
+
+/* Responsive Design */
+@media screen and (max-width: 996px) {
+  .highlights {
+    padding: 4rem 0;
+  }
+  
+  .certGrid {
+    grid-template-columns: 1fr;
+  }
+  
+  .projectGrid {
+    grid-template-columns: 1fr;
+  }
+  
+  .techCategories {
+    grid-template-columns: 1fr;
+  }
+  
+  .sectionTitle {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .highlights {
+    padding: 3rem 0;
+  }
+  
+  .section {
+    margin-bottom: 3rem;
+  }
+  
+  .sectionTitle {
+    font-size: 1.8rem;
+  }
+  
+  .sectionSubtitle {
+    font-size: 1.1rem;
+  }
+  
+  .certCard {
+    padding: 1.5rem;
+  }
+  
+  .projectCard {
+    padding: 2rem;
+  }
+  
+  .techCategory {
+    padding: 1.5rem;
+  }
+  
+  .certHeader {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+  
+  .certLevel {
+    align-self: flex-start;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .certGrid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .projectGrid {
+    gap: 2rem;
+  }
+  
+  .certCard, .projectCard, .techCategory {
+    padding: 1.5rem;
+  }
+  
+  .techList {
+    gap: 0.5rem;
+  }
+  
+  .techList span {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.85rem;
+  }
+}

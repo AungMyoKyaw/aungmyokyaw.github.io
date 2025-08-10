@@ -1,23 +1,226 @@
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
+/* Modern Professional Portfolio Styles */
 
 .heroBanner {
   padding: 4rem 0;
-  text-align: center;
+  text-align: left;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
   position: relative;
   overflow: hidden;
 }
 
+.heroBanner::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.heroBanner > .container {
+  position: relative;
+  z-index: 2;
+}
+
+.heroContent {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.heroText {
+  flex: 1;
+  max-width: 600px;
+}
+
+.heroImage {
+  flex: 0 0 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profileImage {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 6px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.profileImage:hover {
+  transform: scale(1.05);
+}
+
+.heroTitle {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  background: linear-gradient(45deg, #ffffff, #f8f9fa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.heroSubtitle {
+  font-size: 1.4rem;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+}
+
+.heroDescription {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.85);
+  margin-bottom: 2.5rem;
+  max-width: 500px;
+}
+
+.heroButtons {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.heroButtons .button {
+  padding: 0.75rem 2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  border: 2px solid transparent;
+}
+
+.heroButtons .button--primary {
+  background: rgba(255, 255, 255, 0.15);
+  color: white;
+  border-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+}
+
+.heroButtons .button--primary:hover {
+  background: rgba(255, 255, 255, 0.25);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.heroButtons .button--secondary {
+  background: transparent;
+  color: white;
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+.heroButtons .button--secondary:hover {
+  background: rgba(255, 255, 255, 0.15);
+  transform: translateY(-2px);
+}
+
+.socialLinks {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.socialLink {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  transition: all 0.3s ease;
+  backdrop-filter: blur(5px);
+}
+
+.socialLink:hover {
+  color: white;
+  background: rgba(255, 255, 255, 0.15);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+
+.licenseInfo {
+  margin-top: 3rem;
+  text-align: center;
+  opacity: 0.7;
+}
+
+.licenseImage {
+  transition: opacity 0.3s ease;
+}
+
+.licenseImage:hover {
+  opacity: 0.9;
+}
+
+/* Responsive Design */
 @media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
+  .heroContent {
+    flex-direction: column-reverse;
+    text-align: center;
+    gap: 2rem;
+  }
+  
+  .heroText {
+    max-width: 100%;
+  }
+  
+  .heroImage {
+    flex: none;
+  }
+  
+  .profileImage {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .heroTitle {
+    font-size: 2.8rem;
   }
 }
 
-.buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+@media screen and (max-width: 768px) {
+  .heroBanner {
+    padding: 2rem 0;
+  }
+  
+  .heroTitle {
+    font-size: 2.2rem;
+  }
+  
+  .heroSubtitle {
+    font-size: 1.2rem;
+  }
+  
+  .heroDescription {
+    font-size: 1rem;
+  }
+  
+  .heroButtons {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .heroButtons .button {
+    width: 100%;
+    max-width: 280px;
+  }
+  
+  .socialLinks {
+    justify-content: center;
+  }
+  
+  .profileImage {
+    width: 160px;
+    height: 160px;
+  }
 }
