@@ -1,56 +1,63 @@
-/* Professional Highlights Section Styles */
+/* Flex alignment for icon and text - Using Infima patterns */
+.iconTextAlign {
+  display: inline-flex;
+  align-items: baseline;
+  gap: calc(var(--ifm-spacing-horizontal) * 0.3);
+}
+
+.iconTextAlign .lucide {
+  vertical-align: -0.15em;
+  /* Remove position and top for natural baseline alignment */
+}
+
+/* Professional Highlights Section Styles - Leveraging Infima Framework */
 
 .highlights {
-  padding: 6rem 0;
-  background: #f8f7ff;
+  padding: calc(var(--ifm-spacing-vertical) * 4) 0;
+  background: var(--ifm-background-surface-color);
 }
 
 .section {
-  margin-bottom: 5rem;
+  margin-bottom: calc(var(--ifm-spacing-vertical) * 3);
 }
 
 .section:last-child {
   margin-bottom: 0;
 }
 
+/* Section headers using Infima typography */
 .sectionTitle {
-  font-size: 2.5rem;
-  font-weight: 700;
+  font-size: var(--ifm-h2-font-size);
+  font-weight: var(--ifm-font-weight-bold);
   text-align: center;
-  margin-bottom: 1rem;
-  background: linear-gradient(135deg, #667eea, #764ba2);
+  margin-bottom: var(--ifm-spacing-vertical);
+  background: var(--text-gradient);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
 
 .sectionSubtitle {
-  font-size: 1.2rem;
-  color: #5e6c84;
+  font-size: var(--ifm-h5-font-size);
+  color: var(--ifm-color-content-secondary);
   text-align: center;
-  margin-bottom: 3rem;
+  margin-bottom: calc(var(--ifm-spacing-vertical) * 2);
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* Certifications Grid */
-.certGrid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  gap: 2rem;
-  margin-bottom: 2rem;
-}
-
+/* Certification cards using Infima design system - now used with Infima grid */
 .certCard {
-  background: white;
-  padding: 2rem;
-  border-radius: 16px;
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
-  transition: all 0.3s ease;
-  border-left: 4px solid #667eea;
+  background: var(--ifm-background-color);
+  padding: calc(var(--ifm-spacing-vertical) * 1.5);
+  border-radius: var(--ifm-global-radius);
+  box-shadow: var(--ifm-global-shadow-lw);
+  transition: var(--ifm-transition-fast);
+  border-left: 4px solid var(--ifm-color-primary);
   position: relative;
   overflow: hidden;
+  height: 100%;
 }
 
 .certCard::before {
@@ -60,94 +67,93 @@
   left: 0;
   right: 0;
   height: 4px;
-  background: linear-gradient(90deg, #667eea, #764ba2);
+  background: var(--professional-gradient);
 }
 
 .certCard:hover {
   transform: translateY(-8px);
-  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+  box-shadow: var(--ifm-global-shadow-md);
 }
 
+/* Card headers using Infima layout patterns */
 .certHeader {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin-bottom: 1rem;
-  gap: 1rem;
+  margin-bottom: var(--ifm-spacing-vertical);
+  gap: var(--ifm-spacing-horizontal);
 }
 
 .certName {
-  font-size: 1.3rem;
-  font-weight: 600;
-  color: #2e3440;
+  font-size: var(--ifm-h5-font-size);
+  font-weight: var(--ifm-font-weight-semibold);
+  color: var(--ifm-color-content);
   margin: 0;
   flex: 1;
-  line-height: 1.3;
+  line-height: var(--ifm-heading-line-height);
 }
 
 .certLevel {
-  background: linear-gradient(135deg, #667eea, #764ba2);
-  color: white;
-  padding: 0.3rem 0.8rem;
+  background: var(--professional-gradient);
+  color: var(--ifm-color-white);
+  padding: calc(var(--ifm-spacing-vertical) * 0.3)
+    calc(var(--ifm-spacing-horizontal) * 0.8);
   border-radius: 20px;
-  font-size: 0.85rem;
-  font-weight: 500;
+  font-size: var(--ifm-font-size-small);
+  font-weight: var(--ifm-font-weight-medium);
   white-space: nowrap;
 }
 
 .certIssuer {
-  color: #5e6c84;
-  font-size: 1rem;
-  margin-bottom: 1.5rem;
-  font-weight: 500;
+  color: var(--ifm-color-content-secondary);
+  font-size: var(--ifm-font-size-base);
+  margin-bottom: var(--ifm-spacing-vertical);
+  font-weight: var(--ifm-font-weight-medium);
 }
 
+/* Skills tags using Infima color system */
 .skillsTags {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem;
+  gap: calc(var(--ifm-spacing-horizontal) * 0.5);
 }
 
 .skillTag {
-  background: rgba(102, 126, 234, 0.1);
-  color: #667eea;
-  padding: 0.4rem 0.8rem;
-  border-radius: 12px;
-  font-size: 0.85rem;
-  font-weight: 500;
-  border: 1px solid rgba(102, 126, 234, 0.2);
+  background: var(--ifm-color-primary-lightest);
+  color: var(--ifm-color-primary);
+  padding: calc(var(--ifm-spacing-vertical) * 0.4)
+    calc(var(--ifm-spacing-horizontal) * 0.8);
+  border-radius: var(--ifm-global-radius);
+  font-size: var(--ifm-font-size-small);
+  font-weight: var(--ifm-font-weight-medium);
+  border: var(--ifm-global-border-width) solid var(--ifm-color-primary-lighter);
 }
 
-/* Projects Grid */
-.projectGrid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  gap: 2.5rem;
-}
-
+/* Project cards using Infima design system - now used with Infima grid */
 .projectCard {
-  background: white;
-  padding: 2.5rem;
-  border-radius: 16px;
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
-  transition: all 0.3s ease;
-  border: 1px solid rgba(0, 0, 0, 0.05);
+  background: var(--ifm-background-color);
+  padding: calc(var(--ifm-spacing-vertical) * 2);
+  border-radius: var(--ifm-global-radius);
+  box-shadow: var(--ifm-global-shadow-lw);
+  transition: var(--ifm-transition-fast);
+  border: var(--ifm-global-border-width) solid var(--ifm-color-emphasis-200);
   position: relative;
+  height: 100%;
 }
 
 .projectCard:hover {
   transform: translateY(-10px);
-  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.15);
+  box-shadow: var(--ifm-global-shadow-md);
 }
 
 .projectName {
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: #2e3440;
-  margin-bottom: 1rem;
+  font-size: var(--ifm-h4-font-size);
+  font-weight: var(--ifm-font-weight-bold);
+  color: var(--ifm-color-content);
+  margin-bottom: var(--ifm-spacing-vertical);
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: calc(var(--ifm-spacing-horizontal) * 0.5);
 }
 
 .projectName::before {
@@ -156,67 +162,64 @@
 }
 
 .projectDescription {
-  color: #5e6c84;
-  font-size: 1.1rem;
-  line-height: 1.6;
-  margin-bottom: 1.5rem;
+  color: var(--ifm-color-content-secondary);
+  font-size: var(--ifm-font-size-base);
+  line-height: var(--ifm-line-height-base);
+  margin-bottom: var(--ifm-spacing-vertical);
 }
 
 .projectImpact {
-  background: #f8f9fa;
-  padding: 1rem;
-  border-radius: 8px;
-  margin-bottom: 1.5rem;
-  border-left: 3px solid #28a745;
-  font-size: 0.95rem;
+  background: var(--ifm-background-surface-color);
+  padding: var(--ifm-spacing-vertical);
+  border-radius: calc(var(--ifm-global-radius) * 0.5);
+  margin-bottom: var(--ifm-spacing-vertical);
+  border-left: 3px solid var(--ifm-color-success);
+  font-size: var(--ifm-font-size-small);
 }
 
 .projectImpact strong {
-  color: #28a745;
+  color: var(--ifm-color-success);
 }
 
+/* Technology stack tags */
 .techStack {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem;
+  gap: calc(var(--ifm-spacing-horizontal) * 0.5);
 }
 
 .techTag {
-  background: linear-gradient(135deg, #667eea, #764ba2);
-  color: white;
-  padding: 0.4rem 0.8rem;
-  border-radius: 12px;
-  font-size: 0.8rem;
-  font-weight: 500;
+  background: var(--professional-gradient);
+  color: var(--ifm-color-white);
+  padding: calc(var(--ifm-spacing-vertical) * 0.4)
+    calc(var(--ifm-spacing-horizontal) * 0.8);
+  border-radius: var(--ifm-global-radius);
+  font-size: var(--ifm-font-size-small);
+  font-weight: var(--ifm-font-weight-medium);
 }
 
-/* Technology Categories */
-.techCategories {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
-}
-
+/* Technology categories - now used with Infima grid */
 .techCategory {
-  background: white;
-  padding: 2rem;
-  border-radius: 16px;
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
-  transition: all 0.3s ease;
+  background: var(--ifm-background-color);
+  padding: calc(var(--ifm-spacing-vertical) * 1.5);
+  border-radius: var(--ifm-global-radius);
+  box-shadow: var(--ifm-global-shadow-lw);
+  transition: var(--ifm-transition-fast);
   text-align: center;
+  height: 100%;
 }
 
 .techCategory:hover {
   transform: translateY(-5px);
-  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+  box-shadow: var(--ifm-global-shadow-md);
 }
 
 .techCategory h4 {
-  font-size: 1.3rem;
-  font-weight: 600;
-  color: #2e3440;
-  margin-bottom: 1.5rem;
-  background: linear-gradient(135deg, #667eea, #764ba2);
+  font-size: var(--ifm-h5-font-size);
+  font-weight: var(--ifm-font-weight-semibold);
+  color: var(--ifm-color-content);
+  margin-bottom: var(--ifm-spacing-vertical);
+  background: var(--text-gradient);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -226,81 +229,69 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 0.8rem;
+  gap: calc(var(--ifm-spacing-horizontal) * 0.8);
 }
 
 .techList span {
-  background: rgba(102, 126, 234, 0.1);
-  color: #667eea;
-  padding: 0.5rem 1rem;
+  background: var(--ifm-color-primary-lightest);
+  color: var(--ifm-color-primary);
+  padding: calc(var(--ifm-spacing-vertical) * 0.5) var(--ifm-spacing-horizontal);
   border-radius: 20px;
-  font-size: 0.9rem;
-  font-weight: 500;
-  border: 1px solid rgba(102, 126, 234, 0.2);
-  transition: all 0.2s ease;
+  font-size: var(--ifm-font-size-small);
+  font-weight: var(--ifm-font-weight-medium);
+  border: var(--ifm-global-border-width) solid var(--ifm-color-primary-lighter);
+  transition: var(--ifm-transition-fast);
 }
 
 .techList span:hover {
-  background: rgba(102, 126, 234, 0.2);
+  background: var(--ifm-color-primary-lighter);
   transform: translateY(-2px);
 }
 
-/* Responsive Design */
+/* Responsive Design using Infima's breakpoint patterns */
 @media screen and (max-width: 996px) {
   .highlights {
-    padding: 4rem 0;
-  }
-
-  .certGrid {
-    grid-template-columns: 1fr;
-  }
-
-  .projectGrid {
-    grid-template-columns: 1fr;
-  }
-
-  .techCategories {
-    grid-template-columns: 1fr;
+    padding: calc(var(--ifm-spacing-vertical) * 3) 0;
   }
 
   .sectionTitle {
-    font-size: 2rem;
+    font-size: var(--ifm-h3-font-size);
   }
 }
 
 @media screen and (max-width: 768px) {
   .highlights {
-    padding: 3rem 0;
+    padding: calc(var(--ifm-spacing-vertical) * 2.5) 0;
   }
 
   .section {
-    margin-bottom: 3rem;
+    margin-bottom: calc(var(--ifm-spacing-vertical) * 2);
   }
 
   .sectionTitle {
-    font-size: 1.8rem;
+    font-size: var(--ifm-h4-font-size);
   }
 
   .sectionSubtitle {
-    font-size: 1.1rem;
+    font-size: var(--ifm-font-size-base);
   }
 
   .certCard {
-    padding: 1.5rem;
+    padding: var(--ifm-spacing-vertical);
   }
 
   .projectCard {
-    padding: 2rem;
+    padding: calc(var(--ifm-spacing-vertical) * 1.5);
   }
 
   .techCategory {
-    padding: 1.5rem;
+    padding: var(--ifm-spacing-vertical);
   }
 
   .certHeader {
     flex-direction: column;
     align-items: flex-start;
-    gap: 0.5rem;
+    gap: calc(var(--ifm-spacing-vertical) * 0.5);
   }
 
   .certLevel {
@@ -309,27 +300,19 @@
 }
 
 @media screen and (max-width: 480px) {
-  .certGrid {
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
-  }
-
-  .projectGrid {
-    gap: 2rem;
-  }
-
   .certCard,
   .projectCard,
   .techCategory {
-    padding: 1.5rem;
+    padding: var(--ifm-spacing-vertical);
   }
 
   .techList {
-    gap: 0.5rem;
+    gap: calc(var(--ifm-spacing-horizontal) * 0.5);
   }
 
   .techList span {
-    padding: 0.4rem 0.8rem;
-    font-size: 0.85rem;
+    padding: calc(var(--ifm-spacing-vertical) * 0.4)
+      calc(var(--ifm-spacing-horizontal) * 0.8);
+    font-size: var(--ifm-font-size-small);
   }
 }

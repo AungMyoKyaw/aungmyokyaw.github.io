@@ -1,32 +1,33 @@
-/* Accessible Glassmorphism Button (white) */
+/* Accessible Glassmorphism Button (white) - Custom variant using Infima base */
 .button--glass-white {
   background: rgba(255, 255, 255, 0.18);
   color: #fff;
-  border: 1px solid #fff;
+  border: var(--ifm-global-border-width) solid #fff;
   backdrop-filter: blur(4px);
-  box-shadow: 0 2px 12px rgba(255, 255, 255, 0.08);
-  font-weight: 700;
-  transition:
-    background 0.2s,
-    color 0.2s,
-    border 0.2s,
-    box-shadow 0.2s;
+  box-shadow: var(--ifm-global-shadow-lw);
+  font-weight: var(--ifm-font-weight-bold);
+  transition: var(--ifm-transition-fast);
+  border-radius: var(--ifm-button-border-radius);
+  padding: var(--ifm-button-padding-vertical)
+    var(--ifm-button-padding-horizontal);
 }
 .button--glass-white:hover,
 .button--glass-white:focus {
   background: rgba(255, 255, 255, 0.3);
   color: #fff;
   border-color: #fff;
-  box-shadow: 0 4px 24px rgba(255, 255, 255, 0.15);
+  box-shadow: var(--ifm-global-shadow-md);
+  transform: translateY(-1px);
 }
 /**
  * Professional Portfolio Custom Styles
- * Modern design system for Aung Myo Kyaw's professional portfolio
+ * Modern design system leveraging Infima framework
+ * Aung Myo Kyaw's professional portfolio
  */
 
-/* Professional Color Palette */
+/* Professional Color Palette - Extending Infima's theming system */
 :root {
-  /* Primary Professional Colors */
+  /* Primary Professional Colors - Using Infima's color scale pattern */
   --ifm-color-primary: #667eea;
   --ifm-color-primary-dark: #5a6fd8;
   --ifm-color-primary-darker: #5368d4;
@@ -35,37 +36,41 @@
   --ifm-color-primary-lighter: #7f94ff;
   --ifm-color-primary-lightest: #99a9ff;
 
-  /* Professional Typography */
-  --ifm-code-font-size: 95%;
+  /* Professional Typography - Enhancing Infima's font system */
   --ifm-font-family-base:
     'Inter', 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
   --ifm-font-family-monospace:
     'JetBrains Mono', 'Fira Code', 'Consolas', 'Monaco', monospace;
 
-  /* Enhanced Spacing */
+  /* Enhanced Spacing - Building on Infima's spacing system */
   --ifm-spacing-horizontal: 1.5rem;
   --ifm-spacing-vertical: 1.5rem;
 
-  /* Modern Borders */
+  /* Modern Borders - Using Infima's border system */
   --ifm-global-border-width: 1px;
   --ifm-global-radius: 12px;
+  --ifm-button-border-radius: 50px;
 
-  /* Professional Shadows */
+  /* Professional Shadows - Extending Infima's shadow system */
   --ifm-global-shadow-lw: 0 4px 6px rgba(0, 0, 0, 0.07);
   --ifm-global-shadow-md: 0 8px 25px rgba(0, 0, 0, 0.1);
   --ifm-global-shadow-tl: 0 20px 50px rgba(0, 0, 0, 0.15);
 
-  /* Code highlighting */
+  /* Code highlighting - Leveraging Infima's code system */
   --docusaurus-highlighted-code-line-bg: rgba(102, 126, 234, 0.1);
 
-  /* Custom Professional Variables */
-  --professional-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  --text-gradient: linear-gradient(135deg, #667eea, #764ba2);
-  --card-background: #ffffff;
-  --section-background: #f8f9fa;
+  /* Custom Professional Variables - Complementing Infima */
+  --professional-gradient: linear-gradient(
+    135deg,
+    var(--ifm-color-primary) 0%,
+    #764ba2 100%
+  );
+  --text-gradient: linear-gradient(135deg, var(--ifm-color-primary), #764ba2);
+  --card-background: var(--ifm-background-color);
+  --section-background: var(--ifm-background-surface-color);
 }
 
-/* Dark mode professional colors */
+/* Dark mode professional colors - Using Infima's dark theme pattern */
 [data-theme='dark'] {
   --ifm-color-primary: #8b9cf7;
   --ifm-color-primary-dark: #7a8df5;
@@ -76,12 +81,12 @@
   --ifm-color-primary-lightest: #b8c4fc;
   --docusaurus-highlighted-code-line-bg: rgba(139, 156, 247, 0.2);
 
-  /* Dark mode adjustments */
-  --card-background: #2a2d34;
-  --section-background: #1e1f23;
+  /* Dark mode adjustments - Leveraging Infima's dark mode variables */
+  --card-background: var(--ifm-background-surface-color);
+  --section-background: var(--ifm-background-color);
 }
 
-/* Enhanced Global Styles */
+/* Enhanced Global Styles - Building on Infima's base */
 html {
   scroll-behavior: smooth;
 }
@@ -96,13 +101,13 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Professional Button Enhancements */
+/* Professional Button Enhancements - Extending Infima's button system */
 .button {
-  border-radius: 50px;
-  font-weight: 600;
+  border-radius: var(--ifm-button-border-radius);
+  font-weight: var(--ifm-font-weight-semibold);
   text-transform: none;
-  transition: all 0.3s ease;
-  border: 2px solid transparent;
+  transition: var(--ifm-transition-fast);
+  border-width: var(--ifm-global-border-width);
 }
 
 .button:hover {
@@ -110,12 +115,13 @@ body {
   box-shadow: var(--ifm-global-shadow-md);
 }
 
+/* Custom Primary Button - Maintaining brand identity */
 .button--primary {
   background: #3b237a;
   color: #fff;
-  border: 2px solid #3b237a;
+  border-color: #3b237a;
   box-shadow: 0 4px 16px rgba(59, 35, 122, 0.15);
-  font-weight: 700;
+  font-weight: var(--ifm-font-weight-bold);
   letter-spacing: 0.02em;
 }
 
@@ -125,62 +131,70 @@ body {
   color: #fff;
   border-color: #5025c6;
   box-shadow: 0 6px 24px rgba(80, 37, 198, 0.18);
+  transform: translateY(-2px);
 }
 
+/* Enhanced Secondary Button - Using Infima patterns */
 .button--secondary {
   background: transparent;
-  border: 2px solid var(--ifm-color-primary);
+  border-color: var(--ifm-color-primary);
   color: var(--ifm-color-primary);
 }
 
 .button--secondary:hover {
   background: var(--ifm-color-primary);
-  color: white;
+  color: var(--ifm-color-white);
+  border-color: var(--ifm-color-primary);
 }
 
-/* Enhanced Navbar */
+/* Enhanced Navbar - Leveraging Infima's navbar system */
 .navbar {
   background: rgba(255, 255, 255, 0.95);
   backdrop-filter: blur(10px);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
-  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.05);
+  border-bottom: var(--ifm-global-border-width) solid
+    var(--ifm-color-emphasis-200);
+  box-shadow: var(--ifm-global-shadow-lw);
 }
 
 .navbar__brand {
-  font-weight: 700;
-  font-size: 1.2rem;
+  font-weight: var(--ifm-font-weight-bold);
+  font-size: var(--ifm-h5-font-size);
 }
 
 .navbar__item {
-  font-weight: 500;
+  font-weight: var(--ifm-font-weight-medium);
 }
 
-/* Enhanced Footer */
+/* Enhanced Footer - Using Infima's theme system */
 .footer {
-  background: linear-gradient(135deg, #2a2d34 0%, #1e1f23 100%);
-  color: rgba(255, 255, 255, 0.9);
+  background: linear-gradient(
+    135deg,
+    var(--ifm-color-gray-900) 0%,
+    var(--ifm-color-gray-800) 100%
+  );
+  color: var(--ifm-color-gray-100);
 }
 
 .footer__title {
-  color: white;
-  font-weight: 600;
+  color: var(--ifm-color-white);
+  font-weight: var(--ifm-font-weight-semibold);
 }
 
 .footer__link-item {
-  color: rgba(255, 255, 255, 0.8);
-  transition: color 0.3s ease;
+  color: var(--ifm-color-gray-300);
+  transition: var(--ifm-transition-fast);
 }
 
 .footer__link-item:hover {
   color: var(--ifm-color-primary-lighter);
 }
 
-/* Professional Cards */
+/* Professional Cards - Extending Infima's card system */
 .card {
   border-radius: var(--ifm-global-radius);
   box-shadow: var(--ifm-global-shadow-lw);
-  transition: all 0.3s ease;
-  border: 1px solid rgba(0, 0, 0, 0.05);
+  transition: var(--ifm-transition-fast);
+  border: var(--ifm-global-border-width) solid var(--ifm-color-emphasis-200);
 }
 
 .card:hover {
@@ -188,20 +202,20 @@ body {
   box-shadow: var(--ifm-global-shadow-md);
 }
 
-/* Enhanced Code Blocks */
+/* Enhanced Code Blocks - Building on Infima's prism theme */
 .prism-code {
   border-radius: var(--ifm-global-radius);
   box-shadow: var(--ifm-global-shadow-lw);
 }
 
-/* Responsive Typography */
+/* Responsive Typography - Using Infima's responsive system */
 @media screen and (max-width: 996px) {
   .navbar__item {
-    font-size: 0.9rem;
+    font-size: var(--ifm-font-size-small);
   }
 }
 
-/* Professional animations */
+/* Professional animations - Complementing Infima */
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -217,42 +231,42 @@ body {
   animation: fadeInUp 0.6s ease-out;
 }
 
-/* Professional focus states */
+/* Professional focus states - Enhancing Infima's accessibility */
 *:focus {
   outline: 2px solid var(--ifm-color-primary);
   outline-offset: 2px;
 }
 
-/* Enhanced link styles */
+/* Enhanced link styles - Using Infima's link system */
 a {
-  color: var(--ifm-color-primary);
-  transition: color 0.3s ease;
+  color: var(--ifm-link-color);
+  transition: var(--ifm-transition-fast);
 }
 
 a:hover {
-  color: var(--ifm-color-primary-dark);
-  text-decoration: none;
+  color: var(--ifm-link-hover-color);
+  text-decoration: var(--ifm-link-hover-decoration);
 }
 
-/* Professional table styles */
+/* Professional table styles - Extending Infima's table styling */
 table {
   border-radius: var(--ifm-global-radius);
   overflow: hidden;
   box-shadow: var(--ifm-global-shadow-lw);
 }
 
-/* Custom scrollbar */
+/* Custom scrollbar - Professional styling using Infima variables */
 ::-webkit-scrollbar {
   width: 8px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #f1f1f1;
+  background: var(--ifm-color-emphasis-100);
 }
 
 ::-webkit-scrollbar-thumb {
   background: var(--ifm-color-primary);
-  border-radius: 4px;
+  border-radius: var(--ifm-global-radius);
 }
 
 ::-webkit-scrollbar-thumb:hover {

@@ -1,10 +1,10 @@
-/* Modern Professional Portfolio Styles */
+/* Modern Professional Portfolio Styles - Leveraging Infima Framework */
 
 .heroBanner {
-  padding: 4rem 0;
+  padding: var(--ifm-spacing-vertical) 0;
   text-align: left;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+  background: var(--professional-gradient);
+  color: var(--ifm-color-white);
   position: relative;
   overflow: hidden;
 }
@@ -25,10 +25,11 @@
   z-index: 2;
 }
 
+/* Using Infima's grid system for hero layout */
 .heroContent {
   display: flex;
   align-items: center;
-  gap: 3rem;
+  gap: var(--ifm-spacing-horizontal);
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -45,67 +46,73 @@
   align-items: center;
 }
 
+/* Profile image styling */
 .profileImage {
   width: 250px;
   height: 250px;
   border-radius: 50%;
   border: 6px solid rgba(255, 255, 255, 0.2);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
-  transition: transform 0.3s ease;
+  box-shadow: var(--ifm-global-shadow-tl);
+  transition: var(--ifm-transition-fast);
 }
 
 .profileImage:hover {
   transform: scale(1.05);
 }
 
+/* Typography using Infima's scale */
 .heroTitle {
-  font-size: 3.5rem;
-  font-weight: 700;
-  margin-bottom: 1rem;
+  font-size: var(--ifm-h1-font-size);
+  font-weight: var(--ifm-font-weight-bold);
+  margin-bottom: var(--ifm-spacing-vertical);
   background: linear-gradient(45deg, #ffffff, #f8f9fa);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  line-height: var(--ifm-heading-line-height);
 }
 
 .heroSubtitle {
-  font-size: 1.4rem;
+  font-size: var(--ifm-h4-font-size);
   color: rgba(255, 255, 255, 0.9);
-  margin-bottom: 1.5rem;
-  font-weight: 500;
+  margin-bottom: var(--ifm-spacing-vertical);
+  font-weight: var(--ifm-font-weight-medium);
 }
 
 .heroDescription {
-  font-size: 1.1rem;
-  line-height: 1.6;
+  font-size: var(--ifm-font-size-base);
+  line-height: var(--ifm-line-height-base);
   color: rgba(255, 255, 255, 0.85);
-  margin-bottom: 2.5rem;
+  margin-bottom: calc(var(--ifm-spacing-vertical) * 1.5);
   max-width: 500px;
 }
 
+/* Button container using Infima spacing */
 .heroButtons {
   display: flex;
-  gap: 1rem;
-  margin-bottom: 2rem;
+  gap: var(--ifm-spacing-horizontal);
+  margin-bottom: calc(var(--ifm-spacing-vertical) * 1.5);
   flex-wrap: wrap;
 }
 
+/* Buttons leveraging Infima's button system - custom styling will be handled by button classes */
 .heroButtons .button {
-  padding: 0.75rem 2rem;
-  font-size: 1.1rem;
-  font-weight: 600;
-  border-radius: 50px;
-  transition: all 0.3s ease;
+  padding: calc(var(--ifm-button-padding-vertical) * 1.2)
+    calc(var(--ifm-button-padding-horizontal) * 1.5);
+  font-size: var(--ifm-font-size-base);
+  font-weight: var(--ifm-font-weight-semibold);
+  border-radius: var(--ifm-button-border-radius);
+  transition: var(--ifm-transition-fast);
   text-decoration: none;
-  border: 2px solid transparent;
+  border-width: var(--ifm-global-border-width);
 }
 
 .heroButtons .button--primary {
   background: #3b237a;
   color: #fff;
   border-color: #3b237a;
-  box-shadow: 0 4px 16px rgba(59, 35, 122, 0.15);
-  font-weight: 700;
+  box-shadow: var(--ifm-global-shadow-lw);
+  font-weight: var(--ifm-font-weight-bold);
   letter-spacing: 0.02em;
 }
 
@@ -114,13 +121,13 @@
   background: #5025c6;
   color: #fff;
   border-color: #5025c6;
-  box-shadow: 0 6px 24px rgba(80, 37, 198, 0.18);
+  box-shadow: var(--ifm-global-shadow-md);
   transform: translateY(-2px);
 }
 
 .heroButtons .button--secondary {
   background: transparent;
-  color: white;
+  color: var(--ifm-color-white);
   border-color: rgba(255, 255, 255, 0.5);
 }
 
@@ -129,36 +136,37 @@
   transform: translateY(-2px);
 }
 
+/* Social links using Infima spacing and transitions */
 .socialLinks {
   display: flex;
-  gap: 1.5rem;
+  gap: var(--ifm-spacing-horizontal);
   flex-wrap: wrap;
 }
 
 .socialLink {
   color: rgba(255, 255, 255, 0.8);
   text-decoration: none;
-  font-weight: 500;
-  padding: 0.5rem 1rem;
+  font-weight: var(--ifm-font-weight-medium);
+  padding: calc(var(--ifm-spacing-vertical) * 0.5) var(--ifm-spacing-horizontal);
   border-radius: 25px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  transition: all 0.3s ease;
+  border: var(--ifm-global-border-width) solid rgba(255, 255, 255, 0.3);
+  transition: var(--ifm-transition-fast);
   backdrop-filter: blur(5px);
 }
 
 .socialLink:hover {
-  color: white;
+  color: var(--ifm-color-white);
   background: rgba(255, 255, 255, 0.15);
   transform: translateY(-2px);
   text-decoration: none;
 }
 
-/* Responsive Design */
+/* Responsive Design using Infima's breakpoint pattern */
 @media screen and (max-width: 996px) {
   .heroContent {
     flex-direction: column-reverse;
     text-align: center;
-    gap: 2rem;
+    gap: calc(var(--ifm-spacing-vertical) * 1.5);
   }
 
   .heroText {
@@ -175,25 +183,25 @@
   }
 
   .heroTitle {
-    font-size: 2.8rem;
+    font-size: var(--ifm-h2-font-size);
   }
 }
 
 @media screen and (max-width: 768px) {
   .heroBanner {
-    padding: 2rem 0;
+    padding: calc(var(--ifm-spacing-vertical) * 1.5) 0;
   }
 
   .heroTitle {
-    font-size: 2.2rem;
+    font-size: var(--ifm-h3-font-size);
   }
 
   .heroSubtitle {
-    font-size: 1.2rem;
+    font-size: var(--ifm-h5-font-size);
   }
 
   .heroDescription {
-    font-size: 1rem;
+    font-size: var(--ifm-font-size-small);
   }
 
   .heroButtons {

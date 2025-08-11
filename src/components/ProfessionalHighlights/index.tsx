@@ -140,16 +140,7 @@ export default function ProfessionalHighlights(): ReactNode {
                   drive key projects with strategic vision.
                 </p>
                 <div className="margin-top--md">
-                  <h4 className="text--left">
-                    <span
-                      role="img"
-                      aria-label="Trophy"
-                      className="margin-right--sm"
-                    >
-                      🏆
-                    </span>
-                    Key Achievements:
-                  </h4>
+                  <h4 className="text--left">Key Achievements:</h4>
                   <ul>
                     <li>Led e-commerce platform migration to microservices</li>
                     <li>Designed cloud-based CI/CD pipelines</li>
@@ -170,16 +161,7 @@ export default function ProfessionalHighlights(): ReactNode {
                   optimal efficiency.
                 </p>
                 <div className="margin-top--md">
-                  <h4 className="text--left">
-                    <span
-                      role="img"
-                      aria-label="Trophy"
-                      className="margin-right--sm"
-                    >
-                      🏆
-                    </span>
-                    Key Achievements:
-                  </h4>
+                  <h4 className="text--left">Key Achievements:</h4>
                   <ul>
                     <li>Implemented Docker &amp; Kubernetes orchestration</li>
                     <li>Automated testing and quality gates</li>
@@ -200,16 +182,7 @@ export default function ProfessionalHighlights(): ReactNode {
                   high-quality software delivery.
                 </p>
                 <div className="margin-top--md">
-                  <h4 className="text--left">
-                    <span
-                      role="img"
-                      aria-label="Trophy"
-                      className="margin-right--sm"
-                    >
-                      🏆
-                    </span>
-                    Key Achievements:
-                  </h4>
+                  <h4 className="text--left">Key Achievements:</h4>
                   <ul>
                     <li>Led global teams with Agile workflows</li>
                     <li>Mentored developers across multiple projects</li>
@@ -237,9 +210,11 @@ export default function ProfessionalHighlights(): ReactNode {
             Continuously expanding expertise through industry-recognized
             certifications
           </p>
-          <div className={styles.certGrid}>
+          <div className="row">
             {certifications.map((cert) => (
-              <CertificationCard key={cert.name} {...cert} />
+              <div key={cert.name} className="col col--4 margin-bottom--lg">
+                <CertificationCard {...cert} />
+              </div>
             ))}
           </div>
         </section>
@@ -256,9 +231,11 @@ export default function ProfessionalHighlights(): ReactNode {
           <p className={styles.sectionSubtitle}>
             Delivering innovative solutions that drive business impact
           </p>
-          <div className={styles.projectGrid}>
+          <div className="row">
             {keyProjects.map((project) => (
-              <ProjectCard key={project.name} {...project} />
+              <div key={project.name} className="col col--4 margin-bottom--lg">
+                <ProjectCard {...project} />
+              </div>
             ))}
           </div>
         </section>
@@ -268,35 +245,41 @@ export default function ProfessionalHighlights(): ReactNode {
           <Heading as="h2" id="tech-heading" className={styles.sectionTitle}>
             Technology Expertise
           </Heading>
-          <div className={styles.techCategories}>
-            <div className={styles.techCategory}>
-              <h4>Cloud & DevOps</h4>
-              <div className={styles.techList}>
-                <span>AWS</span>
-                <span>Docker</span>
-                <span>Kubernetes</span>
-                <span>Terraform</span>
-                <span>Jenkins</span>
+          <div className="row">
+            <div className="col col--4 margin-bottom--lg">
+              <div className={styles.techCategory}>
+                <h4>Cloud & DevOps</h4>
+                <div className={styles.techList}>
+                  <span>AWS</span>
+                  <span>Docker</span>
+                  <span>Kubernetes</span>
+                  <span>Terraform</span>
+                  <span>Jenkins</span>
+                </div>
               </div>
             </div>
-            <div className={styles.techCategory}>
-              <h4>Frontend Development</h4>
-              <div className={styles.techList}>
-                <span>React</span>
-                <span>TypeScript</span>
-                <span>Tailwind CSS</span>
-                <span>Next.js</span>
-                <span>Svelte</span>
+            <div className="col col--4 margin-bottom--lg">
+              <div className={styles.techCategory}>
+                <h4>Frontend Development</h4>
+                <div className={styles.techList}>
+                  <span>React</span>
+                  <span>TypeScript</span>
+                  <span>Tailwind CSS</span>
+                  <span>Next.js</span>
+                  <span>Svelte</span>
+                </div>
               </div>
             </div>
-            <div className={styles.techCategory}>
-              <h4>Backend & Databases</h4>
-              <div className={styles.techList}>
-                <span>Node.js</span>
-                <span>NestJS</span>
-                <span>Express.js</span>
-                <span>MongoDB</span>
-                <span>MySQL</span>
+            <div className="col col--4 margin-bottom--lg">
+              <div className={styles.techCategory}>
+                <h4>Backend & Databases</h4>
+                <div className={styles.techList}>
+                  <span>Node.js</span>
+                  <span>NestJS</span>
+                  <span>Express.js</span>
+                  <span>MongoDB</span>
+                  <span>MySQL</span>
+                </div>
               </div>
             </div>
           </div>
