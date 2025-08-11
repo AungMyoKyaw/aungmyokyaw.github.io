@@ -89,13 +89,13 @@ const config: Config = {
         {
           href: 'https://github.com/AungMyoKyaw',
           position: 'right',
-          className: 'header-github-link',
+          className: 'fa-brands fa-github fa-xl',
           'aria-label': 'GitHub repository'
         },
         {
           href: 'https://linkedin.com/in/aungmyokyaw/',
           position: 'right',
-          className: 'header-linkedin-link',
+          className: 'fa-brands fa-linkedin fa-xl',
           'aria-label': 'LinkedIn profile'
         }
       ]

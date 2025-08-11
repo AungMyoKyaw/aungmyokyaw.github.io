@@ -5,37 +5,38 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import ProfessionalHighlights from '../components/ProfessionalHighlights';
 import Heading from '@theme/Heading';
-import styles from './index.module.css';
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <header className={clsx('hero padding-vert--xl')}>
-      <div className="container text--center">
-        <div className="avatar avatar--vertical margin-bottom--lg">
-          <img
-            className="avatar__photo avatar__photo--xl"
-            src="https://avatars.githubusercontent.com/u/9404824?v=4"
-            alt="Aung Myo Kyaw"
-          />
-        </div>
-        <Heading as="h1" className="hero__title">
-          {siteConfig.title}
-        </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div>
-          <Link
-            className="button button--primary button--lg margin--md"
-            to="/docs/intro"
-          >
-            Explore Knowledge Base
-          </Link>
-          <Link
-            className="button button--secondary button--lg margin--md"
-            to="/blog"
-          >
-            Read Blog
-          </Link>
+    <header className={clsx('hero hero--primary')}>
+      <div className="container">
+        <div className="text--center">
+          <div className="avatar avatar--vertical margin-bottom--lg">
+            <img
+              className="avatar__photo avatar__photo--xl"
+              src="https://avatars.githubusercontent.com/u/9404824?v=4"
+              alt="Aung Myo Kyaw"
+            />
+          </div>
+          <Heading as="h1" className="hero__title">
+            {siteConfig.title}
+          </Heading>
+          <p className="hero__subtitle">{siteConfig.tagline}</p>
+          <div className="margin-top--lg">
+            <Link
+              className="button button--secondary button--lg margin--md"
+              to="/docs/intro"
+            >
+              Explore Knowledge Base
+            </Link>
+            <Link
+              className="button button--secondary button--lg margin--md"
+              to="/blog"
+            >
+              Read Blog
+            </Link>
+          </div>
         </div>
       </div>
     </header>
