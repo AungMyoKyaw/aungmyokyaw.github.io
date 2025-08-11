@@ -41,10 +41,7 @@ const config: Config = {
       'classic',
       {
         docs: {
-          sidebarPath: './sidebars.ts',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/AungMyoKyaw/meta-knowledge/tree/master/'
+          sidebarPath: './sidebars.ts'
         },
         blog: {
           showReadingTime: true,
@@ -52,9 +49,6 @@ const config: Config = {
             type: ['rss', 'atom'],
             xslt: true
           },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/AungMyoKyaw/meta-knowledge/tree/master/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
