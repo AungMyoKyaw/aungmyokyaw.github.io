@@ -221,7 +221,7 @@ export default function ProfessionalHighlights(): ReactNode {
           >
             Key Achievements
           </Heading>
-          <div className="row">
+          <div className="row" style={{ justifyContent: 'center' }}>
             {keyAchievements.map((achievement) => (
               <div
                 key={achievement.title}

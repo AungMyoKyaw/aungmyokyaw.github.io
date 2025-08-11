@@ -1,161 +1,26 @@
-/* Modern Professional Portfolio Styles - Leveraging Infima Framework */
-
 .heroBanner {
-  padding: var(--ifm-spacing-vertical) 0;
-  text-align: left;
-  background: var(--professional-gradient);
-  color: var(--ifm-color-white);
+  padding: 4rem 0;
+  text-align: center;
   position: relative;
   overflow: hidden;
 }
 
-.heroBanner::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.1);
-  z-index: 1;
-}
-
-.heroBanner > .container {
-  position: relative;
-  z-index: 2;
-}
-
-/* CSS-driven subtitle separators - replacing hardcoded separators */
-.heroSubtitleContainer {
+.buttons {
   display: flex;
   align-items: center;
-  gap: calc(var(--ifm-spacing-horizontal) * 0.7);
-  flex-wrap: wrap;
-}
-
-.heroSubtitle {
-  font-size: var(--ifm-h4-font-size);
-  color: rgba(255, 255, 255, 0.9);
-  font-weight: var(--ifm-font-weight-medium);
-  position: relative;
-}
-
-.heroSubtitle:not(:last-child)::after {
-  content: '|';
-  position: absolute;
-  right: calc(var(--ifm-spacing-horizontal) * -0.35);
-  color: rgba(255, 255, 255, 0.5);
-  font-weight: 700;
-  font-size: 1.3em;
-  user-select: none;
-}
-
-/* Profile image container using Infima layout patterns */
-.heroImageContainer {
-  display: flex;
   justify-content: center;
-  align-items: center;
-  height: 100%;
+  gap: 1rem;
 }
 
 .profileImage {
-  width: 250px;
-  height: 250px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   border: 6px solid rgba(255, 255, 255, 0.2);
   transition: var(--ifm-transition-fast);
+  margin-bottom: 1rem;
 }
 
 .profileImage:hover {
   transform: scale(1.05);
-}
-
-/* Typography using Infima's scale */
-.heroTitle {
-  font-size: var(--ifm-h1-font-size);
-  font-weight: var(--ifm-font-weight-bold);
-  background: linear-gradient(45deg, #ffffff, #f8f9fa);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  line-height: var(--ifm-heading-line-height);
-}
-
-.heroDescription {
-  font-size: var(--ifm-font-size-base);
-  line-height: var(--ifm-line-height-base);
-  color: rgba(255, 255, 255, 0.85);
-  max-width: 500px;
-}
-
-/* Button container using Infima spacing and flex */
-.heroButtons {
-  display: flex;
-  gap: var(--ifm-spacing-horizontal);
-  flex-wrap: wrap;
-}
-
-.heroButtons .button {
-  display: flex;
-  align-items: center;
-  gap: calc(var(--ifm-spacing-horizontal) * 0.5);
-}
-
-/* Responsive Design using Infima's breakpoint pattern */
-@media screen and (max-width: 996px) {
-  .heroBanner .row {
-    flex-direction: column-reverse;
-    text-align: center;
-  }
-
-  .heroBanner .col {
-    margin-bottom: calc(var(--ifm-spacing-vertical) * 1.5);
-  }
-
-  .profileImage {
-    width: 200px;
-    height: 200px;
-  }
-
-  .heroTitle {
-    font-size: var(--ifm-h2-font-size);
-  }
-
-  .heroSubtitleContainer {
-    justify-content: center;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .heroBanner {
-    padding: calc(var(--ifm-spacing-vertical) * 1.5) 0;
-  }
-
-  .heroTitle {
-    font-size: var(--ifm-h3-font-size);
-  }
-
-  .heroSubtitle {
-    font-size: var(--ifm-h5-font-size);
-  }
-
-  .heroDescription {
-    font-size: var(--ifm-font-size-small);
-  }
-
-  .heroButtons {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .heroButtons .button {
-    width: 100%;
-    max-width: 280px;
-    justify-content: center;
-  }
-
-  .profileImage {
-    width: 160px;
-    height: 160px;
-  }
 }
