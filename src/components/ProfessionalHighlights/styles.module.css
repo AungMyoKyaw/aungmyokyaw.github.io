@@ -1,22 +1,2 @@
 /* Professional Highlights - Minimal Custom Styles */
 /* Most styling now uses Infima classes directly in JSX */
-
-/* ========== CERTIFICATION CARD HEADER ========== */
-/* Custom layout for certification card headers */
-.certHeader {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: var(--ifm-spacing-horizontal);
-  flex-wrap: wrap;
-}
-
-/* ========== RESPONSIVE ADJUSTMENTS ========== */
-/* Additional responsive tweaks beyond Infima defaults */
-@media screen and (max-width: 768px) {
-  .certHeader {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: calc(var(--ifm-spacing-vertical) * 0.5);
-  }
-}
