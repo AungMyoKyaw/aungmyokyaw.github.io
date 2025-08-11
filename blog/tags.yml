@@ -7,3 +7,18 @@ welcome:
   label: Welcome
   permalink: /welcome
   description: Welcome tag description
+
+blogging:
+  label: Blogging
+  permalink: /blogging
+  description: Blogging tag description
+
+digital-garden:
+  label: Digital Garden
+  permalink: /digital-garden
+  description: Digital Garden tag description
+
+personal:
+  label: Personal
+  permalink: /personal
+  description: Personal tag description
