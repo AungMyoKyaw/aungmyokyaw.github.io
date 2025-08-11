@@ -10,25 +10,30 @@ import styles from './index.module.css';
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
-        <img
-          src="https://avatars.githubusercontent.com/u/9404824?v=4"
-          alt="Aung Myo Kyaw"
-          className={clsx(styles.profileImage, 'shadow--tl')}
-        />
+    <header className={clsx('hero hero--primary')}>
+      <div className="container text--center">
+        <div className="avatar avatar--vertical margin-bottom--lg">
+          <img
+            className="avatar__photo avatar__photo--xl"
+            src="https://avatars.githubusercontent.com/u/9404824?v=4"
+            alt="Aung Myo Kyaw"
+          />
+        </div>
         <Heading as="h1" className="hero__title">
           {siteConfig.title}
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
+        <div>
           <Link
-            className="button button--secondary button--lg"
+            className="button button--secondary button--lg margin--md"
             to="/docs/intro"
           >
             Explore Knowledge Base
           </Link>
-          <Link className="button button--secondary button--lg" to="/blog">
+          <Link
+            className="button button--secondary button--lg margin--md"
+            to="/blog"
+          >
             Read Blog
           </Link>
         </div>
