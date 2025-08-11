@@ -102,52 +102,10 @@ const config: Config = {
     },
     footer: {
       style: 'dark',
-      links: [
-        {
-          title: 'Knowledge',
-          items: [
-            {
-              label: 'Knowledge Base',
-              to: '/docs/intro'
-            },
-            {
-              label: 'License',
-              to: '/docs/license'
-            }
-          ]
-        },
-        {
-          title: 'Professional',
-          items: [
-            {
-              label: 'LinkedIn',
-              href: 'https://linkedin.com/in/aungmyokyaw/'
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/AungMyoKyaw'
-            },
-            {
-              label: 'Portfolio',
-              href: 'https://aungmyokyaw.com'
-            }
-          ]
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: '/blog'
-            },
-            {
-              label: 'Contact',
-              href: 'mailto:realAungMyoKyaw@duck.com'
-            }
-          ]
-        }
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()} Aung Myo Kyaw. Built with Docusaurus.`
+      copyright: `Copyright © ${new Date().getFullYear()} Aung Myo Kyaw.
+        <br/>
+        <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
+      `
     },
     prism: {
       theme: prismThemes.github,
