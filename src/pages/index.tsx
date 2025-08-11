@@ -26,7 +26,7 @@ function HomepageHeader() {
           <div className="margin-top--lg">
             <Link
               className="button button--secondary button--lg margin--md"
-              to="/docs/intro"
+              to="/docs"
             >
               Explore Knowledge Base
             </Link>

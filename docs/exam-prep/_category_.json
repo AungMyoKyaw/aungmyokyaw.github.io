@@ -1,0 +1,8 @@
+{
+  "label": "Exam Prep",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "Study notes for certification exams."
+  }
+}
