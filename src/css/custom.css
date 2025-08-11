@@ -1,12 +1,14 @@
 /**
  * Professional Portfolio Custom Styles
  * Modern design system leveraging Infima framework
+ * Extends Infima with professional theming while maintaining consistency
  * Aung Myo Kyaw's professional portfolio
  */
 
-/* Professional Color Palette - Extending Infima's theming system */
+/* ========== INFIMA VARIABLE OVERRIDES ========== */
+/* Primary Professional Colors - Using Infima's color scale pattern */
 :root {
-  /* Primary Professional Colors - Using Infima's color scale pattern */
+  /* Primary Professional Colors */
   --ifm-color-primary: #667eea;
   --ifm-color-primary-dark: #5a6fd8;
   --ifm-color-primary-darker: #5368d4;
@@ -26,7 +28,6 @@
   --ifm-spacing-vertical: 1.5rem;
 
   /* Modern Borders - Using Infima's border system */
-  --ifm-global-border-width: 1px;
   --ifm-global-radius: 12px;
   --ifm-button-border-radius: 50px;
 
@@ -38,17 +39,17 @@
   /* Code highlighting - Leveraging Infima's code system */
   --docusaurus-highlighted-code-line-bg: rgba(102, 126, 234, 0.1);
 
-  /* Custom Professional Variables - Complementing Infima */
+  /* ========== CUSTOM PROFESSIONAL VARIABLES ========== */
+  /* These complement Infima and use Infima variables as base */
   --professional-gradient: linear-gradient(
     135deg,
     var(--ifm-color-primary) 0%,
     #764ba2 100%
   );
   --text-gradient: linear-gradient(135deg, var(--ifm-color-primary), #764ba2);
-  --card-background: var(--ifm-background-color);
-  --section-background: var(--ifm-background-surface-color);
 }
 
+/* ========== DARK MODE OVERRIDES ========== */
 /* Dark mode professional colors - Using Infima's dark theme pattern */
 [data-theme='dark'] {
   --ifm-color-primary: #8b9cf7;
@@ -59,12 +60,9 @@
   --ifm-color-primary-lighter: #a3b2fa;
   --ifm-color-primary-lightest: #b8c4fc;
   --docusaurus-highlighted-code-line-bg: rgba(139, 156, 247, 0.2);
-
-  /* Dark mode adjustments - Leveraging Infima's dark mode variables */
-  --card-background: var(--ifm-background-surface-color);
-  --section-background: var(--ifm-background-color);
 }
 
+/* ========== GLOBAL ENHANCEMENTS ========== */
 /* Enhanced Global Styles - Building on Infima's base */
 html {
   scroll-behavior: smooth;
@@ -80,13 +78,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Responsive Typography - Using Infima's responsive system */
-@media screen and (max-width: 996px) {
-  .navbar__item {
-    font-size: var(--ifm-font-size-small);
-  }
-}
-
+/* ========== PROFESSIONAL ANIMATIONS ========== */
 /* Professional animations - Complementing Infima */
 @keyframes fadeInUp {
   from {
@@ -103,30 +95,15 @@ body {
   animation: fadeInUp 0.6s ease-out;
 }
 
+/* ========== ACCESSIBILITY ENHANCEMENTS ========== */
 /* Professional focus states - Enhancing Infima's accessibility */
-*:focus {
+*:focus-visible {
   outline: 2px solid var(--ifm-color-primary);
   outline-offset: 2px;
-}
-
-/* Enhanced link styles - Using Infima's link system */
-a {
-  color: var(--ifm-link-color);
-  transition: var(--ifm-transition-fast);
-}
-
-a:hover {
-  color: var(--ifm-link-hover-color);
-  text-decoration: var(--ifm-link-hover-decoration);
-}
-
-/* Professional table styles - Extending Infima's table styling */
-table {
   border-radius: var(--ifm-global-radius);
-  overflow: hidden;
-  box-shadow: var(--ifm-global-shadow-lw);
 }
 
+/* ========== PROFESSIONAL SCROLLBAR ========== */
 /* Custom scrollbar - Professional styling using Infima variables */
 ::-webkit-scrollbar {
   width: 8px;
@@ -143,4 +120,12 @@ table {
 
 ::-webkit-scrollbar-thumb:hover {
   background: var(--ifm-color-primary-dark);
+}
+
+/* ========== RESPONSIVE OPTIMIZATIONS ========== */
+/* Responsive Typography - Using Infima's responsive system */
+@media screen and (max-width: 996px) {
+  .navbar__item {
+    font-size: var(--ifm-font-size-small);
+  }
 }

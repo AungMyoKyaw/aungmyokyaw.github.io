@@ -3,7 +3,6 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import HomepageFeatures from '../components/HomepageFeatures';
 import ProfessionalHighlights from '../components/ProfessionalHighlights';
 import Heading from '@theme/Heading';
 import { ArrowRight } from 'lucide-react';
@@ -14,88 +13,57 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero', styles.heroBanner)}>
       <div className="container">
-        <div className={styles.heroContent}>
+        <div className="row">
           {/* Left Column: Text and Buttons */}
-          <div className={styles.heroText}>
+          <div className="col col--7">
             <Heading
               as="h1"
-              className={styles.heroTitle + ' margin-bottom--sm'}
+              className={clsx(styles.heroTitle, 'margin-bottom--sm')}
             >
               {siteConfig.title}
             </Heading>
             <div
-              className="margin-bottom--sm"
-              style={{
-                display: 'flex',
-                alignItems: 'center',
-                gap: '0.7em',
-                flexWrap: 'wrap'
-              }}
+              className={clsx(
+                styles.heroSubtitleContainer,
+                'margin-bottom--sm'
+              )}
             >
-              <span className={styles.heroSubtitle} style={{ marginBottom: 0 }}>
-                Software Engineer
-              </span>
-              <span
-                style={{
-                  color: 'rgba(255,255,255,0.5)',
-                  fontWeight: 700,
-                  fontSize: '1.3em',
-                  userSelect: 'none'
-                }}
-              >
-                |
-              </span>
-              <span className={styles.heroSubtitle} style={{ marginBottom: 0 }}>
-                Solution Architect
-              </span>
-              <span
-                style={{
-                  color: 'rgba(255,255,255,0.5)',
-                  fontWeight: 700,
-                  fontSize: '1.3em',
-                  userSelect: 'none'
-                }}
-              >
-                |
-              </span>
-              <span className={styles.heroSubtitle} style={{ marginBottom: 0 }}>
-                DevOps Expert
-              </span>
+              <span className={styles.heroSubtitle}>Software Engineer</span>
+              <span className={styles.heroSubtitle}>Solution Architect</span>
+              <span className={styles.heroSubtitle}>DevOps Expert</span>
             </div>
-            <p
-              className={styles.heroDescription + ' margin-bottom--md'}
-              style={{ marginTop: 0 }}
-            >
+            <p className={clsx(styles.heroDescription, 'margin-bottom--lg')}>
               Passionate IT professional specializing in solution architecture,
               DevOps, and full-stack development. I design scalable, efficient
               systems and drive end-to-end development with Agile practices and
               robust CI/CD pipelines.
             </p>
-            <div className={styles.heroButtons} style={{ marginBottom: 0 }}>
+            <div className={clsx(styles.heroButtons, 'margin-bottom--none')}>
               <Link
-                className="button button--primary button--lg margin-right--md"
+                className="button button--primary button--lg margin-right--md margin-bottom--sm"
                 to="/docs/intro"
-                style={{ display: 'flex', alignItems: 'center', gap: '0.7em' }}
               >
-                Explore Knowledge Base{' '}
-                <ArrowRight size={20} style={{ marginLeft: 4 }} />
+                <span>Explore Knowledge Base</span>
+                <ArrowRight size={20} />
               </Link>
               <Link
-                className="button button--secondary button--lg"
+                className="button button--secondary button--lg margin-bottom--sm"
                 to="/blog"
-                style={{ display: 'flex', alignItems: 'center', gap: '0.7em' }}
               >
-                Read Blog <ArrowRight size={20} style={{ marginLeft: 4 }} />
+                <span>Read Blog</span>
+                <ArrowRight size={20} />
               </Link>
             </div>
           </div>
           {/* Right Column: Profile Image */}
-          <div className={styles.heroImage}>
-            <img
-              src="https://avatars.githubusercontent.com/u/9404824?v=4"
-              alt="Aung Myo Kyaw"
-              className={styles.profileImage + ' shadow--md'}
-            />
+          <div className="col col--5">
+            <div className={styles.heroImageContainer}>
+              <img
+                src="https://avatars.githubusercontent.com/u/9404824?v=4"
+                alt="Aung Myo Kyaw"
+                className={clsx(styles.profileImage, 'shadow--tl')}
+              />
+            </div>
           </div>
         </div>
       </div>
@@ -112,7 +80,6 @@ export default function Home(): ReactNode {
     >
       <HomepageHeader />
       <main>
-        <HomepageFeatures />
         <ProfessionalHighlights />
       </main>
     </Layout>
