@@ -75,8 +75,8 @@ const config: Config = {
       logo: {
         alt: 'AMK Monogram',
         src: 'img/logo.svg', // Optionally, replace with a new monogram SVG if available
-        width: 36,
-        height: 36
+        width: 40,
+        height: 40
       },
       items: [
         {
@@ -88,13 +88,15 @@ const config: Config = {
         { to: '/blog', label: 'Blog', position: 'left' },
         {
           href: 'https://github.com/AungMyoKyaw',
-          label: 'GitHub',
-          position: 'right'
+          position: 'right',
+          className: 'header-github-link',
+          'aria-label': 'GitHub repository'
         },
         {
           href: 'https://linkedin.com/in/aungmyokyaw/',
-          label: 'LinkedIn',
-          position: 'right'
+          position: 'right',
+          className: 'header-linkedin-link',
+          'aria-label': 'LinkedIn profile'
         }
       ]
     },
@@ -145,13 +147,23 @@ const config: Config = {
           ]
         }
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Aung Myo Kyaw. Built with Docusaurus. Content licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC-SA 4.0</a>.<br/><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener noreferrer" style="display:inline-block;margin-top:0.5em;"><img src="https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png" alt="Creative Commons BY-NC-SA 4.0 License" style="vertical-align:middle;opacity:0.8;"/></a>`
+      copyright: `Copyright © ${new Date().getFullYear()} Aung Myo Kyaw. Built with Docusaurus.`
     },
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula
     }
-  } satisfies Preset.ThemeConfig
+  } satisfies Preset.ThemeConfig,
+
+  stylesheets: [
+    {
+      href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css',
+      type: 'text/css',
+      integrity:
+        'sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==',
+      crossorigin: 'anonymous'
+    }
+  ]
 };
 
 export default config;

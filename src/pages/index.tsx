@@ -10,7 +10,7 @@ import styles from './index.module.css';
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <header className={clsx('hero hero--primary')}>
+    <header className={clsx('hero padding-vert--xl')}>
       <div className="container text--center">
         <div className="avatar avatar--vertical margin-bottom--lg">
           <img
@@ -25,7 +25,7 @@ function HomepageHeader() {
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div>
           <Link
-            className="button button--secondary button--lg margin--md"
+            className="button button--primary button--lg margin--md"
             to="/docs/intro"
           >
             Explore Knowledge Base
