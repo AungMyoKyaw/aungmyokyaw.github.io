@@ -19,18 +19,17 @@ function HomepageHeader() {
           <div className={styles.heroText}>
             <Heading
               as="h1"
-              className={styles.heroTitle}
-              style={{ marginBottom: '1.2rem' }}
+              className={styles.heroTitle + ' margin-bottom--sm'}
             >
               {siteConfig.title}
             </Heading>
             <div
+              className="margin-bottom--sm"
               style={{
                 display: 'flex',
                 alignItems: 'center',
-                justifyContent: 'flex-start',
                 gap: '0.7em',
-                marginBottom: '1.2rem'
+                flexWrap: 'wrap'
               }}
             >
               <span className={styles.heroSubtitle} style={{ marginBottom: 0 }}>
@@ -64,8 +63,8 @@ function HomepageHeader() {
               </span>
             </div>
             <p
-              className={styles.heroDescription}
-              style={{ marginBottom: '2.2rem', marginTop: 0 }}
+              className={styles.heroDescription + ' margin-bottom--md'}
+              style={{ marginTop: 0 }}
             >
               Passionate IT professional specializing in solution architecture,
               DevOps, and full-stack development. I design scalable, efficient
@@ -74,7 +73,7 @@ function HomepageHeader() {
             </p>
             <div className={styles.heroButtons} style={{ marginBottom: 0 }}>
               <Link
-                className="button button--primary button--lg"
+                className="button button--primary button--lg margin-right--md"
                 to="/docs/intro"
                 style={{ display: 'flex', alignItems: 'center', gap: '0.7em' }}
               >
@@ -82,7 +81,7 @@ function HomepageHeader() {
                 <ArrowRight size={20} style={{ marginLeft: 4 }} />
               </Link>
               <Link
-                className="button button--glass-white button--lg"
+                className="button button--secondary button--lg"
                 to="/blog"
                 style={{ display: 'flex', alignItems: 'center', gap: '0.7em' }}
               >
@@ -95,7 +94,7 @@ function HomepageHeader() {
             <img
               src="https://avatars.githubusercontent.com/u/9404824?v=4"
               alt="Aung Myo Kyaw"
-              className={styles.profileImage}
+              className={styles.profileImage + ' shadow--md'}
             />
           </div>
         </div>

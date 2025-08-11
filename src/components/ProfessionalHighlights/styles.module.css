@@ -47,34 +47,6 @@
   margin-right: auto;
 }
 
-/* Certification cards using Infima design system - now used with Infima grid */
-.certCard {
-  background: var(--ifm-background-color);
-  padding: calc(var(--ifm-spacing-vertical) * 1.5);
-  border-radius: var(--ifm-global-radius);
-  box-shadow: var(--ifm-global-shadow-lw);
-  transition: var(--ifm-transition-fast);
-  border-left: 4px solid var(--ifm-color-primary);
-  position: relative;
-  overflow: hidden;
-  height: 100%;
-}
-
-.certCard::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 4px;
-  background: var(--professional-gradient);
-}
-
-.certCard:hover {
-  transform: translateY(-8px);
-  box-shadow: var(--ifm-global-shadow-md);
-}
-
 /* Card headers using Infima layout patterns */
 .certHeader {
   display: flex;
@@ -111,41 +83,6 @@
   font-weight: var(--ifm-font-weight-medium);
 }
 
-/* Skills tags using Infima color system */
-.skillsTags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: calc(var(--ifm-spacing-horizontal) * 0.5);
-}
-
-.skillTag {
-  background: var(--ifm-color-primary-lightest);
-  color: var(--ifm-color-primary);
-  padding: calc(var(--ifm-spacing-vertical) * 0.4)
-    calc(var(--ifm-spacing-horizontal) * 0.8);
-  border-radius: var(--ifm-global-radius);
-  font-size: var(--ifm-font-size-small);
-  font-weight: var(--ifm-font-weight-medium);
-  border: var(--ifm-global-border-width) solid var(--ifm-color-primary-lighter);
-}
-
-/* Project cards using Infima design system - now used with Infima grid */
-.projectCard {
-  background: var(--ifm-background-color);
-  padding: calc(var(--ifm-spacing-vertical) * 2);
-  border-radius: var(--ifm-global-radius);
-  box-shadow: var(--ifm-global-shadow-lw);
-  transition: var(--ifm-transition-fast);
-  border: var(--ifm-global-border-width) solid var(--ifm-color-emphasis-200);
-  position: relative;
-  height: 100%;
-}
-
-.projectCard:hover {
-  transform: translateY(-10px);
-  box-shadow: var(--ifm-global-shadow-md);
-}
-
 .projectName {
   font-size: var(--ifm-h4-font-size);
   font-weight: var(--ifm-font-weight-bold);
@@ -179,23 +116,6 @@
 
 .projectImpact strong {
   color: var(--ifm-color-success);
-}
-
-/* Technology stack tags */
-.techStack {
-  display: flex;
-  flex-wrap: wrap;
-  gap: calc(var(--ifm-spacing-horizontal) * 0.5);
-}
-
-.techTag {
-  background: var(--professional-gradient);
-  color: var(--ifm-color-white);
-  padding: calc(var(--ifm-spacing-vertical) * 0.4)
-    calc(var(--ifm-spacing-horizontal) * 0.8);
-  border-radius: var(--ifm-global-radius);
-  font-size: var(--ifm-font-size-small);
-  font-weight: var(--ifm-font-weight-medium);
 }
 
 /* Technology categories - now used with Infima grid */

@@ -73,28 +73,33 @@ function CertificationCard({
   skills
 }: CertificationItem) {
   return (
-    <div className={styles.certCard}>
+    <article className="card shadow--md padding--lg h-100">
       <div className={styles.certHeader}>
         <h4 className={styles.certName}>{name}</h4>
-        <span className={styles.certLevel}>{level}</span>
+        <span className="badge badge--primary" style={{ borderRadius: 20 }}>
+          {level}
+        </span>
       </div>
       <p className={styles.certIssuer}>
         {issuer} • {date}
       </p>
       <div className={styles.skillsTags}>
         {skills.map((skill) => (
-          <span key={skill} className={styles.skillTag}>
+          <span
+            key={skill}
+            className="badge badge--secondary margin-right--sm margin-bottom--sm"
+          >
             {skill}
           </span>
         ))}
       </div>
-    </div>
+    </article>
   );
 }
 
 function ProjectCard({ name, description, impact, technologies }: ProjectItem) {
   return (
-    <div className={styles.projectCard}>
+    <article className="card shadow--md padding--lg h-100">
       <h4 className={styles.projectName}>{name}</h4>
       <p className={styles.projectDescription}>{description}</p>
       <div className={styles.projectImpact}>
@@ -102,12 +107,15 @@ function ProjectCard({ name, description, impact, technologies }: ProjectItem) {
       </div>
       <div className={styles.techStack}>
         {technologies.map((tech) => (
-          <span key={tech} className={styles.techTag}>
+          <span
+            key={tech}
+            className="badge badge--primary margin-right--sm margin-bottom--sm"
+          >
             {tech}
           </span>
         ))}
       </div>
-    </div>
+    </article>
   );
 }
 
@@ -130,7 +138,7 @@ export default function ProfessionalHighlights(): ReactNode {
           <div className="row">
             {/* Solution Architecture */}
             <div className="col col--4 margin-bottom--lg">
-              <article className="card shadow--md padding--lg h-100">
+              <article className="card shadow--lg padding--lg h-100 border--primary">
                 <h3 className="text--center text--primary">
                   Solution Architecture
                 </h3>
@@ -151,7 +159,7 @@ export default function ProfessionalHighlights(): ReactNode {
             </div>
             {/* DevOps Excellence */}
             <div className="col col--4 margin-bottom--lg">
-              <article className="card shadow--md padding--lg h-100">
+              <article className="card shadow--lg padding--lg h-100 border--primary">
                 <h3 className="text--center text--primary">
                   DevOps Excellence
                 </h3>
@@ -172,7 +180,7 @@ export default function ProfessionalHighlights(): ReactNode {
             </div>
             {/* Technical Leadership */}
             <div className="col col--4 margin-bottom--lg">
-              <article className="card shadow--md padding--lg h-100">
+              <article className="card shadow--lg padding--lg h-100 border--primary">
                 <h3 className="text--center text--primary">
                   Technical Leadership
                 </h3>

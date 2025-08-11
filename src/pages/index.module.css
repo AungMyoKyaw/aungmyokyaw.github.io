@@ -95,47 +95,6 @@
   flex-wrap: wrap;
 }
 
-/* Buttons leveraging Infima's button system - custom styling will be handled by button classes */
-.heroButtons .button {
-  padding: calc(var(--ifm-button-padding-vertical) * 1.2)
-    calc(var(--ifm-button-padding-horizontal) * 1.5);
-  font-size: var(--ifm-font-size-base);
-  font-weight: var(--ifm-font-weight-semibold);
-  border-radius: var(--ifm-button-border-radius);
-  transition: var(--ifm-transition-fast);
-  text-decoration: none;
-  border-width: var(--ifm-global-border-width);
-}
-
-.heroButtons .button--primary {
-  background: #3b237a;
-  color: #fff;
-  border-color: #3b237a;
-  box-shadow: var(--ifm-global-shadow-lw);
-  font-weight: var(--ifm-font-weight-bold);
-  letter-spacing: 0.02em;
-}
-
-.heroButtons .button--primary:hover,
-.heroButtons .button--primary:focus {
-  background: #5025c6;
-  color: #fff;
-  border-color: #5025c6;
-  box-shadow: var(--ifm-global-shadow-md);
-  transform: translateY(-2px);
-}
-
-.heroButtons .button--secondary {
-  background: transparent;
-  color: var(--ifm-color-white);
-  border-color: rgba(255, 255, 255, 0.5);
-}
-
-.heroButtons .button--secondary:hover {
-  background: rgba(255, 255, 255, 0.15);
-  transform: translateY(-2px);
-}
-
 /* Social links using Infima spacing and transitions */
 .socialLinks {
   display: flex;
