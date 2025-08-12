@@ -127,6 +127,41 @@
       "instructors": []
     },
     {
+      "courseTitle": "AWS Generative AI for Developers Professional Certificate",
+      "type": "Bundle",
+      "status": "In Progress",
+      "certificateLink": "#",
+      "provider": "Coursera",
+      "courses": [
+        {
+          "title": "Getting Started with AWS Generative AI for Developers",
+          "certificateLink": "https://coursera.org/share/281ffbf5694976683786cb716da50233",
+          "skills": [
+            "Artificial Intelligence and Machine Learning (AI/ML)",
+            "Prompt Engineering",
+            "Data Ethics",
+            "Generative AI",
+            "Amazon Web Services",
+            "Application Programming Interface (API)",
+            "Software Development Tools",
+            "Large Language Modeling",
+            "Artificial Intelligence",
+            "Software Documentation"
+          ]
+        },
+        {
+          "title": "Generative AI Applications with Amazon Bedrock",
+          "skills": []
+        },
+        {
+          "title": "Amazon Bedrock Customization, Optimization & Automation",
+          "skills": []
+        }
+      ],
+      "skills": [],
+      "instructors": []
+    },
+    {
       "courseTitle": "Generative AI for Software Development Skill Certificate",
       "type": "Bundle",
       "status": "Completed",
