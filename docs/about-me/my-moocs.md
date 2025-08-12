@@ -1,3 +1,9 @@
+---
+sidebar_position: 3
+---
+
 # My MOOCs
 
-This page lists the Massive Open Online Courses (MOOCs) I have completed.
+import Moocs from '@site/src/components/DevFolio/Moocs';
+
+<Moocs />

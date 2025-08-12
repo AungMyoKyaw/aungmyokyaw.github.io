@@ -1,3 +1,9 @@
+---
+sidebar_position: 4
+---
+
 # Skills
 
-This page lists my technical skills.
+import Skills from '@site/src/components/DevFolio/Skills';
+
+<Skills />

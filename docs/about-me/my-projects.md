@@ -1,3 +1,9 @@
+---
+sidebar_position: 2
+---
+
 # My Projects
 
-This page showcases the projects I have worked on.
+import Projects from '@site/src/components/DevFolio/Projects';
+
+<Projects />
