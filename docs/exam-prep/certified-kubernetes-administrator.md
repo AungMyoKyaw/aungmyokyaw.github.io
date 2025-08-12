@@ -83,12 +83,6 @@ Choose a primary learning path that best suits your style. You can mix and match
 - **Kubernetes Blog:** Also allowed during the exam, the blog can provide useful context and examples.
   :::
 
-Community & Supplementary Resources
-
-GitHub CKA Guide: The Cloud-Native-Islamabad/Certified-Kubernetes-Administrator-CKA-Guide-2025 repository is an excellent collection of resources, links, and information.
-
-Reddit: The r/CKAExam and r/kubernetes subreddits are great places to find tips, ask questions, and learn from the experiences of others.
-
 ---
 
 ## 🗓️ 8-Week Study Plan
