@@ -94,7 +94,7 @@ This is a suggested timeline. Feel free to adjust it based on your experience an
 
 **Goal:** Understand core Kubernetes concepts.
 
-- [ ] Go through your chosen primary learning path (Book, YouTube, or Coursera)
+- [ ] Go through the "Coursera Courses & Specializations" learning path
 - [ ] Focus on understanding the Kubernetes architecture (control plane, worker nodes, etc.)
 - [ ] Get comfortable with basic kubectl commands
 - [ ] Learn about Pods, Deployments, ReplicaSets, and Services
