@@ -362,7 +362,7 @@ export interface Meta {
   version?: string;
   theme?: string;
   visibility?: 'public' | 'private' | 'unlisted';
-  custom?: Record<string, any>;
+  custom?: Record<string, unknown>;
 }
 
 export interface DevFolio {

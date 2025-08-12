@@ -1,6 +1,7 @@
 import React from 'react';
 import portfolioData from '@site/config/defolio.json';
 import { Skill } from './types';
+import Heading from '@theme/Heading';
 
 const Skills: React.FC = () => {
   const skills = portfolioData.skills as Skill[];
@@ -50,7 +51,7 @@ const Skills: React.FC = () => {
           <div className="col col--6 margin-bottom--lg" key={category}>
             <div className="card">
               <div className="card__header">
-                <h3>{categoryNames[category] || category}</h3>
+                <Heading as="h3">{categoryNames[category] || category}</Heading>
               </div>
               <div className="card__body">
                 <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>

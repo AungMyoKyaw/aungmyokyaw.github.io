@@ -1,6 +1,8 @@
 import React from 'react';
 import portfolioData from '@site/config/defolio.json';
 import { Certification } from './types';
+import Heading from '@theme/Heading';
+import Link from '@docusaurus/Link';
 
 const Certifications: React.FC = () => {
   const certifications = portfolioData.certifications as Certification[];
@@ -24,7 +26,9 @@ const Certifications: React.FC = () => {
           <div className="col col--6 margin-bottom--lg" key={index}>
             <div className="card" style={{ height: '100%' }}>
               <div className="card__header">
-                <h3 style={{ marginBottom: 0 }}>{cert.name}</h3>
+                <Heading as="h3" style={{ marginBottom: 0 }}>
+                  {cert.name}
+                </Heading>
               </div>
               <div className="card__body">
                 <p className="text--sm" style={{ marginBottom: '1rem' }}>
@@ -48,7 +52,7 @@ const Certifications: React.FC = () => {
 
                 {cert.skills && cert.skills.length > 0 && (
                   <div className="margin-top--md">
-                    <h5>Skills Validated</h5>
+                    <Heading as="h5">Skills Validated</Heading>
                     <div>
                       {cert.skills.map((skill, i) => (
                         <span
@@ -65,24 +69,17 @@ const Certifications: React.FC = () => {
               <div className="card__footer">
                 <div className="button-group">
                   {cert.url && (
-                    <a
-                      href={cert.url}
-                      className="button button--primary"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
+                    <Link href={cert.url} className="button button--primary">
                       Verify
-                    </a>
+                    </Link>
                   )}
                   {cert.badgeUrl && (
-                    <a
+                    <Link
                       href={cert.badgeUrl}
                       className="button button--secondary"
-                      target="_blank"
-                      rel="noopener noreferrer"
                     >
                       View Badge
-                    </a>
+                    </Link>
                   )}
                 </div>
               </div>

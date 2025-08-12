@@ -1,6 +1,8 @@
 import React from 'react';
 import portfolioData from '@site/config/defolio.json';
 import { Mooc } from './types';
+import Heading from '@theme/Heading';
+import Link from '@docusaurus/Link';
 
 const Moocs: React.FC = () => {
   const moocs = portfolioData.moocs as Mooc[];
@@ -16,7 +18,9 @@ const Moocs: React.FC = () => {
           <div className="card__header">
             <div className="row" style={{ alignItems: 'center' }}>
               <div className="col col--10">
-                <h3 style={{ marginBottom: 0 }}>{mooc.courseTitle}</h3>
+                <Heading as="h3" style={{ marginBottom: 0 }}>
+                  {mooc.courseTitle}
+                </Heading>
               </div>
               <div className="col col--2 text--right">
                 <span
@@ -48,7 +52,7 @@ const Moocs: React.FC = () => {
 
             {mooc.skills && mooc.skills.length > 0 && (
               <div className="margin-bottom--md">
-                <h5>Skills Gained</h5>
+                <Heading as="h5">Skills Gained</Heading>
                 <div>
                   {mooc.skills.map((skill, i) => (
                     <span
@@ -64,18 +68,14 @@ const Moocs: React.FC = () => {
 
             {mooc.courses && mooc.courses.length > 0 && (
               <div className="margin-top--md">
-                <h5>Courses in this {mooc.type}</h5>
+                <Heading as="h5">Courses in this {mooc.type}</Heading>
                 <ul>
                   {mooc.courses.map((course, i) => (
                     <li key={i}>
                       {course.certificateLink ? (
-                        <a
-                          href={course.certificateLink}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
+                        <Link href={course.certificateLink}>
                           {course.title}
-                        </a>
+                        </Link>
                       ) : (
                         course.title
                       )}
@@ -87,14 +87,12 @@ const Moocs: React.FC = () => {
           </div>
           {mooc.certificateLink && (
             <div className="card__footer">
-              <a
+              <Link
                 href={mooc.certificateLink}
                 className="button button--secondary"
-                target="_blank"
-                rel="noopener noreferrer"
               >
                 View Certificate
-              </a>
+              </Link>
             </div>
           )}
         </div>
