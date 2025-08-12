@@ -64,40 +64,6 @@ Choose a primary learning path that best suits your style. You can mix and match
 - **Reddit:** The [r/CKAExam](https://reddit.com/r/CKAExam) and [r/kubernetes](https://reddit.com/r/kubernetes) subreddits are great places to find tips, ask questions, and learn from the experiences of others.
   :::
 
-Primary Learning Paths
-
-Choose a primary learning path that best suits your style. You can mix and match, but focusing on one comprehensive resource first is often effective.
-
-Interactive Courses with Labs
-
-Certified Kubernetes Administrator (CKA) with Practice Tests (KodeKloud): Created by Mumshad Mannambeth, this course is offered on the KodeKloud platform and is one of the most popular and highly-rated options. It includes hands-on labs for each topic and mock exams that are invaluable for preparation.
-
-Kubernetes Fundamentals (LFS258): This is the official course from the Linux Foundation. It provides a strong foundation in Kubernetes concepts.
-
-Books
-
-"The Kubernetes Book" by Nigel Poulton: An excellent, easy-to-read book that is great for building a solid foundational understanding of Kubernetes concepts from the ground up.
-
-"Kubernetes in Action" by Marko Luksa: A comprehensive and in-depth book that is perfect for those who want a deep technical understanding of how Kubernetes works under the hood.
-
-"Certified Kubernetes Administrator (CKA) Study Guide" by Benjamin Muschko: This book is specifically tailored for the CKA exam, covering all the required topics and providing practical examples that align with the exam objectives.
-
-YouTube Video Courses
-
-Tech Tutorials with Piyush - CKA Full Course: A comprehensive playlist specifically designed for the 2025 CKA curriculum, featuring over 40 videos with hands-on demos and assignments.
-
-TechWorld with Nana - Complete Kubernetes Tutorial: A highly-regarded, beginner-to-advanced tutorial that is excellent for understanding core concepts with clear explanations and visuals.
-
-freeCodeCamp.org - Kubernetes Tutorial for Beginners: Offers several long-form video courses that cover Kubernetes fundamentals, perfect for those new to the ecosystem.
-
-Coursera Courses & Specializations
-
-Exam Prep CKA: Certified Kubernetes Administrator (LearnKartS): A course on Coursera specifically designed to cover the CKA exam curriculum topic by topic.
-
-Introduction to Containers w/ Docker, Kubernetes & OpenShift (IBM): A great course for understanding the foundational technologies that Kubernetes is built upon and interacts with.
-
-Architecting with Google Kubernetes Engine (Google Cloud): While it has a focus on Google Cloud's implementation, this specialization covers core Kubernetes architecture and principles in great depth.
-
 ---
 
 :::caution 🧑‍💻 Hands-On Practice (The Key to Success)
