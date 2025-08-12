@@ -53,7 +53,7 @@ Choose a primary learning path that best suits your style. You can mix and match
 
 :::info 🏫 Coursera Courses & Specializations
 
-- **Exam Prep CKA: Certified Kubernetes Administrator (LearnKartS):** A Coursera course specifically designed to cover the CKA exam curriculum topic by topic.
+- **Exam Prep CKA: Certified Kubernetes Administrator (Whizlabs Instructor):** A Coursera course specifically designed to cover the CKA exam curriculum topic by topic.
 - **Introduction to Containers w/ Docker, Kubernetes & OpenShift (IBM):** Great for understanding the foundational technologies that Kubernetes is built upon and interacts with.
 - **Architecting with Google Kubernetes Engine (Google Cloud):** Focused on Google Cloud's implementation, but covers core Kubernetes architecture and principles in great depth.
   :::

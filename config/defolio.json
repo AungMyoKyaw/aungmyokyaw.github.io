@@ -118,6 +118,15 @@
   ],
   "moocs": [
     {
+      "courseTitle": "Exam Prep CKA: Certified Kubernetes Administrator",
+      "type": "Course",
+      "status": "In Progress",
+      "certificateLink": "#",
+      "provider": "Coursera",
+      "skills": [],
+      "instructors": []
+    },
+    {
       "courseTitle": "Generative AI for Software Development Skill Certificate",
       "type": "Bundle",
       "status": "Completed",
