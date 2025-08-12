@@ -42,9 +42,9 @@ It encourages open learning and creative contribution, while respecting the righ
 
 ## 🛡️ License
 
-<img align="left" width="40" src="https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-green?style=flat-square" alt="License: CC BY-NC-SA 4.0" />
+This entire project, including all codebase and content, is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en).
 
-This project is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en).
+<img align="left" width="40" src="https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-green?style=flat-square" alt="License: CC BY-NC-SA 4.0" />
 
 You are free to share and adapt the material for **non-commercial purposes**, as long as you provide **attribution** and distribute your contributions under the **same license**.
 
