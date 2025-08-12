@@ -121,100 +121,109 @@
       "courseTitle": "Generative AI for Software Development Skill Certificate",
       "type": "Bundle",
       "status": "Completed",
-      "provider": "Coursera",
       "certificateLink": "https://www.coursera.org/account/accomplishments/specialization/certificate/IIVT58YEY97P",
-      "skills": [
-        "Generative AI",
-        "LLMs",
-        "Software Engineering",
-        "AI-powered Design"
-      ],
       "courses": [
         {
           "title": "Introduction to Generative AI for Software Development",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/1KFB2LKG7QBX"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/1KFB2LKG7QBX",
+          "skills": []
         },
         {
           "title": "Team Software Engineering with AI",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/U6J98JGB4H5T"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/U6J98JGB4H5T",
+          "skills": []
         },
         {
           "title": "AI-Powered Software and System Design",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/JMGY5AV71G8X"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/JMGY5AV71G8X",
+          "skills": []
         }
-      ]
+      ],
+      "provider": "Coursera",
+      "skills": [],
+      "instructors": []
     },
     {
       "courseTitle": "Certified Kubernetes Application Developer (CKAD) Specialization",
       "type": "Bundle",
       "status": "Completed",
-      "provider": "Coursera",
       "certificateLink": "https://www.coursera.org/account/accomplishments/specialization/certificate/P5WLM1UP4VOB",
-      "skills": [
-        "Kubernetes",
-        "Docker",
-        "Microservices",
-        "Container Orchestration"
-      ],
       "courses": [
         {
           "title": "Container and Container Orchestration Fundamentals",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/L1YMNJC4S9PF"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/L1YMNJC4S9PF",
+          "skills": []
         },
         {
           "title": "Kubernetes Fundamentals",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/WJF1OUIXYUDQ"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/WJF1OUIXYUDQ",
+          "skills": []
         },
         {
           "title": "Advanced Kubernetes",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/ZZBK04J9D2OR"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/ZZBK04J9D2OR",
+          "skills": []
         }
-      ]
+      ],
+      "provider": "Coursera",
+      "skills": [],
+      "instructors": []
     },
     {
       "courseTitle": "AWS Cloud Technology Consultant Professional Certificate",
       "type": "Bundle",
       "status": "Completed",
-      "provider": "Coursera",
       "certificateLink": "https://www.coursera.org/account/accomplishments/specialization/certificate/T1KMEFFSJZ1Q",
       "courses": [
         {
           "title": "Introduction to Information Technology and AWS Cloud",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/J7YVW64D3USO"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/J7YVW64D3USO",
+          "skills": []
         },
         {
           "title": "AWS Cloud Technical Essentials",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/68M99ZNUD4WE"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/68M99ZNUD4WE",
+          "skills": []
         },
         {
           "title": "Providing Technical Support for AWS Workloads",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/27NM6MWC2IQ2"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/27NM6MWC2IQ2",
+          "skills": []
         },
         {
           "title": "Developing Applications in Python on AWS",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/0BK96THRUU05"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/0BK96THRUU05",
+          "skills": []
         },
         {
           "title": "Skills for Working as an AWS Cloud Consultant",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/QJ46WQ4D80BP"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/QJ46WQ4D80BP",
+          "skills": []
         },
         {
           "title": "DevOps on AWS and Project Management",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/OU3GDACIIWAC"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/OU3GDACIIWAC",
+          "skills": []
         },
         {
           "title": "Automation in the AWS Cloud",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/M5VHGXP9SOH0"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/M5VHGXP9SOH0",
+          "skills": []
         },
         {
           "title": "Data Analytics and Databases on AWS",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/3S17976LJCFD"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/3S17976LJCFD",
+          "skills": []
         },
         {
           "title": "Capstone: Following the AWS Well Architected Framework",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/C1JX6E909CPJ"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/C1JX6E909CPJ",
+          "skills": []
         }
-      ]
+      ],
+      "provider": "Coursera",
+      "skills": [],
+      "instructors": []
     },
     {
       "courseTitle": "Web Applications for Everybody Specialization",
@@ -224,21 +233,28 @@
       "courses": [
         {
           "title": "Building Web Applications in PHP",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/KJN81XAZWGC4"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/KJN81XAZWGC4",
+          "skills": []
         },
         {
           "title": "Introduction to Structured Query Language (SQL)",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/1DB3XZANZGE6"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/1DB3XZANZGE6",
+          "skills": []
         },
         {
           "title": "Building Database Applications in PHP",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/CK6G5AG0UC7O"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/CK6G5AG0UC7O",
+          "skills": []
         },
         {
           "title": "JavaScript, jQuery, and JSON",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/9KMTI5ZW7NP4"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/9KMTI5ZW7NP4",
+          "skills": []
         }
-      ]
+      ],
+      "provider": "Coursera",
+      "skills": [],
+      "instructors": []
     },
     {
       "courseTitle": "Meta Back-End Developer Professional Certificate ⏳",
@@ -248,123 +264,165 @@
       "courses": [
         {
           "title": "Introduction to Back-End Development",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/L3B7UAL2VX2S"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/L3B7UAL2VX2S",
+          "skills": []
         },
         {
           "title": "Programming in Python",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/SCUDHLQRHSCJ"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/SCUDHLQRHSCJ",
+          "skills": []
         },
         {
           "title": "Version Control",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/ZGLGS7UQPMVE"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/ZGLGS7UQPMVE",
+          "skills": []
         },
         {
           "title": "Introduction to Databases for Back-End Development",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/SK3UDFBK4APY"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/SK3UDFBK4APY",
+          "skills": []
         },
         {
           "title": "Django Web Framework",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/LRWM3LRL91U7"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/LRWM3LRL91U7",
+          "skills": []
         },
         {
           "title": "APIs",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/BAAG80M56RWM"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/BAAG80M56RWM",
+          "skills": []
         },
         {
           "title": "The Full Stack",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/6LRIPYSXDN91"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/6LRIPYSXDN91",
+          "skills": []
         },
         {
           "title": "Back-End Developer Capstone",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/GWD95KLK2XP4"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/GWD95KLK2XP4",
+          "skills": []
         },
         {
           "title": "Coding Interview Preparation",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/DHWSJ3JJKMEV"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/DHWSJ3JJKMEV",
+          "skills": []
         }
-      ]
+      ],
+      "provider": "Coursera",
+      "skills": [],
+      "instructors": []
     },
     {
       "courseTitle": "Improve Your English Communication Skills Specialization ⏳",
       "type": "Bundle",
       "status": "In Progress",
+      "certificateLink": "#",
       "courses": [
         {
           "title": "Write Professional Emails in English",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/14Y04XHBIKA7"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/14Y04XHBIKA7",
+          "skills": []
         }
-      ]
+      ],
+      "skills": [],
+      "instructors": []
     },
     {
       "courseTitle": "Google IT Support Professional Certificate ⏳",
       "type": "Bundle",
       "status": "In Progress",
+      "certificateLink": "#",
       "courses": [
         {
           "title": "Technical Support Fundamentals",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/IBX63B5LWMPJ"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/IBX63B5LWMPJ",
+          "skills": []
         },
         {
           "title": "The Bits and Bytes of Computer Networking",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/SVO1T56EAQFX"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/SVO1T56EAQFX",
+          "skills": []
         }
-      ]
+      ],
+      "skills": [],
+      "instructors": []
     },
     {
       "courseTitle": "Software Design and Architecture Specialization ⏳",
       "type": "Bundle",
       "status": "In Progress",
+      "certificateLink": "#",
       "courses": [
         {
           "title": "Object-Oriented Design",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/JE7YQHW54EUJ"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/JE7YQHW54EUJ",
+          "skills": []
         }
-      ]
+      ],
+      "skills": [],
+      "instructors": []
     },
     {
       "courseTitle": "Career Success Specialization ⏳",
       "type": "Bundle",
       "status": "In Progress",
+      "certificateLink": "#",
       "courses": [
         {
           "title": "Project Management: The Basics for Success",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/PY65L84X3CC3"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/PY65L84X3CC3",
+          "skills": []
         },
         {
           "title": "Work Smarter, Not Harder: Time Management for Personal & Professional Productivity",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/D5YLNXLRV47V"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/D5YLNXLRV47V",
+          "skills": []
         },
         {
           "title": "Finance for Non-Financial Professionals",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/M2NCWTW8HLZC"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/M2NCWTW8HLZC",
+          "skills": []
         },
         {
           "title": "Communication in the 21st Century Workplace",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/XGHP5MKFDYVA"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/XGHP5MKFDYVA",
+          "skills": []
         },
         {
           "title": "High-Impact Business Writing",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/2TMS9LH5BTTL"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/2TMS9LH5BTTL",
+          "skills": []
         }
-      ]
+      ],
+      "skills": [],
+      "instructors": []
     },
     {
       "courseTitle": "Generative AI for Everyone",
       "type": "Course",
       "status": "Completed",
-      "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/Z6QW8NAPQBZA"
+      "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/Z6QW8NAPQBZA",
+      "provider": "Coursera",
+      "skills": [],
+      "instructors": []
     },
     {
       "courseTitle": "Generative AI with Large Language Models by DeepLearning.AI",
       "type": "Course",
       "status": "Completed",
-      "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/4XL2AJ4C3WBF"
+      "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/4XL2AJ4C3WBF",
+      "provider": "Coursera",
+      "skills": [],
+      "instructors": []
     },
     {
       "courseTitle": "Exam Prep: AWS Certified Cloud Practitioner Foundations by AWS",
       "type": "Course",
       "status": "Completed",
-      "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/5L8B7DTJRTJM"
+      "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/5L8B7DTJRTJM",
+      "provider": "Coursera",
+      "skills": [],
+      "instructors": []
     },
     {
       "courseTitle": "Starting Your Career with AWS Cloud by AWS",
@@ -374,17 +432,23 @@
       "courses": [
         {
           "title": "Introduction to AWS Cloud Careers",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/H9F2NQQDCTGY"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/H9F2NQQDCTGY",
+          "skills": []
         },
         {
           "title": "AWS Services Overview for IT Professionals",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/XHKW6EH2KYMY"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/XHKW6EH2KYMY",
+          "skills": []
         },
         {
           "title": "Hands-on with AWS for IT Professionals",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/P8UDMHYHUGGK"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/P8UDMHYHUGGK",
+          "skills": []
         }
-      ]
+      ],
+      "provider": "Coursera",
+      "skills": [],
+      "instructors": []
     },
     {
       "courseTitle": "DevOps on AWS by AWS",
@@ -394,21 +458,28 @@
       "courses": [
         {
           "title": "AWS Cloud Technical Essentials",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/68M99ZNUD4WE"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/68M99ZNUD4WE",
+          "skills": []
         },
         {
           "title": "DevOps on AWS: Code, Build, and Test",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/2GH4UJGV3VDH"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/2GH4UJGV3VDH",
+          "skills": []
         },
         {
           "title": "DevOps on AWS: Release and Deploy",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/7QNHSQP44B3V"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/7QNHSQP44B3V",
+          "skills": []
         },
         {
           "title": "DevOps on AWS: Operate and Monitor",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/6D8HLEQ2M696"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/6D8HLEQ2M696",
+          "skills": []
         }
-      ]
+      ],
+      "provider": "Coursera",
+      "skills": [],
+      "instructors": []
     },
     {
       "courseTitle": "TOEFL Preparation Specialization",
@@ -418,17 +489,23 @@
       "courses": [
         {
           "title": "TOEFL Reading and Listening Sections Skills Mastery",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/JBZZW394SBJQ"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/JBZZW394SBJQ",
+          "skills": []
         },
         {
           "title": "TOEFL Speaking and Writing Sections Skills Mastery",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/5ZMC2PPKKRE7"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/5ZMC2PPKKRE7",
+          "skills": []
         },
         {
           "title": "TOEFL Test-Taking Strategies",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/CEDEZZ4QSBWW"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/CEDEZZ4QSBWW",
+          "skills": []
         }
-      ]
+      ],
+      "provider": "Coursera",
+      "skills": [],
+      "instructors": []
     },
     {
       "courseTitle": "IELTS Preparation by University of California, Irvine",
@@ -438,17 +515,23 @@
       "courses": [
         {
           "title": "IELTS Writing Section Skills Mastery",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/ZJESXLZCC5QS"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/ZJESXLZCC5QS",
+          "skills": []
         },
         {
           "title": "IELTS Listening and Speaking Sections Skills Mastery",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/EUL799SSF3BB"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/EUL799SSF3BB",
+          "skills": []
         },
         {
           "title": "IELTS Reading Section Skills Mastery",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/ZYSX7BSV6HLC"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/ZYSX7BSV6HLC",
+          "skills": []
         }
-      ]
+      ],
+      "provider": "Coursera",
+      "skills": [],
+      "instructors": []
     },
     {
       "courseTitle": "TOEFL Preparation by University of California, Irvine",
@@ -458,23 +541,32 @@
       "courses": [
         {
           "title": "TOEFL Reading and Listening Sections Skills Mastery",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/JBZZW394SBJQ"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/JBZZW394SBJQ",
+          "skills": []
         },
         {
           "title": "TOEFL Speaking and Writing Sections Skills Mastery",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/5ZMC2PPKKRE7"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/5ZMC2PPKKRE7",
+          "skills": []
         },
         {
           "title": "TOEFL Test-Taking Strategies",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/CEDEZZ4QSBWW"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/CEDEZZ4QSBWW",
+          "skills": []
         }
-      ]
+      ],
+      "provider": "Coursera",
+      "skills": [],
+      "instructors": []
     },
     {
       "courseTitle": "Biohacking Your Brain's Health by Emory University",
       "type": "Course",
       "status": "Completed",
-      "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/7QVQDJLZAF73"
+      "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/7QVQDJLZAF73",
+      "provider": "Coursera",
+      "skills": [],
+      "instructors": []
     },
     {
       "courseTitle": "Applied Data Science Lab by WorldQuant University",
@@ -483,36 +575,50 @@
       "certificateLink": "https://www.credly.com/badges/72d4d407-f65d-4df9-8cc7-156aeb74bfbb",
       "courses": [
         {
-          "title": "Housing in Mexico"
+          "title": "Housing in Mexico",
+          "skills": []
         },
         {
-          "title": "Apartment Sales in Buenos Aires"
+          "title": "Apartment Sales in Buenos Aires",
+          "skills": []
         },
         {
-          "title": "Air Quality in Nairobi"
+          "title": "Air Quality in Nairobi",
+          "skills": []
         },
         {
-          "title": "Earthquake Damage in Nepal"
+          "title": "Earthquake Damage in Nepal",
+          "skills": []
         },
         {
-          "title": "Bankruptcy in Poland"
+          "title": "Bankruptcy in Poland",
+          "skills": []
         },
         {
-          "title": "Customer Segmentation in the US"
+          "title": "Customer Segmentation in the US",
+          "skills": []
         },
         {
-          "title": "A/B Testing at WorldQuant University"
+          "title": "A/B Testing at WorldQuant University",
+          "skills": []
         },
         {
-          "title": "Volatility Forecasting in India"
+          "title": "Volatility Forecasting in India",
+          "skills": []
         }
-      ]
+      ],
+      "provider": "Credly",
+      "skills": [],
+      "instructors": []
     },
     {
       "courseTitle": "Prompt Engineering for ChatGPT by Vanderbilt University",
       "type": "Course",
       "status": "Completed",
-      "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/TWXADA5XBUQR"
+      "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/TWXADA5XBUQR",
+      "provider": "Coursera",
+      "skills": [],
+      "instructors": []
     },
     {
       "courseTitle": "Meta Front-End Developer Specialization",
@@ -522,41 +628,53 @@
       "courses": [
         {
           "title": "Introduction to Front-End Development",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/3ZXBQMYRVE4J"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/3ZXBQMYRVE4J",
+          "skills": []
         },
         {
           "title": "HTML and CSS in depth",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/UZ8E4TBRTN7M"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/UZ8E4TBRTN7M",
+          "skills": []
         },
         {
           "title": "React Basics",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/CTXJVSP4WNPP"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/CTXJVSP4WNPP",
+          "skills": []
         },
         {
           "title": "Advanced React",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/G9CCMJEK4RRJ"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/G9CCMJEK4RRJ",
+          "skills": []
         },
         {
           "title": "Programming with JavaScript",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/99AV9256857Z"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/99AV9256857Z",
+          "skills": []
         },
         {
           "title": "Version Control",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/ZGLGS7UQPMVE"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/ZGLGS7UQPMVE",
+          "skills": []
         },
         {
           "title": "Principles of UX/UI Design",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/UUS2L4B8RPT3"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/UUS2L4B8RPT3",
+          "skills": []
         },
         {
           "title": "Front-End Developer Capstone",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/GSPNXQK23TDB"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/GSPNXQK23TDB",
+          "skills": []
         },
         {
           "title": "Coding Interview Preparation",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/DHWSJ3JJKMEV"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/DHWSJ3JJKMEV",
+          "skills": []
         }
-      ]
+      ],
+      "provider": "Coursera",
+      "skills": [],
+      "instructors": []
     },
     {
       "courseTitle": "AWS Cloud Solutions Architect Specialization by AWS",
@@ -566,21 +684,28 @@
       "courses": [
         {
           "title": "AWS Cloud Technical Essentials",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/68M99ZNUD4WE"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/68M99ZNUD4WE",
+          "skills": []
         },
         {
           "title": "Architecting Solutions on AWS",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/BLYG7X4MNKXQ"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/BLYG7X4MNKXQ",
+          "skills": []
         },
         {
           "title": "Introduction to Designing Data Lakes on AWS",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/FTB775T8ZU8D"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/FTB775T8ZU8D",
+          "skills": []
         },
         {
           "title": "Exam Prep: AWS Certified Solutions Architect - Associate",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/83LV6G6VPGPH"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/83LV6G6VPGPH",
+          "skills": []
         }
-      ]
+      ],
+      "provider": "Coursera",
+      "skills": [],
+      "instructors": []
     },
     {
       "courseTitle": "Software Development Lifecycle Specialization by University of Minnesota",
@@ -590,21 +715,28 @@
       "courses": [
         {
           "title": "Software Development Processes and Methodologies",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/SD2EMT2SRLCG"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/SD2EMT2SRLCG",
+          "skills": []
         },
         {
           "title": "Agile Software Development",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/FACMLKZAZUCL"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/FACMLKZAZUCL",
+          "skills": []
         },
         {
           "title": "Lean Software Development",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/WABZAU3U3CAM"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/WABZAU3U3CAM",
+          "skills": []
         },
         {
           "title": "Engineering Practices for Building Quality Software",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/WJCEX3BPKADK"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/WJCEX3BPKADK",
+          "skills": []
         }
-      ]
+      ],
+      "provider": "Coursera",
+      "skills": [],
+      "instructors": []
     },
     {
       "courseTitle": "Blockchain Specialization by UCI",
@@ -614,21 +746,28 @@
       "courses": [
         {
           "title": "The Blockchain",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/6A8L86YAYGXV"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/6A8L86YAYGXV",
+          "skills": []
         },
         {
           "title": "Cryptography and Hashing Overview",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/2D4JE4R89J43"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/2D4JE4R89J43",
+          "skills": []
         },
         {
           "title": "The Merkle Tree and Cryptocurrencies",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/PUMVQXTNLLRD"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/PUMVQXTNLLRD",
+          "skills": []
         },
         {
           "title": "The Blockchain System",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/CKLJC3UKJNWS"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/CKLJC3UKJNWS",
+          "skills": []
         }
-      ]
+      ],
+      "provider": "Coursera",
+      "skills": [],
+      "instructors": []
     },
     {
       "courseTitle": "People and Soft Skills for Professional and Personal Success Specialization by IBM",
@@ -638,29 +777,38 @@
       "courses": [
         {
           "title": "Collaborate Effectively for Professional Success",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/XYEPHPQZPCRK"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/XYEPHPQZPCRK",
+          "skills": []
         },
         {
           "title": "Present with Purpose: Create/Deliver Effective Presentations",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/ZUE9M3KPAJ6K"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/ZUE9M3KPAJ6K",
+          "skills": []
         },
         {
           "title": "Delivering Quality Work with Agility",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/QLDYNHU7GDCN"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/QLDYNHU7GDCN",
+          "skills": []
         },
         {
           "title": "Solving Problems with Creative and Critical Thinking",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/UNSACKS3P7AG"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/UNSACKS3P7AG",
+          "skills": []
         },
         {
           "title": "Developing Interpersonal Skills",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/PUUG3VU94B9R"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/PUUG3VU94B9R",
+          "skills": []
         },
         {
           "title": "People and Soft Skills Assessment",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/ZHL2B5JT9S7G"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/ZHL2B5JT9S7G",
+          "skills": []
         }
-      ]
+      ],
+      "provider": "Coursera",
+      "skills": [],
+      "instructors": []
     },
     {
       "courseTitle": "Executive Data Science Specialization by Johns Hopkins University",
@@ -670,25 +818,33 @@
       "courses": [
         {
           "title": "A Crash Course in Data Science",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/R6RBPNAFLKK5"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/R6RBPNAFLKK5",
+          "skills": []
         },
         {
           "title": "Building a Data Science Team",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/A39XE6CPCFRK"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/A39XE6CPCFRK",
+          "skills": []
         },
         {
           "title": "Managing Data Analysis",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/QGHH247Y3HZJ"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/QGHH247Y3HZJ",
+          "skills": []
         },
         {
           "title": "Data Science in Real Life",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/6J7XWCL3GY7Q"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/6J7XWCL3GY7Q",
+          "skills": []
         },
         {
           "title": "Executive Data Science Capstone",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/8VWJC599HLVE"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/8VWJC599HLVE",
+          "skills": []
         }
-      ]
+      ],
+      "provider": "Coursera",
+      "skills": [],
+      "instructors": []
     },
     {
       "courseTitle": "AWS Fundamentals Specialization by AWS",
@@ -698,39 +854,55 @@
       "courses": [
         {
           "title": "AWS Cloud Technical Essentials",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/68M99ZNUD4WE"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/68M99ZNUD4WE",
+          "skills": []
         },
         {
           "title": "AWS Fundamentals: Addressing Security Risk",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/7NNZGQ4LWGE6"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/7NNZGQ4LWGE6",
+          "skills": []
         },
         {
           "title": "AWS Fundamentals: Migrating to the Cloud",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/4UAE98GYK9ZL"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/4UAE98GYK9ZL",
+          "skills": []
         },
         {
           "title": "AWS Fundamentals: Building Serverless Applications",
-          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/YK6PX8ZWCNUY"
+          "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/YK6PX8ZWCNUY",
+          "skills": []
         }
-      ]
+      ],
+      "provider": "Coursera",
+      "skills": [],
+      "instructors": []
     },
     {
       "courseTitle": "The Science of Success: What Researchers Know that You Should Know",
       "type": "Course",
       "status": "Completed",
-      "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/3SCV47QQK7JE"
+      "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/3SCV47QQK7JE",
+      "provider": "Coursera",
+      "skills": [],
+      "instructors": []
     },
     {
       "courseTitle": "Mindshift: Break Through Obstacles to Learning and Discover Your Hidden Potential",
       "type": "Course",
       "status": "Completed",
-      "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/MBB63XT9RKNB"
+      "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/MBB63XT9RKNB",
+      "provider": "Coursera",
+      "skills": [],
+      "instructors": []
     },
     {
       "courseTitle": "Learning How to Learn: Powerful mental tools to help you master tough subjects",
       "type": "Course",
       "status": "Completed",
-      "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/2UZ5KDXDHX98"
+      "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/2UZ5KDXDHX98",
+      "provider": "Coursera",
+      "skills": [],
+      "instructors": []
     }
   ],
   "skills": [
