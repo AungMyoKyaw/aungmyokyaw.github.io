@@ -121,7 +121,6 @@
       "courseTitle": "Exam Prep CKA: Certified Kubernetes Administrator",
       "type": "Course",
       "status": "In Progress",
-      "certificateLink": "#",
       "provider": "Coursera",
       "skills": [],
       "instructors": []
@@ -130,7 +129,6 @@
       "courseTitle": "AWS Generative AI for Developers Professional Certificate",
       "type": "Bundle",
       "status": "In Progress",
-      "certificateLink": "#",
       "provider": "Coursera",
       "courses": [
         {
@@ -360,7 +358,6 @@
       "courseTitle": "Improve Your English Communication Skills Specialization ⏳",
       "type": "Bundle",
       "status": "In Progress",
-      "certificateLink": "#",
       "courses": [
         {
           "title": "Write Professional Emails in English",
@@ -375,7 +372,6 @@
       "courseTitle": "Google IT Support Professional Certificate ⏳",
       "type": "Bundle",
       "status": "In Progress",
-      "certificateLink": "#",
       "courses": [
         {
           "title": "Technical Support Fundamentals",
@@ -395,7 +391,6 @@
       "courseTitle": "Software Design and Architecture Specialization ⏳",
       "type": "Bundle",
       "status": "In Progress",
-      "certificateLink": "#",
       "courses": [
         {
           "title": "Object-Oriented Design",
@@ -410,7 +405,6 @@
       "courseTitle": "Career Success Specialization ⏳",
       "type": "Bundle",
       "status": "In Progress",
-      "certificateLink": "#",
       "courses": [
         {
           "title": "Project Management: The Basics for Success",
