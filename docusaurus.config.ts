@@ -71,7 +71,7 @@ const config: Config = {
         // exclude any routes you don't want indexed (e.g., /blog/tags)
         excludeRoutes: ['/blog/tags'],
         // limit number of hits shown in search UI
-        maxHits: 10,
+        maxHits: 8,
         // default fields and boosts (plugin has sensible defaults, but explicit here)
         fields: {
           title: { boost: 200 },
@@ -93,7 +93,7 @@ const config: Config = {
         height: 40
       },
       items: [
-        { type: 'search' },
+        { type: 'search', position: 'right' },
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',

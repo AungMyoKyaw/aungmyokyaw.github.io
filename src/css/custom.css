@@ -238,3 +238,77 @@
   white-space: nowrap !important;
   border: 0 !important;
 }
+
+/* Navbar search width overrides
+   - When the search is placed in the navbar (position: 'right'), make it a bit wider on
+     desktop while keeping it responsive and usable on tablet/mobile.
+   - The rule targets the Infima/Docusaurus search input class plus the project's
+     `.search-input` for consistency with any custom components. */
+.navbar__items--right .navbar__search-input,
+.navbar__items--right .search-input,
+.navbarSearchContainer_Bca1 .navbar__search-input,
+.navbarSearchContainer_Bca1 .search-input {
+  width: 18rem; /* desktop width - tweak this value if you want it wider/narrower */
+  max-width: 40vw; /* prevents overflow on very large/small screens */
+}
+
+@media (max-width: 996px) {
+  /* keep a reasonable width on tablets / small laptops */
+  .navbar__items--right .navbar__search-input,
+  .navbar__items--right .search-input,
+  .navbarSearchContainer_Bca1 .navbar__search-input,
+  .navbarSearchContainer_Bca1 .search-input {
+    width: 12rem;
+    max-width: 60vw;
+  }
+}
+
+@media (max-width: 576px) {
+  /* on small phones keep default compact width (Docusaurus already reduces it) */
+  .navbar__items--right .navbar__search-input,
+  .navbar__items--right .search-input,
+  .navbarSearchContainer_Bca1 .navbar__search-input,
+  .navbarSearchContainer_Bca1 .search-input {
+    width: 9rem;
+    max-width: 80vw;
+  }
+}
+
+/* Allow DocSearch / Autocomplete suggestions to scroll when long and avoid being clipped
+   - Ensure navbar containers don't clip absolutely-positioned dropdowns by allowing
+     visible overflow where the search is mounted.
+   - Target common classes used by @docsearch/react and Algolia Autocomplete (aa-Panel,
+     DocSearch-*) so the rule is robust across versions. */
+.navbar,
+.navbar__items,
+.navbarSearchContainer_Bca1 {
+  overflow: visible; /* prevents clipping of absolute dropdowns */
+}
+
+.DocSearch-Container
+  :is(
+    .aa-Panel,
+    .DocSearch-Dropdown,
+    .DocSearch-Results,
+    .DocSearch-Hits,
+    .DocSearch-Modal,
+    .algolia-autocomplete,
+    .autocomplete-suggestions,
+    .autocomplete-dropdown
+  ) {
+  max-height: calc(100vh - 120px);
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  z-index: 1100; /* above navbar but below modals */
+}
+
+/* Optional: make scrollbars unobtrusive but visible on WebKit */
+.aa-Panel::-webkit-scrollbar,
+.DocSearch-Results::-webkit-scrollbar {
+  width: 10px;
+}
+.aa-Panel::-webkit-scrollbar-thumb,
+.DocSearch-Results::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.12);
+  border-radius: 6px;
+}
