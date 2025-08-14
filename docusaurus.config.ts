@@ -61,6 +61,27 @@ const config: Config = {
     ]
   ],
 
+  plugins: [
+    [
+      // Offline Lunr search plugin (generates a static lunr index during build)
+      require.resolve('docusaurus-lunr-search'),
+      {
+        // keeps English only by default; extend languages if you add translations
+        languages: ['en'],
+        // exclude any routes you don't want indexed (e.g., /blog/tags)
+        excludeRoutes: ['/blog/tags'],
+        // limit number of hits shown in search UI
+        maxHits: 10,
+        // default fields and boosts (plugin has sensible defaults, but explicit here)
+        fields: {
+          title: { boost: 200 },
+          content: { boost: 2 },
+          keywords: { boost: 100 }
+        }
+      }
+    ]
+  ],
+
   themeConfig: {
     // Replace with your project's social card
     image: 'img/amk-social-card.svg',

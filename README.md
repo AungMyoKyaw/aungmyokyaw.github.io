@@ -4,18 +4,6 @@
 
 # 📚 meta-knowledge
 
-## Icon Usage
-
-This project uses [lucide-react](https://lucide.dev/) for icons instead of emojis, for a more consistent and customizable UI. To use an icon, import it from `lucide-react` and use it as a React component:
-
-```tsx
-import { Trophy } from 'lucide-react';
-
-<Trophy size={20} className="margin-right--sm" aria-label="Trophy" />;
-```
-
-Replace any emoji usage in React components with the appropriate Lucide icon for better accessibility and design consistency.
-
 ![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-green?style=flat-square)
 
 > **meta-knowledge** is a knowledge management project designed to help you organize, share, and grow your understanding collaboratively.
@@ -49,5 +37,3 @@ This entire project, including all codebase and content, is licensed under the [
 You are free to share and adapt the material for **non-commercial purposes**, as long as you provide **attribution** and distribute your contributions under the **same license**.
 
 For full legal terms, see the [LICENSE](./LICENSE) file or visit the [official license page](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en).
-
----
