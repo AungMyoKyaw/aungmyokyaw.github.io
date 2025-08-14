@@ -142,3 +142,6 @@ build
 
 # macOS system files
 .DS_Store
+
+# Playwright MCP runtime directory
+.playwright-mcp/

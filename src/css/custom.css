@@ -15,8 +15,31 @@
   --ifm-color-primary-light: #5dade2;
   --ifm-color-primary-lighter: #73c6e6;
   --ifm-color-primary-lightest: #85cde8;
+  /* hero surface variables - keep them separate from primary so hero can feel distinct */
+  --site-hero-start: #2c90cf;
+  --site-hero-end: #2a7fbf;
+  --site-hero-overlay: rgba(12, 38, 57, 0.06);
+  --site-hero-cta-bg: #ffffff; /* inverted CTA background */
+  --site-hero-cta-text: var(--ifm-color-primary);
+  --site-hero-cta-hover-bg: var(--ifm-color-primary-lightest);
+  --site-hero-cta-border: rgba(
+    12,
+    38,
+    57,
+    0.12
+  ); /* subtle neutral border for hero CTAs */
+  --site-hero-cta-hover-text: #08304a;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* Ensure fonts render quickly and avoid FOIT/FOUT where possible */
+@font-face {
+  font-family: 'Inter';
+  src: local('Inter'), local('Inter var');
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -75,4 +98,143 @@
   border-color: var(--ifm-color-primary);
   box-shadow: 0 0 0 3px var(--ifm-color-primary-lightest);
   outline: none;
+}
+
+.hero__subtitle--micro {
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.9);
+  margin-top: 0.25rem;
+}
+
+/* Ensure subtitles are readable on hero--primary backgrounds */
+.hero.hero--primary .hero__subtitle,
+.hero.hero--primary .hero__subtitle--micro {
+  color: rgba(255, 255, 255, 0.95);
+}
+
+/* Improve hero title/subtitle legibility on strong colored backgrounds */
+.hero.hero--primary .hero__title {
+  color: #ffffff;
+  font-weight: 700;
+  text-shadow:
+    0 1px 0 rgba(0, 0, 0, 0.08),
+    0 6px 18px rgba(0, 0, 0, 0.06);
+}
+.hero.hero--primary .hero__subtitle {
+  color: rgba(255, 255, 255, 0.95);
+  font-weight: 500;
+}
+.hero.hero--primary .hero__subtitle--micro {
+  color: rgba(255, 255, 255, 0.88);
+}
+
+/* Make hero background feel distinct from the global "primary" color.
+   Use a subtle, slightly desaturated gradient and an overlay to keep
+   text readable while avoiding exact primary color match. */
+.hero.hero--primary {
+  /* Use hero variables derived from Infima primary but kept distinct */
+  background: linear-gradient(
+    180deg,
+    var(--site-hero-start) 0%,
+    var(--site-hero-end) 60%
+  );
+  position: relative;
+  overflow: hidden;
+}
+.hero.hero--primary::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: var(--site-hero-overlay);
+  pointer-events: none;
+}
+
+/* Invert primary CTA buttons placed inside the hero so they stand out
+   from the hero background while still using the primary color for
+   accents (text / border). This prevents hero BG and button from
+   feeling like the same flat color. */
+.hero.hero--primary .button--primary {
+  background: var(--site-hero-cta-bg);
+  color: var(--site-hero-cta-text);
+  /* Use a subtle, neutral border so the button doesn't read as the same flat primary color as the hero.
+     This keeps the CTA distinct without creating a full-color ring. */
+  border: 2px solid var(--site-hero-cta-border);
+  box-shadow: 0 6px 14px rgba(12, 38, 57, 0.07);
+}
+
+.hero.hero--primary .button--primary:hover {
+  background: var(--site-hero-cta-hover-bg);
+  color: var(--site-hero-cta-hover-text);
+}
+
+/* Keep small text and subtle CTAs readable */
+.hero.hero--primary .button--secondary {
+  background: transparent;
+  color: rgba(255, 255, 255, 0.95);
+  border-color: rgba(255, 255, 255, 0.14);
+}
+
+/* Accessibility helpers: keep these minimal and compatible with Infima defaults */
+/* Visible focus only for keyboard users; rely on :focus-visible where supported */
+:focus {
+  outline: none;
+}
+
+:focus-visible {
+  outline: 3px solid var(--ifm-color-primary);
+  outline-offset: 2px;
+}
+
+/* Better placeholder contrast (uses Infima variables where possible) */
+::placeholder {
+  color: var(--ifm-color-emphasis-400);
+  opacity: 1; /* ensure consistent rendering across browsers */
+}
+
+/* Respect user's motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Skip link for keyboard users - keeps page accessible without changing layout */
+.skip-to-content {
+  position: absolute;
+  left: -999px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+.skip-to-content:focus,
+.skip-to-content:active {
+  position: fixed;
+  left: 1rem;
+  top: 1rem;
+  width: auto;
+  height: auto;
+  padding: 0.5rem 1rem;
+  background: var(--ifm-background-color);
+  color: var(--ifm-font-color-base);
+  border: 2px solid var(--ifm-color-primary);
+  z-index: 9999;
+}
+
+/* Utility: screen-reader only (Infima has similar helpers, include as fallback) */
+.sr-only {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
 }
