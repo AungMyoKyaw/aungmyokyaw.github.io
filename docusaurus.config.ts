@@ -67,18 +67,7 @@ const config: Config = {
     navbar: {
       logo: {
         alt: 'AMK Monogram',
-        src: `data:image/svg+xml,${encodeURIComponent(
-          `<svg xmlns="http://www.w3.org/2000/svg" height="256" width="256" viewBox="0 0 100 100">
-            <defs>
-              <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
-                <stop offset="0%" style="stop-color:rgb(52, 152, 219);stop-opacity:1" />
-                <stop offset="100%" style="stop-color:rgb(41, 128, 185);stop-opacity:1" />
-              </linearGradient>
-            </defs>
-            <rect width="100" height="100" rx="20" fill="url(#grad1)"></rect>
-            <text x="50%" y="50%" dominant-baseline="central" text-anchor="middle" font-family="Arial, sans-serif" font-size="40" font-weight="bold" fill="#fff">AMK</text>
-          </svg>`
-        )}`,
+        src: 'img/amk-monogram.svg',
         width: 40,
         height: 40
       },

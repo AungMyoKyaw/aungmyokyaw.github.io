@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Improved AMK monogram: explicit size, accessible title/desc, matching favicon gradient stops, and refined shadow -->
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="256" height="256"
+     viewBox="0 0 100 100"
+     preserveAspectRatio="xMidYMid meet"
+     role="img"
+     aria-labelledby="amkTitle amkDesc"
+     focusable="false">
+  <title id="amkTitle">AMK logo</title>
+  <desc id="amkDesc">Rounded square with blue gradient background and white AMK monogram</desc>
+  <defs>
+    <!-- Match the favicon gradient stops and add a smooth mid-stop -->
+    <linearGradient id="amkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3498db" />
+      <stop offset="60%" stop-color="#2c82c9" />
+      <stop offset="100%" stop-color="#1f6fb3" />
+    </linearGradient>
+    <!-- Subtle drop shadow tuned for small and large renders -->
+    <filter id="amkDrop" x="-30%" y="-30%" width="160%" height="160%" filterUnits="objectBoundingBox">
+      <feOffset dx="0" dy="1.2" result="off"/>
+      <feGaussianBlur in="off" stdDeviation="2" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.16 0" result="shadow"/>
+      <feBlend in="SourceGraphic" in2="shadow" mode="normal"/>
+    </filter>
+  </defs>
+
+  <!-- Rounded rect background with matched gradient and shadow -->
+  <rect width="100" height="100" rx="20" fill="url(#amkGrad)" filter="url(#amkDrop)" />
+
+  <!-- Center text using percentage coordinates for reliable vertical centering -->
+  <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle" alignment-baseline="central"
+        font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial"
+        font-size="36" font-weight="700" fill="#ffffff" letter-spacing="-0.6">AMK</text>
+</svg>
