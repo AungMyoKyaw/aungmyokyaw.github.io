@@ -71,7 +71,8 @@ const config: Config = {
         // exclude any routes you don't want indexed (e.g., /blog/tags)
         excludeRoutes: ['/blog/tags'],
         // limit number of hits shown in search UI
-        maxHits: 8,
+        maxHits: 5,
+        searchResultContextMaxLength: 50,
         // default fields and boosts (plugin has sensible defaults, but explicit here)
         fields: {
           title: { boost: 200 },
