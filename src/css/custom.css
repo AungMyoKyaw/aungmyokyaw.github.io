@@ -1,315 +1,50 @@
-/**
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
-/* You can override the default Infima variables here. */
+/* -- Root variables (Infima overrides and hero-specific vars) -- */
 :root {
-  --ifm-font-family-base: 'Inter', sans-serif;
-  --ifm-color-primary: #3498db;
-  --ifm-color-primary-dark: #2980b9;
-  --ifm-color-primary-darker: #2471a3;
-  --ifm-color-primary-darkest: #1f618d;
-  --ifm-color-primary-light: #5dade2;
-  --ifm-color-primary-lighter: #73c6e6;
-  --ifm-color-primary-lightest: #85cde8;
-  /* hero surface variables - keep them separate from primary so hero can feel distinct */
-  --site-hero-start: #2c90cf;
-  --site-hero-end: #2a7fbf;
+  /* Typography */
+  --ifm-font-family-base:
+    'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue',
+    Arial;
+  --ifm-code-font-size: 100%;
+
+  /* Primary brand (paper-like sage palette) */
+  --ifm-color-primary: #5c6c64; /* Muted Sage Green */
+  --ifm-color-primary-dark: #4f5f58;
+  --ifm-color-primary-darker: #42524a;
+  --ifm-color-primary-darkest: #35453b;
+  --ifm-color-primary-light: #6a7972;
+  --ifm-color-primary-lighter: #79867f;
+  --ifm-color-primary-lightest: #87948e;
+
+  /* Background & content for paper-like reading */
+  --ifm-color-white: #f5f5f0; /* Paper-like soft gray */
+  --ifm-color-content: #2c2c2a; /* Dark, desaturated gray */
+  --ifm-background-color: var(--ifm-color-white);
+  --ifm-heading-color: var(--ifm-color-content);
+  --ifm-font-color-base: var(--ifm-color-content);
+  --ifm-link-color: var(--ifm-color-primary-darker);
+
+  /* Hero colors (kept but slightly adjusted to harmonize) */
+  --site-hero-start: #3b7db0;
+  --site-hero-end: #2f6fa0;
   --site-hero-overlay: rgba(12, 38, 57, 0.06);
-  --site-hero-cta-bg: #ffffff; /* inverted CTA background */
+  --site-hero-cta-bg: #ffffff;
   --site-hero-cta-text: var(--ifm-color-primary);
   --site-hero-cta-hover-bg: var(--ifm-color-primary-lightest);
-  --site-hero-cta-border: rgba(
-    12,
-    38,
-    57,
-    0.12
-  ); /* subtle neutral border for hero CTAs */
+  --site-hero-cta-border: rgba(12, 38, 57, 0.12);
   --site-hero-cta-hover-text: #08304a;
-  --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  /* Accessibility helpers */
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.04);
+  --ifm-global-radius: 8px;
+  /* Base line height for long-form text; also available as a CSS variable */
+  --ifm-line-height-base: 1.65;
 }
 
-/* Ensure fonts render quickly and avoid FOIT/FOUT where possible */
+/* Font-face: use local Inter where available; avoid FOIT/FOUT */
 @font-face {
   font-family: 'Inter';
   src: local('Inter'), local('Inter var');
   font-style: normal;
   font-weight: 100 900;
   font-display: swap;
-}
-
-.navbar {
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-}
-
-/* The site supports only light mode. Remove dark-theme overrides and
-   add a minimal set of rules to force light appearance and hide the
-   color-mode toggle that would otherwise appear in the navbar. */
-
-/* Make sure browsers treat the page as light-only */
-html,
-:root,
-html[data-theme],
-html[data-theme-choice] {
-  color-scheme: light;
-}
-
-/* Hide any color mode toggle that might be rendered by the theme */
-.colorModeToggle_DEke {
-  display: none !important;
-}
-
-.badge--clickable {
-  cursor: pointer;
-}
-
-.search-container {
-  position: relative;
-  width: 100%;
-}
-
-.search-icon {
-  position: absolute;
-  left: 0.75rem;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 1.125rem;
-  height: 1.125rem;
-  color: var(--ifm-color-emphasis-600);
-  pointer-events: none;
-}
-
-.search-input {
-  width: 100%;
-  padding: 0.75rem 1rem 0.75rem 2.5rem;
-  border-radius: var(--ifm-global-radius);
-  border: 1px solid var(--ifm-color-emphasis-300);
-  background-color: var(--ifm-background-color);
-  color: var(--ifm-font-color-base);
-  transition:
-    border-color 0.15s ease-in-out,
-    box-shadow 0.15s ease-in-out;
-}
-
-.search-input:focus {
-  border-color: var(--ifm-color-primary);
-  box-shadow: 0 0 0 3px var(--ifm-color-primary-lightest);
-  outline: none;
-}
-
-.hero__subtitle--micro {
-  font-size: 0.95rem;
-  color: rgba(255, 255, 255, 0.9);
-  margin-top: 0.25rem;
-}
-
-/* Ensure subtitles are readable on hero--primary backgrounds */
-.hero.hero--primary .hero__subtitle,
-.hero.hero--primary .hero__subtitle--micro {
-  color: rgba(255, 255, 255, 0.95);
-}
-
-/* Improve hero title/subtitle legibility on strong colored backgrounds */
-.hero.hero--primary .hero__title {
-  color: #ffffff;
-  font-weight: 700;
-  text-shadow:
-    0 1px 0 rgba(0, 0, 0, 0.08),
-    0 6px 18px rgba(0, 0, 0, 0.06);
-}
-.hero.hero--primary .hero__subtitle {
-  color: rgba(255, 255, 255, 0.95);
-  font-weight: 500;
-}
-.hero.hero--primary .hero__subtitle--micro {
-  color: rgba(255, 255, 255, 0.88);
-}
-
-/* Make hero background feel distinct from the global "primary" color.
-   Use a subtle, slightly desaturated gradient and an overlay to keep
-   text readable while avoiding exact primary color match. */
-.hero.hero--primary {
-  /* Use hero variables derived from Infima primary but kept distinct */
-  background: linear-gradient(
-    180deg,
-    var(--site-hero-start) 0%,
-    var(--site-hero-end) 60%
-  );
-  position: relative;
-  overflow: hidden;
-}
-.hero.hero--primary::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: var(--site-hero-overlay);
-  pointer-events: none;
-}
-
-/* Invert primary CTA buttons placed inside the hero so they stand out
-   from the hero background while still using the primary color for
-   accents (text / border). This prevents hero BG and button from
-   feeling like the same flat color. */
-.hero.hero--primary .button--primary {
-  background: var(--site-hero-cta-bg);
-  color: var(--site-hero-cta-text);
-  /* Use a subtle, neutral border so the button doesn't read as the same flat primary color as the hero.
-     This keeps the CTA distinct without creating a full-color ring. */
-  border: 2px solid var(--site-hero-cta-border);
-  box-shadow: 0 6px 14px rgba(12, 38, 57, 0.07);
-}
-
-.hero.hero--primary .button--primary:hover {
-  background: var(--site-hero-cta-hover-bg);
-  color: var(--site-hero-cta-hover-text);
-}
-
-/* Keep small text and subtle CTAs readable */
-.hero.hero--primary .button--secondary {
-  background: transparent;
-  color: rgba(255, 255, 255, 0.95);
-  border-color: rgba(255, 255, 255, 0.14);
-}
-
-/* Accessibility helpers: keep these minimal and compatible with Infima defaults */
-/* Visible focus only for keyboard users; rely on :focus-visible where supported */
-:focus {
-  outline: none;
-}
-
-:focus-visible {
-  outline: 3px solid var(--ifm-color-primary);
-  outline-offset: 2px;
-}
-
-/* Better placeholder contrast (uses Infima variables where possible) */
-::placeholder {
-  color: var(--ifm-color-emphasis-400);
-  opacity: 1; /* ensure consistent rendering across browsers */
-}
-
-/* Respect user's motion preferences */
-@media (prefers-reduced-motion: reduce) {
-  *,
-  *::before,
-  *::after {
-    animation-duration: 0.001ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.001ms !important;
-    scroll-behavior: auto !important;
-  }
-}
-
-/* Skip link for keyboard users - keeps page accessible without changing layout */
-.skip-to-content {
-  position: absolute;
-  left: -999px;
-  top: auto;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-}
-.skip-to-content:focus,
-.skip-to-content:active {
-  position: fixed;
-  left: 1rem;
-  top: 1rem;
-  width: auto;
-  height: auto;
-  padding: 0.5rem 1rem;
-  background: var(--ifm-background-color);
-  color: var(--ifm-font-color-base);
-  border: 2px solid var(--ifm-color-primary);
-  z-index: 9999;
-}
-
-/* Utility: screen-reader only (Infima has similar helpers, include as fallback) */
-.sr-only {
-  position: absolute !important;
-  width: 1px !important;
-  height: 1px !important;
-  padding: 0 !important;
-  margin: -1px !important;
-  overflow: hidden !important;
-  clip: rect(0, 0, 0, 0) !important;
-  white-space: nowrap !important;
-  border: 0 !important;
-}
-
-/* Navbar search width overrides
-   - When the search is placed in the navbar (position: 'right'), make it a bit wider on
-     desktop while keeping it responsive and usable on tablet/mobile.
-   - The rule targets the Infima/Docusaurus search input class plus the project's
-     `.search-input` for consistency with any custom components. */
-.navbar__items--right .navbar__search-input,
-.navbar__items--right .search-input,
-.navbarSearchContainer_Bca1 .navbar__search-input,
-.navbarSearchContainer_Bca1 .search-input {
-  width: 18rem; /* desktop width - tweak this value if you want it wider/narrower */
-  max-width: 40vw; /* prevents overflow on very large/small screens */
-}
-
-@media (max-width: 996px) {
-  /* keep a reasonable width on tablets / small laptops */
-  .navbar__items--right .navbar__search-input,
-  .navbar__items--right .search-input,
-  .navbarSearchContainer_Bca1 .navbar__search-input,
-  .navbarSearchContainer_Bca1 .search-input {
-    width: 12rem;
-    max-width: 60vw;
-  }
-}
-
-@media (max-width: 576px) {
-  /* on small phones keep default compact width (Docusaurus already reduces it) */
-  .navbar__items--right .navbar__search-input,
-  .navbar__items--right .search-input,
-  .navbarSearchContainer_Bca1 .navbar__search-input,
-  .navbarSearchContainer_Bca1 .search-input {
-    width: 9rem;
-    max-width: 80vw;
-  }
-}
-
-/* Allow DocSearch / Autocomplete suggestions to scroll when long and avoid being clipped
-   - Ensure navbar containers don't clip absolutely-positioned dropdowns by allowing
-     visible overflow where the search is mounted.
-   - Target common classes used by @docsearch/react and Algolia Autocomplete (aa-Panel,
-     DocSearch-*) so the rule is robust across versions. */
-.navbar,
-.navbar__items,
-.navbarSearchContainer_Bca1 {
-  overflow: visible; /* prevents clipping of absolute dropdowns */
-}
-
-.DocSearch-Container
-  :is(
-    .aa-Panel,
-    .DocSearch-Dropdown,
-    .DocSearch-Results,
-    .DocSearch-Hits,
-    .DocSearch-Modal,
-    .algolia-autocomplete,
-    .autocomplete-suggestions,
-    .autocomplete-dropdown
-  ) {
-  max-height: calc(100vh - 120px);
-  overflow-y: auto;
-  -webkit-overflow-scrolling: touch;
-  z-index: 1100; /* above navbar but below modals */
-}
-
-/* Optional: make scrollbars unobtrusive but visible on WebKit */
-.aa-Panel::-webkit-scrollbar,
-.DocSearch-Results::-webkit-scrollbar {
-  width: 10px;
-}
-.aa-Panel::-webkit-scrollbar-thumb,
-.DocSearch-Results::-webkit-scrollbar-thumb {
-  background: rgba(0, 0, 0, 0.12);
-  border-radius: 6px;
 }
