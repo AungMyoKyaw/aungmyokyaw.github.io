@@ -79,25 +79,25 @@ Launch plan: dogfood, 200-user beta, monitor checkout funnel & payment failure r
 
 ```mermaid
 flowchart TD
-  subgraph DISCOVER [Discover]
-    A[Persona & JTBD]
-    B[Success Metrics]
+  subgraph DISCOVER["Discover"]
+    A["Persona & JTBD"]
+    B["Success Metrics"]
   end
 
-  subgraph BUILD [Build (Simple)]
-    C[Define Core Features]
-    D[Map Core Flow]
+  subgraph BUILD["Build (Simple)"]
+    C["Define Core Features"]
+    D["Map Core Flow"]
   end
 
-  subgraph POLISH [Polish (Lovable)]
-    E[Pick 1–3 Delight Items]
-    F[Microcopy & Microinteractions]
+  subgraph POLISH["Polish (Lovable)"]
+    E["Pick 1-3 Delight Items"]
+    F["Microcopy & Microinteractions"]
   end
 
-  subgraph HARDEN [Harden (Complete)]
-    G[Happy-path + Errors]
-    H[Accessibility & Perf]
-    I[Analytics]
+  subgraph HARDEN["Harden (Complete)"]
+    G["Happy-path + Errors"]
+    H["Accessibility & Perf"]
+    I["Analytics"]
   end
 
   A --> C
@@ -108,21 +108,21 @@ flowchart TD
   F --> G
   G --> H
   H --> I
-  I --> J[Launch]
-  J --> K[Measure & Iterate]
+  I --> J["Launch"]
+  J --> K["Measure & Iterate"]
   K --> C
 
   classDef discover fill:#f9f,stroke:#333;
   classDef build fill:#ffb347,stroke:#333;
   classDef polish fill:#ff6961,stroke:#333;
   classDef harden fill:#77dd77,stroke:#333;
-  class DISCOVER discover;
-  class BUILD build;
-  class POLISH polish;
-  class HARDEN harden;
+  class A,B discover;
+  class C,D build;
+  class E,F polish;
+  class G,H,I harden;
 
   %% Mapping: PRD Template fields near nodes
-  subgraph PRD [PRD -> Template]
+  subgraph PRD[PRD -> Template]
     P1[(Overview)]
     P2[(Target: Persona & JTBD)]
     P3[(Scope: Core features)]
