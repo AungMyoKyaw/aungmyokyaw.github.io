@@ -128,10 +128,9 @@ const config: Config = {
     footer: {
       // Force footer to light style since the site will only support light mode
       style: 'light',
-      copyright: `Copyright © ${new Date().getFullYear()} Aung Myo Kyaw.
-        <br/>
-        <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
-      `
+      copyright:
+        `Copyright © ${new Date().getFullYear()} Aung Myo Kyaw. ` +
+        `<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC-SA 4.0</a>`
     },
     prism: {
       theme: prismThemes.github,

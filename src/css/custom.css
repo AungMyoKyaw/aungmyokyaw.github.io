@@ -48,3 +48,16 @@
   font-weight: 100 900;
   font-display: swap;
 }
+
+/* Make footer license text smaller and visually muted */
+.footer__bottom .footer__copyright,
+.footer__bottom .footer__copyright a {
+  font-size: 0.85rem; /* slightly smaller */
+  opacity: 0.85;
+}
+
+/* Ensure inline layout and spacing */
+.footer__bottom .footer__copyright a {
+  margin-left: 0.4rem;
+  text-decoration: underline;
+}
