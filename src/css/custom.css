@@ -27,7 +27,7 @@
   --site-hero-start: #3b7db0;
   --site-hero-end: #2f6fa0;
   --site-hero-overlay: rgba(12, 38, 57, 0.06);
-  --site-hero-cta-bg: #ffffff;
+  --site-hero-cta-bg: var(--ifm-color-primary);
   --site-hero-cta-text: var(--ifm-color-primary);
   --site-hero-cta-hover-bg: var(--ifm-color-primary-lightest);
   --site-hero-cta-border: rgba(12, 38, 57, 0.12);
