@@ -54,7 +54,7 @@ This single-note summary consolidates the SLC framework, a compact PRD template,
 
 - Persona: Casual buyer for a single curated category (e.g., handmade goods)
 - JTBD: Find a trustworthy listing and buy with minimal friction
-- Primary activation: User completes first purchase quickly (target: <3 min)
+  - Primary activation: User completes first purchase quickly (target: &lt;3 min)
 
 Core features (Simple):
 
@@ -67,7 +67,7 @@ Lovability picks:
 - High-quality photo template
 - Friendly post-purchase email + order-tracking stub
 
-Completeness: happy-path flows, payment failure messaging, accessible product cards, listing page load <2s
+Completeness: happy-path flows, payment failure messaging, accessible product cards, listing page load &lt;2s
 
 Analytics: listing_viewed, product_viewed, checkout_started, purchase_completed, payment_failed
 

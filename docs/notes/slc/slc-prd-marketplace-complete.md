@@ -62,7 +62,7 @@ sidebar_position: 7
   - Keyboard navigation for product cards and checkout
   - ARIA labels for critical controls
   - Color contrast meets WCAG AA for key pages
-  - Listing page load target: <2s on 3G emulated mobile (progressively enhanced images)
+  - Listing page load target: &lt;2s on 3G emulated mobile (progressively enhanced images)
 
 ## 6. Analytics & measurement
 
