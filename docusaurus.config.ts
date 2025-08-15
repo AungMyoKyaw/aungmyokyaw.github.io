@@ -117,7 +117,8 @@ const config: Config = {
       ]
     },
     footer: {
-      style: 'dark',
+      // Force footer to light style since the site will only support light mode
+      style: 'light',
       copyright: `Copyright © ${new Date().getFullYear()} Aung Myo Kyaw.
         <br/>
         <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
@@ -126,6 +127,14 @@ const config: Config = {
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula
+    },
+    // Enforce site-wide light mode only
+    colorMode: {
+      defaultMode: 'light',
+      // Hide the color mode switch in the navbar
+      disableSwitch: true,
+      // Do not respect user's OS-level preference
+      respectPrefersColorScheme: false
     }
   } satisfies Preset.ThemeConfig,
 

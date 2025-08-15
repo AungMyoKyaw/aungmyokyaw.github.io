@@ -42,24 +42,25 @@
   font-display: swap;
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
-  --ifm-color-primary: #5dade2;
-  --ifm-color-primary-dark: #3498db;
-  --ifm-color-primary-darker: #2980b9;
-  --ifm-color-primary-darkest: #1f618d;
-  --ifm-color-primary-light: #85cde8;
-  --ifm-color-primary-lighter: #9ed8ec;
-  --ifm-color-primary-lightest: #b6e2f1;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
-}
-
 .navbar {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
-[data-theme='dark'] .navbar {
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+/* The site supports only light mode. Remove dark-theme overrides and
+   add a minimal set of rules to force light appearance and hide the
+   color-mode toggle that would otherwise appear in the navbar. */
+
+/* Make sure browsers treat the page as light-only */
+html,
+:root,
+html[data-theme],
+html[data-theme-choice] {
+  color-scheme: light;
+}
+
+/* Hide any color mode toggle that might be rendered by the theme */
+.colorModeToggle_DEke {
+  display: none !important;
 }
 
 .badge--clickable {
