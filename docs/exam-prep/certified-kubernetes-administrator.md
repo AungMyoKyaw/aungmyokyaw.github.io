@@ -23,6 +23,26 @@
 
 ---
 
+## 📊 Visual Study Plan
+
+Below is a high-level study flow to help you prioritize topics and practice time. The diagram shows focus areas and recommended study order (start at "Foundations").
+
+```mermaid
+flowchart LR
+  A["Foundations<br/>(Weeks 1-2)"] --> B["Cluster Architecture<br/>&amp; Installation<br/>(Weeks 3-4)"]
+  B --> C["Troubleshooting<br/>(Continuous, 30% weight)"]
+  C --> D["Services & Networking<br/>(Weeks 5-6)"]
+  D --> E["Workloads & Scheduling<br/>(Weeks 5-6)"]
+  E --> F["Storage<br/>(Weeks 5-6)"]
+  C --> G["Mock Exams & Practice<br/>(Weeks 7-8)"]
+  G --> H["Final Review<br/>(Week 8)"]
+  style C fill:#ffe4b5,stroke:#d2691e,stroke-width:2px
+  style G fill:#e6ffe6,stroke:#228b22,stroke-width:2px
+  linkStyle default stroke:#666,stroke-width:1px
+```
+
+This visual helps emphasize that troubleshooting is continuous and should be practiced alongside each topic, not only in the later weeks.
+
 ## 🎯 Learning Resources
 
 Here is a curated list of resources to help you prepare for the CKA exam.
@@ -170,6 +190,39 @@ This is a suggested timeline. Feel free to adjust it based on your experience an
 
 - [ ] Stay calm and focused. If you've prepared well, you have the knowledge to pass.
       :::
+
+---
+
+## 🧾 Quick Cheatsheet & Exam-Day Checklist
+
+Use this compact cheatsheet during last-week review sessions and memorize or pin the checklist for exam day.
+
+### Kubectl quick commands
+
+```bash
+k get nodes # nodes and status
+k get pods -A # all pods across namespaces
+k describe pod <pod> # pod troubleshooting
+k logs -f <pod> # stream logs from pod
+k exec -it <pod> -- /bin/sh # run a shell inside a pod (or /bin/bash)
+k apply -f <file.yaml> # apply a manifest
+k create deployment <name> --image=<image> --replicas=1
+k rollout status deployment/<name>
+k get pvc,pv # storage objects
+k get events -A # cluster events
+```
+
+Tip: create aliases in your environment (e.g., `alias k=kubectl`) and practice using `--dry-run=client -o yaml` to scaffold manifests.
+
+### Exam-Day Checklist
+
+- [ ] Confirm exam time, timezone, and ID documents
+- [ ] Ensure a quiet, uninterrupted workspace and stable internet
+- [ ] Have two forms of identification ready (as per Linux Foundation rules)
+- [ ] Open the official Kubernetes docs and practice quick-searching with Ctrl+F
+- [ ] Set up kubectl aliases and adjust terminal font/size for readability
+- [ ] Keep an emergency plan (breaks, technical issues): contact exam support number
+- [ ] Breathe and manage time: flag hard tasks and move on; return later
 
 ---
 
