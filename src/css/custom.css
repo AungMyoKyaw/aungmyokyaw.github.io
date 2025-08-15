@@ -59,5 +59,6 @@
 /* Ensure inline layout and spacing */
 .footer__bottom .footer__copyright a {
   margin-left: 0.4rem;
-  text-decoration: underline;
+  opacity: 0.85;
+  color: var(--ifm-color-content);
 }
