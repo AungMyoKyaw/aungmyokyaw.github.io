@@ -8,23 +8,52 @@
 
 > **meta-knowledge** is a knowledge management project designed to help you organize, share, and grow your understanding collaboratively.
 
----
-
 <details>
 	<summary>🗂️ <strong>Table of Contents</strong> (click to expand/collapse)</summary>
 
-- [About](#about)
-- [License](#license)
-
 </details>
-
----
 
 ## 📝 About
 
 **meta-knowledge** is my personal knowledge base and public notes repository. Here, I curate, organize, and share information, ideas, and resources that I want to save and publish for myself and others. The site is built and published using [Docusaurus](https://docusaurus.io), making it easy to browse and contribute.
 
 It encourages open learning and creative contribution, while respecting the rights of original authors.
+
+## Enabling Mermaid diagrams (Docusaurus v3)
+
+To render Mermaid diagrams in your Markdown, install the official Mermaid theme and enable Mermaid support in `docusaurus.config.ts`.
+
+Install the theme with your preferred package manager:
+
+```bash
+# Using npm
+npm install --save @docusaurus/theme-mermaid
+
+# Using yarn
+yarn add @docusaurus/theme-mermaid
+
+# Using pnpm
+pnpm add @docusaurus/theme-mermaid
+
+# Using bun
+bun add @docusaurus/theme-mermaid
+```
+
+Then, in `docusaurus.config.ts`, make sure you have:
+
+```ts
+markdown: { mermaid: true },
+themes: ['@docusaurus/theme-mermaid'],
+```
+
+You can now add Mermaid code blocks in Markdown using the `mermaid` language identifier:
+
+````markdown
+```mermaid
+graph TD;
+	A --> B;
+```
+````
 
 ---
 

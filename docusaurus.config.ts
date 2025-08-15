@@ -81,7 +81,16 @@ const config: Config = {
         }
       }
     ]
+    // Note: Mermaid is enabled via the official theme (@docusaurus/theme-mermaid)
+    // so the older community plugin entry was removed to avoid duplication/conflicts.
   ],
+
+  // Enable Mermaid support in Markdown and add the official Mermaid theme
+  markdown: {
+    mermaid: true
+  },
+
+  themes: ['@docusaurus/theme-mermaid'],
 
   themeConfig: {
     // Replace with your project's social card

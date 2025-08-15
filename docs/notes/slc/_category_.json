@@ -1,0 +1,9 @@
+{
+  "label": "SLC",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "title": "SLC notes",
+    "description": "Notes about the Simple, Lovable, Complete framework and PRDs."
+  }
+}
