@@ -175,7 +175,17 @@
           ]
         }
       ],
-      "skills": [],
+      "skills": [
+        "Generative AI",
+        "Amazon Bedrock",
+        "Amazon Q Developer",
+        "Foundation Models (FMs)",
+        "Prompt Engineering",
+        "Fine-tuning",
+        "Knowledge Bases",
+        "Agents",
+        "Guardrails"
+      ],
       "instructors": []
     },
     {
@@ -223,7 +233,17 @@
         }
       ],
       "provider": "Coursera",
-      "skills": [],
+      "skills": [
+        "Generative AI",
+        "Large Language Models (LLMs)",
+        "ChatGPT",
+        "Prompt Engineering",
+        "AI-Assisted Development",
+        "Software Testing",
+        "Documentation",
+        "Software Architecture",
+        "Database Design"
+      ],
       "instructors": []
     },
     {
@@ -276,7 +296,17 @@
         }
       ],
       "provider": "Coursera",
-      "skills": [],
+      "skills": [
+        "Kubernetes",
+        "Docker",
+        "Container Orchestration",
+        "Microservices",
+        "Cloud-Native",
+        "CI/CD",
+        "DevOps",
+        "YAML",
+        "kubectl"
+      ],
       "instructors": []
     },
     {
@@ -455,7 +485,17 @@
         }
       ],
       "provider": "Coursera",
-      "skills": [],
+      "skills": [
+        "AWS",
+        "Cloud Computing",
+        "Solution Architecture",
+        "DevOps",
+        "Python",
+        "Data Analytics",
+        "Project Management",
+        "Technical Consulting",
+        "Problem-Solving"
+      ],
       "instructors": []
     },
     {
@@ -508,11 +548,21 @@
         }
       ],
       "provider": "Coursera",
-      "skills": [],
+      "skills": [
+        "PHP",
+        "SQL",
+        "MySQL",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "jQuery",
+        "JSON",
+        "Web Development"
+      ],
       "instructors": []
     },
     {
-      "courseTitle": "Meta Back-End Developer Professional Certificate ⏳",
+      "courseTitle": "Meta Back-End Developer Professional Certificate",
       "type": "Bundle",
       "status": "Completed",
       "certificateLink": "https://www.coursera.org/account/accomplishments/specialization/certificate/UDY1ESSQILTB",
@@ -634,25 +684,53 @@
         }
       ],
       "provider": "Coursera",
-      "skills": [],
+      "skills": [
+        "Python",
+        "Django",
+        "SQL",
+        "MySQL",
+        "Git",
+        "GitHub",
+        "REST APIs",
+        "JSON",
+        "XML",
+        "Cloud Hosting",
+        "Linux"
+      ],
       "instructors": []
     },
     {
-      "courseTitle": "Improve Your English Communication Skills Specialization ⏳",
+      "courseTitle": "Improve Your English Communication Skills Specialization",
       "type": "Bundle",
       "status": "In Progress",
       "courses": [
         {
           "title": "Write Professional Emails in English",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/14Y04XHBIKA7",
-          "skills": []
+          "skills": [
+            "Business Writing",
+            "Writing and Editing",
+            "Communication",
+            "Cultural Sensitivity",
+            "Business Correspondence"
+          ]
         }
       ],
-      "skills": [],
+      "skills": [
+        "Professional Email Writing",
+        "Verbal Communication",
+        "Presentation Skills",
+        "Networking",
+        "Interpersonal Skills",
+        "Cross-Cultural Communication",
+        "Interviewing Skills",
+        "Writing and Editing",
+        "Feedback and Evaluation"
+      ],
       "instructors": []
     },
     {
-      "courseTitle": "Google IT Support Professional Certificate ⏳",
+      "courseTitle": "Google IT Support Professional Certificate",
       "type": "Bundle",
       "status": "In Progress",
       "courses": [
@@ -685,11 +763,23 @@
           ]
         }
       ],
-      "skills": [],
+      "skills": [
+        "Troubleshooting",
+        "Customer Support",
+        "Networking",
+        "Operating Systems",
+        "System Administration",
+        "IT Security",
+        "Debugging",
+        "Linux",
+        "Command-Line Interface (CLI)",
+        "Encryption",
+        "Authentication"
+      ],
       "instructors": []
     },
     {
-      "courseTitle": "Software Design and Architecture Specialization ⏳",
+      "courseTitle": "Software Design and Architecture Specialization",
       "type": "Bundle",
       "status": "In Progress",
       "courses": [
@@ -709,11 +799,22 @@
           ]
         }
       ],
-      "skills": [],
+      "skills": [
+        "Software Architecture",
+        "Object-Oriented Design",
+        "Design Patterns",
+        "Service-Oriented Architecture (SOA)",
+        "Unified Modeling Language (UML)",
+        "RESTful APIs",
+        "SOAP",
+        "JSON",
+        "Microservices",
+        "Java"
+      ],
       "instructors": []
     },
     {
-      "courseTitle": "Career Success Specialization ⏳",
+      "courseTitle": "Career Success Specialization",
       "type": "Bundle",
       "status": "In Progress",
       "courses": [
@@ -791,7 +892,31 @@
           ]
         }
       ],
-      "skills": [],
+      "skills": [
+        "Project Management",
+        "Communication",
+        "Time Management",
+        "Negotiation",
+        "Problem-Solving",
+        "Financial Acumen",
+        "Business Writing",
+        "Team Management",
+        "Leadership",
+        "Goal Setting",
+        "Planning",
+        "Prioritization",
+        "Organization",
+        "Budgeting",
+        "Financial Forecasting",
+        "Interpersonal Skills",
+        "Feedback",
+        "Conflict Resolution",
+        "Teamwork",
+        "Interviewing",
+        "Grammar",
+        "Editing",
+        "Proofreading"
+      ],
       "instructors": []
     },
     {
@@ -913,7 +1038,32 @@
         }
       ],
       "provider": "Coursera",
-      "skills": [],
+      "skills": [
+        "Cloud Computing",
+        "AWS",
+        "Cloud Infrastructure",
+        "Scalability",
+        "IaaS",
+        "PaaS",
+        "SaaS",
+        "Public Cloud",
+        "Private Cloud",
+        "Hybrid Cloud",
+        "Solution Architecture",
+        "Data Science",
+        "Security Engineering",
+        "Networking",
+        "Storage",
+        "Databases",
+        "Monitoring",
+        "Serverless Architecture",
+        "Containers",
+        "Cost Optimization",
+        "Amazon S3",
+        "AWS IAM",
+        "Data Analysis",
+        "Operations"
+      ],
       "instructors": []
     },
     {
@@ -992,7 +1142,27 @@
         }
       ],
       "provider": "Coursera",
-      "skills": [],
+      "skills": [
+        "DevOps",
+        "AWS",
+        "CI/CD",
+        "Infrastructure as Code (IaC)",
+        "Monitoring",
+        "Git",
+        "Agile",
+        "Waterfall",
+        "Jenkins",
+        "Cloud Computing",
+        "Amazon EC2",
+        "Amazon S3",
+        "AWS IAM",
+        "Networking",
+        "Security",
+        "Software Development Life Cycle (SDLC)",
+        "Version Control",
+        "Automation",
+        "Software Testing"
+      ],
       "instructors": []
     },
     {
@@ -1036,7 +1206,18 @@
         }
       ],
       "provider": "Coursera",
-      "skills": [],
+      "skills": [
+        "English Language",
+        "Oral Comprehension",
+        "Literacy",
+        "Writing",
+        "Vocabulary",
+        "Grammar",
+        "Test-Taking Strategies",
+        "Reading Comprehension",
+        "Speaking",
+        "Time Management"
+      ],
       "instructors": []
     },
     {
@@ -1082,7 +1263,20 @@
         }
       ],
       "provider": "Coursera",
-      "skills": [],
+      "skills": [
+        "English Language",
+        "Oral Comprehension",
+        "Literacy",
+        "Writing",
+        "Vocabulary",
+        "Grammar",
+        "Test-Taking Strategies",
+        "Reading Comprehension",
+        "Speaking",
+        "Time Management",
+        "Essay Writing",
+        "Data Analysis"
+      ],
       "instructors": []
     },
     {
@@ -1126,7 +1320,18 @@
         }
       ],
       "provider": "Coursera",
-      "skills": [],
+      "skills": [
+        "English Language",
+        "Oral Comprehension",
+        "Literacy",
+        "Writing",
+        "Vocabulary",
+        "Grammar",
+        "Test-Taking Strategies",
+        "Reading Comprehension",
+        "Speaking",
+        "Time Management"
+      ],
       "instructors": []
     },
     {
@@ -1159,35 +1364,124 @@
       "courses": [
         {
           "title": "Housing in Mexico",
-          "skills": []
+          "skills": [
+            "Data Wrangling",
+            "Data Analysis",
+            "Data Visualization",
+            "Python",
+            "Pandas",
+            "Jupyter Notebooks",
+            "SQL",
+            "Linear Regression",
+            "Predictive Modeling"
+          ]
         },
         {
           "title": "Apartment Sales in Buenos Aires",
-          "skills": []
+          "skills": [
+            "Data Wrangling",
+            "Data Analysis",
+            "Data Visualization",
+            "Python",
+            "Pandas",
+            "Jupyter Notebooks",
+            "SQL",
+            "Linear Regression",
+            "Predictive Modeling"
+          ]
         },
         {
           "title": "Air Quality in Nairobi",
-          "skills": []
+          "skills": [
+            "Data Wrangling",
+            "Data Analysis",
+            "Data Visualization",
+            "Python",
+            "Pandas",
+            "Jupyter Notebooks",
+            "SQL",
+            "Time-series analysis",
+            "ARMA",
+            "GARCH models"
+          ]
         },
         {
           "title": "Earthquake Damage in Nepal",
-          "skills": []
+          "skills": [
+            "Data Wrangling",
+            "Data Analysis",
+            "Data Visualization",
+            "Python",
+            "Pandas",
+            "Jupyter Notebooks",
+            "SQL",
+            "Classification Models",
+            "Logistic Regression",
+            "Decision Trees",
+            "Random Forests",
+            "Gradient Boosting"
+          ]
         },
         {
           "title": "Bankruptcy in Poland",
-          "skills": []
+          "skills": [
+            "Data Wrangling",
+            "Data Analysis",
+            "Data Visualization",
+            "Python",
+            "Pandas",
+            "Jupyter Notebooks",
+            "SQL",
+            "Classification Models",
+            "Logistic Regression",
+            "Decision Trees",
+            "Random Forests",
+            "Gradient Boosting"
+          ]
         },
         {
           "title": "Customer Segmentation in the US",
-          "skills": []
+          "skills": [
+            "Data Wrangling",
+            "Data Analysis",
+            "Data Visualization",
+            "Python",
+            "Pandas",
+            "Jupyter Notebooks",
+            "SQL",
+            "Unsupervised Learning",
+            "K-Means Clustering"
+          ]
         },
         {
           "title": "A/B Testing at WorldQuant University",
-          "skills": []
+          "skills": [
+            "Data Wrangling",
+            "Data Analysis",
+            "Data Visualization",
+            "Python",
+            "Pandas",
+            "Jupyter Notebooks",
+            "SQL",
+            "Experimental Design",
+            "A/B Testing",
+            "Statistical Analysis"
+          ]
         },
         {
           "title": "Volatility Forecasting in India",
-          "skills": []
+          "skills": [
+            "Data Wrangling",
+            "Data Analysis",
+            "Data Visualization",
+            "Python",
+            "Pandas",
+            "Jupyter Notebooks",
+            "SQL",
+            "Time-series analysis",
+            "ARMA",
+            "GARCH models"
+          ]
         }
       ],
       "provider": "Credly",
@@ -1329,7 +1623,37 @@
         }
       ],
       "provider": "Coursera",
-      "skills": [],
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "UI/UX Design",
+        "Version Control",
+        "Git",
+        "GitHub",
+        "Responsive Design",
+        "Bootstrap",
+        "Component-Based Architecture",
+        "State Management",
+        "Hooks",
+        "Context API",
+        "Performance Optimization",
+        "ES6+",
+        "DOM Manipulation",
+        "Asynchronous JavaScript",
+        "User Research",
+        "Wireframing",
+        "Prototyping",
+        "API Integration",
+        "Deployment",
+        "Problem-Solving",
+        "Pseudocode",
+        "Big O Notation",
+        "Data Structures",
+        "Algorithms",
+        "Interview Strategies"
+      ],
       "instructors": []
     },
     {
@@ -1393,7 +1717,38 @@
         }
       ],
       "provider": "Coursera",
-      "skills": [],
+      "skills": [
+        "AWS",
+        "Cloud Architecture",
+        "Solution Design",
+        "Security",
+        "High Availability",
+        "Scalability",
+        "Cost Optimization",
+        "Compute",
+        "Storage",
+        "Database",
+        "Networking",
+        "Monitoring",
+        "IAM",
+        "Data Encryption",
+        "Network Security",
+        "Multi-tier Solutions",
+        "Fault Tolerance",
+        "Decoupling Mechanisms",
+        "Resilient Storage",
+        "Elasticity",
+        "Scalable Compute Solutions",
+        "Serverless Architecture",
+        "Amazon API Gateway",
+        "AWS Lambda",
+        "Amazon SQS",
+        "Amazon DynamoDB",
+        "Amazon SNS",
+        "Event-Driven Architectures",
+        "Data Lakes",
+        "AWS Lake Formation"
+      ],
       "instructors": []
     },
     {
@@ -1448,7 +1803,28 @@
         }
       ],
       "provider": "Coursera",
-      "skills": [],
+      "skills": [
+        "Software Development Lifecycle (SDLC)",
+        "Agile",
+        "Scrum",
+        "Waterfall",
+        "Lean",
+        "Kanban",
+        "Test-Driven Development (TDD)",
+        "Behavior-Driven Development (BDD)",
+        "Continuous Integration (CI)",
+        "Continuous Delivery (CD)",
+        "Code Quality",
+        "User Stories",
+        "Sprint Planning",
+        "Retrospectives",
+        "Value Stream Mapping",
+        "Continuous Improvement",
+        "Software Architecture",
+        "Design Patterns",
+        "Version Control",
+        "Design Thinking"
+      ],
       "instructors": []
     },
     {
@@ -1496,7 +1872,27 @@
         }
       ],
       "provider": "Coursera",
-      "skills": [],
+      "skills": [
+        "Blockchain",
+        "Cryptocurrency",
+        "Bitcoin",
+        "Ethereum",
+        "Smart Contracts",
+        "Cryptography",
+        "Hashing",
+        "Public Key Cryptography",
+        "Digital Signatures",
+        "Merkle Trees",
+        "Decentralization",
+        "Consensus Algorithms",
+        "Proof of Work",
+        "Proof of Stake",
+        "dApps",
+        "FinTech",
+        "Distributed Computing",
+        "Data Integrity",
+        "Security"
+      ],
       "instructors": []
     },
     {
@@ -1557,7 +1953,30 @@
         }
       ],
       "provider": "Coursera",
-      "skills": [],
+      "skills": [
+        "Collaboration",
+        "Teamwork",
+        "Communication",
+        "Conflict Resolution",
+        "Public Speaking",
+        "Presentation Skills",
+        "Storytelling",
+        "Visual Aids",
+        "Agile",
+        "Scrum",
+        "Kanban",
+        "Quality Management",
+        "Problem-Solving",
+        "Critical Thinking",
+        "Creative Thinking",
+        "Decision-Making",
+        "Interpersonal Skills",
+        "Emotional Intelligence",
+        "Building Rapport",
+        "Soft Skills",
+        "Self-Assessment",
+        "Personal Development"
+      ],
       "instructors": []
     },
     {
@@ -1618,7 +2037,36 @@
         }
       ],
       "provider": "Coursera",
-      "skills": [],
+      "skills": [
+        "Data Science",
+        "Machine Learning",
+        "Statistical Analysis",
+        "R Programming",
+        "Team Management",
+        "Leadership",
+        "Project Management",
+        "Data Analysis",
+        "Statistical Inference",
+        "Experimental Design",
+        "Reproducibility",
+        "Problem Solving",
+        "Communication",
+        "Ethical Considerations",
+        "Big Data",
+        "Business Analytics",
+        "Data Literacy",
+        "Business Intelligence",
+        "Data-Driven Decision-Making",
+        "Statistical Methods",
+        "Exploratory Data Analysis",
+        "Data Management",
+        "Statistical Modeling",
+        "Statistics",
+        "Data Manipulation",
+        "Sampling (Statistics)",
+        "Data Quality",
+        "Data Cleansing"
+      ],
       "instructors": []
     },
     {
@@ -1685,7 +2133,33 @@
         }
       ],
       "provider": "Coursera",
-      "skills": [],
+      "skills": [
+        "AWS",
+        "Cloud Computing",
+        "Cloud Infrastructure",
+        "Security",
+        "Cloud Migration",
+        "Serverless Computing",
+        "Networking",
+        "Network Security",
+        "Compute Services",
+        "Storage Services",
+        "Amazon EC2",
+        "Amazon S3",
+        "AWS IAM",
+        "AWS Organizations",
+        "AWS Shield",
+        "AWS WAF",
+        "AWS Key Management Service (KMS)",
+        "AWS Migration Hub",
+        "AWS Application Discovery Service",
+        "AWS Database Migration Service (DMS)",
+        "AWS Server Migration Service (SMS)",
+        "AWS Lambda",
+        "Amazon API Gateway",
+        "Amazon DynamoDB",
+        "AWS Step Functions"
+      ],
       "instructors": []
     },
     {
