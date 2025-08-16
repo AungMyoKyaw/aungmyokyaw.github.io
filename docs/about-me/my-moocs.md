@@ -19,3 +19,9 @@ Sometimes I want to save courses I plan to take in the future. The list below ca
 - "MLOps | Machine Learning Operations Specialization" — [https://www.coursera.org/specializations/mlops-machine-learning-duke](https://www.coursera.org/specializations/mlops-machine-learning-duke) (Coursera)
 
 - "Microsoft AI & ML Engineering Professional Certificate" — [https://www.coursera.org/professional-certificates/microsoft-ai-and-ml-engineering](https://www.coursera.org/professional-certificates/microsoft-ai-and-ml-engineering) (Coursera)
+
+- "IBM Data Architecture Professional Certificate" — [https://www.coursera.org/professional-certificates/ibm-data-architect](https://www.coursera.org/professional-certificates/ibm-data-architect) (Coursera)
+
+- "IBM Data Engineering Professional Certificate" — [https://www.coursera.org/professional-certificates/ibm-data-engineer](https://www.coursera.org/professional-certificates/ibm-data-engineer) (Coursera)
+
+- "Meta Database Engineer Professional Certificate" — [https://www.coursera.org/professional-certificates/meta-database-engineer](https://www.coursera.org/professional-certificates/meta-database-engineer) (Coursera)
