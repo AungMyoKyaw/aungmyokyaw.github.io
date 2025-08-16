@@ -122,7 +122,13 @@
       "type": "Course",
       "status": "In Progress",
       "provider": "Coursera",
-      "skills": [],
+      "skills": [
+        "Cluster Architecture, Installation & Configuration",
+        "Workloads & Scheduling",
+        "Services & Networking",
+        "Storage",
+        "Troubleshooting"
+      ],
       "instructors": []
     },
     {
@@ -149,11 +155,24 @@
         },
         {
           "title": "Generative AI Applications with Amazon Bedrock",
-          "skills": []
+          "skills": [
+            "Amazon Web Services (AWS)",
+            "Generative AI",
+            "Application Programming Interface (API)",
+            "Large Language Modeling",
+            "Cloud API",
+            "Artificial Intelligence and Machine Learning (AI/ML)"
+          ]
         },
         {
           "title": "Amazon Bedrock Customization, Optimization & Automation",
-          "skills": []
+          "skills": [
+            "Model Customization",
+            "Advanced Optimization",
+            "AI Workflow Automation",
+            "Foundation Model Enhancement",
+            "Efficient and Scalable Application Development"
+          ]
         }
       ],
       "skills": [],
@@ -168,17 +187,39 @@
         {
           "title": "Introduction to Generative AI for Software Development",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/1KFB2LKG7QBX",
-          "skills": []
+          "skills": [
+            "Generative AI and Machine Learning",
+            "Software Development and Engineering",
+            "Prompt Engineering",
+            "Coding and Debugging",
+            "Software Testing and Documentation",
+            "System Design and Implementation",
+            "Collaboration and Prototyping"
+          ]
         },
         {
           "title": "Team Software Engineering with AI",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/U6J98JGB4H5T",
-          "skills": []
+          "skills": [
+            "Generative AI",
+            "Debugging and Software Testing",
+            "Software and Technical Documentation",
+            "Collaborative Software Development",
+            "Dependency Analysis",
+            "Large Language Modeling",
+            "Artificial Intelligence and Software Engineering"
+          ]
         },
         {
           "title": "AI-Powered Software and System Design",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/JMGY5AV71G8X",
-          "skills": []
+          "skills": [
+            "AI-Driven Software Architecture",
+            "Database Design and Optimization",
+            "API Integration",
+            "Code Refactoring with Design Patterns",
+            "AI-Assisted Code Analysis"
+          ]
         }
       ],
       "provider": "Coursera",
@@ -194,17 +235,44 @@
         {
           "title": "Container and Container Orchestration Fundamentals",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/L1YMNJC4S9PF",
-          "skills": []
+          "skills": [
+            "Microservices",
+            "Virtualization",
+            "Containerization",
+            "Docker",
+            "Container Orchestration",
+            "Docker Swarm",
+            "Kubernetes",
+            "CLI",
+            "YAML",
+            "DevOps"
+          ]
         },
         {
           "title": "Kubernetes Fundamentals",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/WJF1OUIXYUDQ",
-          "skills": []
+          "skills": [
+            "Kubernetes",
+            "Containerization",
+            "Cloud-Native",
+            "Networking",
+            "Persistent Volumes",
+            "Virtual Machines",
+            "YAML",
+            "CLI",
+            "Systems Architecture"
+          ]
         },
         {
           "title": "Advanced Kubernetes",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/ZZBK04J9D2OR",
-          "skills": []
+          "skills": [
+            "Workload Management",
+            "Scaling and Configuration",
+            "Security and Monitoring",
+            "Advanced Orchestration",
+            "CI/CD Integration"
+          ]
         }
       ],
       "provider": "Coursera",
@@ -220,47 +288,170 @@
         {
           "title": "Introduction to Information Technology and AWS Cloud",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/J7YVW64D3USO",
-          "skills": []
+          "skills": [
+            "Cloud Computing",
+            "Web Development",
+            "Project Management",
+            "Amazon EC2",
+            "Amazon S3",
+            "Operating Systems",
+            "Network Security",
+            "Networking",
+            "Servers",
+            "Computer Systems",
+            "Web Applications",
+            "Data Centers",
+            "Cloud Services",
+            "Data Analysis"
+          ]
         },
         {
           "title": "AWS Cloud Technical Essentials",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/68M99ZNUD4WE",
-          "skills": []
+          "skills": [
+            "Amazon EC2",
+            "Containerization",
+            "Networking",
+            "Load Balancing",
+            "VPN",
+            "Amazon S3",
+            "Amazon EBS",
+            "Amazon RDS",
+            "Amazon DynamoDB",
+            "AWS IAM",
+            "AWS Shared Responsibility Model",
+            "Amazon CloudWatch",
+            "Scalability",
+            "Serverless Computing"
+          ]
         },
         {
           "title": "Providing Technical Support for AWS Workloads",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/27NM6MWC2IQ2",
-          "skills": []
+          "skills": [
+            "AWS Infrastructure",
+            "Troubleshooting",
+            "Problem-Solving",
+            "Amazon EC2",
+            "AWS Lambda",
+            "Amazon VPC",
+            "Amazon S3",
+            "Amazon RDS",
+            "AWS IAM",
+            "AWS Organizations"
+          ]
         },
         {
           "title": "Developing Applications in Python on AWS",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/0BK96THRUU05",
-          "skills": []
+          "skills": [
+            "Python Programming",
+            "Serverless Architecture",
+            "AWS Lambda",
+            "Amazon API Gateway",
+            "Amazon DynamoDB",
+            "Amazon RDS",
+            "AWS SAM",
+            "Amazon SNS",
+            "Amazon SQS",
+            "Amazon EventBridge",
+            "API-Driven Development",
+            "AWS Cloud9"
+          ]
         },
         {
           "title": "Skills for Working as an AWS Cloud Consultant",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/QJ46WQ4D80BP",
-          "skills": []
+          "skills": [
+            "Amazon Web Services (AWS)",
+            "Cloud Solutions",
+            "Technical Consulting",
+            "Analysis",
+            "Business Consulting",
+            "Strategic Thinking",
+            "Project Management",
+            "Relationship Building",
+            "Professional Networking",
+            "Interviewing Skills",
+            "Presentations"
+          ]
         },
         {
           "title": "DevOps on AWS and Project Management",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/OU3GDACIIWAC",
-          "skills": []
+          "skills": [
+            "Project Management",
+            "Software Development Lifecycle (SDLC)",
+            "DevOps",
+            "AWS CodeBuild",
+            "Jenkins",
+            "CI/CD Pipeline",
+            "Waterfall",
+            "Agile",
+            "Scrum",
+            "Kanban"
+          ]
         },
         {
           "title": "Automation in the AWS Cloud",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/M5VHGXP9SOH0",
-          "skills": []
+          "skills": [
+            "Automation",
+            "Configuration Management",
+            "Infrastructure as Code (IaC)",
+            "AWS CloudFormation",
+            "Scripting",
+            "Bash",
+            "AWS CLI",
+            "Amazon EC2",
+            "Continuous Integration",
+            "Continuous Monitoring",
+            "Systems Administration",
+            "Software Testing",
+            "Patch Management",
+            "AWS Config"
+          ]
         },
         {
           "title": "Data Analytics and Databases on AWS",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/3S17976LJCFD",
-          "skills": []
+          "skills": [
+            "Database Management",
+            "SQL",
+            "NoSQL",
+            "ETL",
+            "Data Processing",
+            "Data Transformation",
+            "Data Warehousing",
+            "Data Architecture",
+            "Data Storage",
+            "Data Analysis",
+            "Business Analytics",
+            "Big Data",
+            "Data-Driven Decision-Making",
+            "AWS Services",
+            "Data Visualization"
+          ]
         },
         {
           "title": "Capstone: Following the AWS Well Architected Framework",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/C1JX6E909CPJ",
-          "skills": []
+          "skills": [
+            "Software Architecture",
+            "Cloud Computing",
+            "Cloud Architecture",
+            "Operational Excellence",
+            "Performance Tuning",
+            "Performance Efficiency",
+            "Reliability",
+            "Site Reliability Engineering (SRE)",
+            "Security",
+            "Data Security",
+            "Cost Optimization",
+            "Scalability",
+            "Disaster Recovery",
+            "Solution Architecture"
+          ]
         }
       ],
       "provider": "Coursera",
@@ -276,22 +467,44 @@
         {
           "title": "Building Web Applications in PHP",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/KJN81XAZWGC4",
-          "skills": []
+          "skills": [
+            "PHP",
+            "HTML",
+            "CSS",
+            "SQL",
+            "Web Application Architecture",
+            "Development Environment"
+          ]
         },
         {
           "title": "Introduction to Structured Query Language (SQL)",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/1DB3XZANZGE6",
-          "skills": []
+          "skills": [
+            "SQL",
+            "Database Design",
+            "Data Modeling",
+            "Relational Database Management",
+            "MySQL",
+            "Data Manipulation"
+          ]
         },
         {
           "title": "Building Database Applications in PHP",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/CK6G5AG0UC7O",
-          "skills": []
+          "skills": [
+            "PHP",
+            "SQL",
+            "Object-Oriented Programming (OOP)",
+            "MySQL",
+            "CRUD",
+            "Web Application Security",
+            "User Session Management"
+          ]
         },
         {
           "title": "JavaScript, jQuery, and JSON",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/9KMTI5ZW7NP4",
-          "skills": []
+          "skills": ["JavaScript", "jQuery", "JSON", "AJAX", "DOM Manipulation"]
         }
       ],
       "provider": "Coursera",
@@ -307,47 +520,117 @@
         {
           "title": "Introduction to Back-End Development",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/L3B7UAL2VX2S",
-          "skills": []
+          "skills": [
+            "HTML",
+            "CSS",
+            "Front-End Development",
+            "Bootstrap",
+            "React",
+            "Responsive Design"
+          ]
         },
         {
           "title": "Programming in Python",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/SCUDHLQRHSCJ",
-          "skills": []
+          "skills": [
+            "Python",
+            "Object-Oriented Programming (OOP)",
+            "Problem-Solving",
+            "Debugging",
+            "Software Testing",
+            "Test-Driven Development (TDD)"
+          ]
         },
         {
           "title": "Version Control",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/ZGLGS7UQPMVE",
-          "skills": []
+          "skills": [
+            "Git",
+            "GitHub",
+            "Command-Line Interface (CLI)",
+            "Unix",
+            "Software Development Lifecycle (SDLC)",
+            "Collaboration"
+          ]
         },
         {
           "title": "Introduction to Databases for Back-End Development",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/SK3UDFBK4APY",
-          "skills": []
+          "skills": ["Database Design", "SQL", "CRUD", "Database Concepts"]
         },
         {
           "title": "Django Web Framework",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/LRWM3LRL91U7",
-          "skills": []
+          "skills": [
+            "Python",
+            "HTML",
+            "CSS",
+            "HTTP",
+            "MySQL",
+            "Data Modeling",
+            "Django Template Language",
+            "Web Servers",
+            "Security",
+            "RESTful APIs"
+          ]
         },
         {
           "title": "APIs",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/BAAG80M56RWM",
-          "skills": []
+          "skills": [
+            "API Design",
+            "RESTful APIs",
+            "JSON",
+            "Authentication",
+            "Authorization",
+            "Django",
+            "API Testing",
+            "Postman",
+            "API Documentation"
+          ]
         },
         {
           "title": "The Full Stack",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/6LRIPYSXDN91",
-          "skills": []
+          "skills": [
+            "Full-Stack Development",
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Django",
+            "MySQL",
+            "Deployment Environments",
+            "APIs",
+            "Cloud Hosting",
+            "Scalability",
+            "Responsive Web Design"
+          ]
         },
         {
           "title": "Back-End Developer Capstone",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/GWD95KLK2XP4",
-          "skills": []
+          "skills": [
+            "Back-End Web Development",
+            "Django",
+            "API Development",
+            "RESTful APIs",
+            "MySQL",
+            "Git",
+            "Unit Testing",
+            "Authentication"
+          ]
         },
         {
           "title": "Coding Interview Preparation",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/DHWSJ3JJKMEV",
-          "skills": []
+          "skills": [
+            "Problem-Solving",
+            "Pseudocode",
+            "Big O Notation",
+            "Data Structures",
+            "Algorithms",
+            "Interview Strategies"
+          ]
         }
       ],
       "provider": "Coursera",
@@ -376,12 +659,30 @@
         {
           "title": "Technical Support Fundamentals",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/IBX63B5LWMPJ",
-          "skills": []
+          "skills": [
+            "Hardware",
+            "Software",
+            "Troubleshooting",
+            "Networking",
+            "Operating Systems",
+            "Customer Service"
+          ]
         },
         {
           "title": "The Bits and Bytes of Computer Networking",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/SVO1T56EAQFX",
-          "skills": []
+          "skills": [
+            "Networking",
+            "OSI Model",
+            "TCP/IP",
+            "DHCP",
+            "DNS",
+            "Routing",
+            "Network Security",
+            "VPN",
+            "Troubleshooting",
+            "Cloud Computing"
+          ]
         }
       ],
       "skills": [],
@@ -395,7 +696,17 @@
         {
           "title": "Object-Oriented Design",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/JE7YQHW54EUJ",
-          "skills": []
+          "skills": [
+            "Object-Oriented Design",
+            "Unified Modeling Language (UML)",
+            "Software Design",
+            "Software Architecture",
+            "Object-Oriented Programming (OOP)",
+            "Maintainability",
+            "Java",
+            "Software Engineering",
+            "Android Development"
+          ]
         }
       ],
       "skills": [],
@@ -409,27 +720,75 @@
         {
           "title": "Project Management: The Basics for Success",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/PY65L84X3CC3",
-          "skills": []
+          "skills": [
+            "Project Management",
+            "Team Management",
+            "Leadership",
+            "Communication",
+            "People Management",
+            "Conflict Resolution"
+          ]
         },
         {
           "title": "Work Smarter, Not Harder: Time Management for Personal & Professional Productivity",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/D5YLNXLRV47V",
-          "skills": []
+          "skills": [
+            "Goal Setting",
+            "Planning",
+            "Prioritization",
+            "Organization",
+            "Time Management",
+            "Resource Management",
+            "Delegation",
+            "Communication",
+            "Productivity",
+            "Multitasking"
+          ]
         },
         {
           "title": "Finance for Non-Financial Professionals",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/M2NCWTW8HLZC",
-          "skills": []
+          "skills": [
+            "Financial Statement Analysis",
+            "Budgeting",
+            "Financial Forecasting",
+            "Accounting",
+            "Finance",
+            "Cash Flow Management",
+            "Cost Accounting",
+            "Business Valuation",
+            "Return on Investment (ROI)",
+            "Capital Budgeting",
+            "Risk Analysis",
+            "Financial Modeling"
+          ]
         },
         {
           "title": "Communication in the 21st Century Workplace",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/XGHP5MKFDYVA",
-          "skills": []
+          "skills": [
+            "Communication",
+            "Interpersonal Skills",
+            "Feedback",
+            "Conflict Resolution",
+            "Teamwork",
+            "Leadership",
+            "Interviewing"
+          ]
         },
         {
           "title": "High-Impact Business Writing",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/2TMS9LH5BTTL",
-          "skills": []
+          "skills": [
+            "Business Writing",
+            "Grammar",
+            "Communication",
+            "Document Formatting",
+            "Editing",
+            "Proofreading",
+            "Professionalism",
+            "Strategy"
+          ]
         }
       ],
       "skills": [],
@@ -441,7 +800,19 @@
       "status": "Completed",
       "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/Z6QW8NAPQBZA",
       "provider": "Coursera",
-      "skills": [],
+      "skills": [
+        "Artificial Intelligence (AI)",
+        "Machine Learning (AI/ML)",
+        "Generative AI",
+        "Large Language Models",
+        "ChatGPT",
+        "OpenAI",
+        "Business Process Automation",
+        "Cost Estimation",
+        "Feasibility Studies",
+        "Prompt Engineering",
+        "Data Ethics"
+      ],
       "instructors": []
     },
     {
@@ -450,7 +821,20 @@
       "status": "Completed",
       "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/4XL2AJ4C3WBF",
       "provider": "Coursera",
-      "skills": [],
+      "skills": [
+        "Machine Learning",
+        "Deep Learning",
+        "Natural Language Processing (NLP)",
+        "Generative AI",
+        "Transformer Architecture",
+        "Prompt Engineering",
+        "Model Training",
+        "Fine-Tuning",
+        "Reinforcement Learning from Human Feedback (RLHF)",
+        "Performance Tuning",
+        "Scalability",
+        "Software Architecture"
+      ],
       "instructors": []
     },
     {
@@ -459,7 +843,17 @@
       "status": "Completed",
       "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/5L8B7DTJRTJM",
       "provider": "Coursera",
-      "skills": [],
+      "skills": [
+        "Cloud Computing",
+        "AWS Cloud",
+        "Amazon EC2",
+        "Amazon S3",
+        "AWS IAM",
+        "Cloud Infrastructure",
+        "Cloud Architecture",
+        "Billing and Pricing",
+        "Deployment and Operations"
+      ],
       "instructors": []
     },
     {
@@ -471,17 +865,51 @@
         {
           "title": "Introduction to AWS Cloud Careers",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/H9F2NQQDCTGY",
-          "skills": []
+          "skills": [
+            "Cloud Computing",
+            "AWS",
+            "Cloud Infrastructure",
+            "Scalability",
+            "IaaS",
+            "Cloud Platforms",
+            "Public Cloud",
+            "Security Engineering",
+            "Cloud Services",
+            "Systems Administration",
+            "Solution Architecture"
+          ]
         },
         {
           "title": "AWS Services Overview for IT Professionals",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/XHKW6EH2KYMY",
-          "skills": []
+          "skills": [
+            "Cloud Infrastructure",
+            "Cloud Computing",
+            "Amazon EC2",
+            "Data Storage",
+            "Amazon S3",
+            "Relational Databases",
+            "Cloud Security",
+            "AWS IAM",
+            "Amazon CloudWatch",
+            "Cost Optimization",
+            "Database Management",
+            "DynamoDB",
+            "Solution Architecture"
+          ]
         },
         {
           "title": "Hands-on with AWS for IT Professionals",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/P8UDMHYHUGGK",
-          "skills": []
+          "skills": [
+            "Cloud Computing",
+            "AWS",
+            "Amazon S3",
+            "Amazon EC2",
+            "AWS IAM",
+            "Cloud Infrastructure",
+            "Solution Architecture"
+          ]
         }
       ],
       "provider": "Coursera",
@@ -497,22 +925,70 @@
         {
           "title": "AWS Cloud Technical Essentials",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/68M99ZNUD4WE",
-          "skills": []
+          "skills": [
+            "Amazon EC2",
+            "Containerization",
+            "Networking",
+            "Load Balancing",
+            "VPN",
+            "Amazon S3",
+            "Amazon EBS",
+            "Amazon RDS",
+            "Amazon DynamoDB",
+            "AWS IAM",
+            "AWS Shared Responsibility Model",
+            "Amazon CloudWatch",
+            "Scalability",
+            "Serverless Computing"
+          ]
         },
         {
           "title": "DevOps on AWS: Code, Build, and Test",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/2GH4UJGV3VDH",
-          "skills": []
+          "skills": [
+            "DevOps",
+            "CI/CD",
+            "AWS",
+            "Git",
+            "Testing",
+            "Agile",
+            "Waterfall"
+          ]
         },
         {
           "title": "DevOps on AWS: Release and Deploy",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/7QNHSQP44B3V",
-          "skills": []
+          "skills": [
+            "CI/CD",
+            "Application Deployment",
+            "Infrastructure as Code (IaC)",
+            "DevOps Tools",
+            "Containerization",
+            "Cloud Infrastructure",
+            "DevSecOps",
+            "Continuous Deployment",
+            "Code Review",
+            "Serverless Computing",
+            "Back-End Web Development"
+          ]
         },
         {
           "title": "DevOps on AWS: Operate and Monitor",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/6D8HLEQ2M696",
-          "skills": []
+          "skills": [
+            "Infrastructure Monitoring",
+            "Infrastructure Management",
+            "Amazon CloudWatch",
+            "Continuous Compliance",
+            "Configuration Management",
+            "AWS Config",
+            "Automation",
+            "AWS Systems Manager",
+            "Amazon EventBridge",
+            "AWS CloudTrail",
+            "Machine Learning",
+            "CI/CD Pipeline Operations"
+          ]
         }
       ],
       "provider": "Coursera",
@@ -528,17 +1004,35 @@
         {
           "title": "TOEFL Reading and Listening Sections Skills Mastery",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/JBZZW394SBJQ",
-          "skills": []
+          "skills": [
+            "Literacy",
+            "Oral Comprehension",
+            "Vocabulary",
+            "English Language",
+            "Test-Taking Strategies"
+          ]
         },
         {
           "title": "TOEFL Speaking and Writing Sections Skills Mastery",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/5ZMC2PPKKRE7",
-          "skills": []
+          "skills": [
+            "English Language",
+            "Speaking",
+            "Writing",
+            "Test-Taking Strategies"
+          ]
         },
         {
           "title": "TOEFL Test-Taking Strategies",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/CEDEZZ4QSBWW",
-          "skills": []
+          "skills": [
+            "English Language",
+            "Grammar",
+            "Vocabulary",
+            "Literacy",
+            "Test-Taking Strategies",
+            "Time Management"
+          ]
         }
       ],
       "provider": "Coursera",
@@ -554,17 +1048,37 @@
         {
           "title": "IELTS Writing Section Skills Mastery",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/ZJESXLZCC5QS",
-          "skills": []
+          "skills": [
+            "Writing",
+            "Time Management",
+            "Essay Writing",
+            "Data Analysis"
+          ]
         },
         {
           "title": "IELTS Listening and Speaking Sections Skills Mastery",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/EUL799SSF3BB",
-          "skills": []
+          "skills": [
+            "Oral Comprehension",
+            "Time Management",
+            "Learning Strategies",
+            "Literacy",
+            "Vocabulary",
+            "Grammar",
+            "Language Competency",
+            "English Language"
+          ]
         },
         {
           "title": "IELTS Reading Section Skills Mastery",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/ZYSX7BSV6HLC",
-          "skills": []
+          "skills": [
+            "Time Management",
+            "Reading Comprehension",
+            "Vocabulary",
+            "Grammar",
+            "Test-Taking Strategies"
+          ]
         }
       ],
       "provider": "Coursera",
@@ -580,17 +1094,35 @@
         {
           "title": "TOEFL Reading and Listening Sections Skills Mastery",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/JBZZW394SBJQ",
-          "skills": []
+          "skills": [
+            "Literacy",
+            "Oral Comprehension",
+            "Vocabulary",
+            "English Language",
+            "Test-Taking Strategies"
+          ]
         },
         {
           "title": "TOEFL Speaking and Writing Sections Skills Mastery",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/5ZMC2PPKKRE7",
-          "skills": []
+          "skills": [
+            "English Language",
+            "Speaking",
+            "Writing",
+            "Test-Taking Strategies"
+          ]
         },
         {
           "title": "TOEFL Test-Taking Strategies",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/CEDEZZ4QSBWW",
-          "skills": []
+          "skills": [
+            "English Language",
+            "Grammar",
+            "Vocabulary",
+            "Literacy",
+            "Test-Taking Strategies",
+            "Time Management"
+          ]
         }
       ],
       "provider": "Coursera",
@@ -603,7 +1135,20 @@
       "status": "Completed",
       "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/7QVQDJLZAF73",
       "provider": "Coursera",
-      "skills": [],
+      "skills": [
+        "Nutrition",
+        "Diet",
+        "Mental Health",
+        "Resilience",
+        "Mindfulness",
+        "Meditation",
+        "Cognitive Flexibility",
+        "Learning Strategies",
+        "Preventative Care",
+        "Behavioral Health",
+        "Neurology",
+        "Medical Science"
+      ],
       "instructors": []
     },
     {
@@ -646,7 +1191,24 @@
         }
       ],
       "provider": "Credly",
-      "skills": [],
+      "skills": [
+        "Data Wrangling",
+        "Data Preprocessing",
+        "Data Analysis",
+        "Data Visualization",
+        "Machine Learning",
+        "Logistic Regression",
+        "Decision Trees",
+        "SQL",
+        "Python",
+        "Pandas",
+        "ETL",
+        "Experimental Design",
+        "Chi-Square Test",
+        "Ethical Considerations",
+        "API",
+        "Web Application Development"
+      ],
       "instructors": []
     },
     {
@@ -655,7 +1217,17 @@
       "status": "Completed",
       "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/TWXADA5XBUQR",
       "provider": "Coursera",
-      "skills": [],
+      "skills": [
+        "Prompt Engineering",
+        "ChatGPT",
+        "Large Language Models",
+        "Writing Assistance",
+        "Summarization",
+        "Game Playing",
+        "Planning",
+        "Simulation",
+        "Programming"
+      ],
       "instructors": []
     },
     {
@@ -667,47 +1239,93 @@
         {
           "title": "Introduction to Front-End Development",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/3ZXBQMYRVE4J",
-          "skills": []
+          "skills": [
+            "HTML",
+            "CSS",
+            "Front-End Development",
+            "Bootstrap",
+            "React",
+            "Responsive Design"
+          ]
         },
         {
           "title": "HTML and CSS in depth",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/UZ8E4TBRTN7M",
-          "skills": []
+          "skills": ["HTML", "CSS", "Responsive Design", "UI/UX Design"]
         },
         {
           "title": "React Basics",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/CTXJVSP4WNPP",
-          "skills": []
+          "skills": [
+            "React",
+            "JavaScript",
+            "Component-Based Architecture",
+            "State Management"
+          ]
         },
         {
           "title": "Advanced React",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/G9CCMJEK4RRJ",
-          "skills": []
+          "skills": [
+            "React",
+            "Hooks",
+            "Context API",
+            "Performance Optimization"
+          ]
         },
         {
           "title": "Programming with JavaScript",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/99AV9256857Z",
-          "skills": []
+          "skills": [
+            "JavaScript",
+            "ES6+",
+            "DOM Manipulation",
+            "Asynchronous JavaScript"
+          ]
         },
         {
           "title": "Version Control",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/ZGLGS7UQPMVE",
-          "skills": []
+          "skills": [
+            "Git",
+            "GitHub",
+            "Command-Line Interface (CLI)",
+            "Unix",
+            "Software Development Lifecycle (SDLC)",
+            "Collaboration"
+          ]
         },
         {
           "title": "Principles of UX/UI Design",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/UUS2L4B8RPT3",
-          "skills": []
+          "skills": [
+            "UX/UI Design",
+            "User Research",
+            "Wireframing",
+            "Prototyping"
+          ]
         },
         {
           "title": "Front-End Developer Capstone",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/GSPNXQK23TDB",
-          "skills": []
+          "skills": [
+            "Front-End Development",
+            "React",
+            "API Integration",
+            "Deployment"
+          ]
         },
         {
           "title": "Coding Interview Preparation",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/DHWSJ3JJKMEV",
-          "skills": []
+          "skills": [
+            "Problem-Solving",
+            "Pseudocode",
+            "Big O Notation",
+            "Data Structures",
+            "Algorithms",
+            "Interview Strategies"
+          ]
         }
       ],
       "provider": "Coursera",
@@ -723,22 +1341,55 @@
         {
           "title": "AWS Cloud Technical Essentials",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/68M99ZNUD4WE",
-          "skills": []
+          "skills": [
+            "Amazon EC2",
+            "Containerization",
+            "Networking",
+            "Load Balancing",
+            "VPN",
+            "Amazon S3",
+            "Amazon EBS",
+            "Amazon RDS",
+            "Amazon DynamoDB",
+            "AWS IAM",
+            "AWS Shared Responsibility Model",
+            "Amazon CloudWatch",
+            "Scalability",
+            "Serverless Computing"
+          ]
         },
         {
           "title": "Architecting Solutions on AWS",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/BLYG7X4MNKXQ",
-          "skills": []
+          "skills": [
+            "AWS",
+            "Cloud Architecture",
+            "Solution Design",
+            "Security",
+            "High Availability",
+            "Scalability",
+            "Cost Optimization"
+          ]
         },
         {
           "title": "Introduction to Designing Data Lakes on AWS",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/FTB775T8ZU8D",
-          "skills": []
+          "skills": [
+            "Data Lakes",
+            "AWS Glue",
+            "Amazon S3",
+            "AWS Lake Formation",
+            "Data Analytics"
+          ]
         },
         {
           "title": "Exam Prep: AWS Certified Solutions Architect - Associate",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/83LV6G6VPGPH",
-          "skills": []
+          "skills": [
+            "AWS Certified Solutions Architect - Associate",
+            "Exam Preparation",
+            "Practice Questions"
+          ]
         }
       ],
       "provider": "Coursera",
@@ -754,22 +1405,46 @@
         {
           "title": "Software Development Processes and Methodologies",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/SD2EMT2SRLCG",
-          "skills": []
+          "skills": [
+            "Software Development Lifecycle (SDLC)",
+            "Agile",
+            "Scrum",
+            "Waterfall",
+            "Lean",
+            "Kanban"
+          ]
         },
         {
           "title": "Agile Software Development",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/FACMLKZAZUCL",
-          "skills": []
+          "skills": [
+            "Agile",
+            "Scrum",
+            "User Stories",
+            "Sprint Planning",
+            "Retrospectives"
+          ]
         },
         {
           "title": "Lean Software Development",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/WABZAU3U3CAM",
-          "skills": []
+          "skills": [
+            "Lean",
+            "Value Stream Mapping",
+            "Kanban",
+            "Continuous Improvement"
+          ]
         },
         {
           "title": "Engineering Practices for Building Quality Software",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/WJCEX3BPKADK",
-          "skills": []
+          "skills": [
+            "Test-Driven Development (TDD)",
+            "Behavior-Driven Development (BDD)",
+            "Continuous Integration (CI)",
+            "Continuous Delivery (CD)",
+            "Code Quality"
+          ]
         }
       ],
       "provider": "Coursera",
@@ -785,22 +1460,39 @@
         {
           "title": "The Blockchain",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/6A8L86YAYGXV",
-          "skills": []
+          "skills": [
+            "Blockchain",
+            "Cryptocurrency",
+            "Bitcoin",
+            "Ethereum",
+            "Smart Contracts"
+          ]
         },
         {
           "title": "Cryptography and Hashing Overview",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/2D4JE4R89J43",
-          "skills": []
+          "skills": [
+            "Cryptography",
+            "Hashing",
+            "Public Key Cryptography",
+            "Digital Signatures"
+          ]
         },
         {
           "title": "The Merkle Tree and Cryptocurrencies",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/PUMVQXTNLLRD",
-          "skills": []
+          "skills": ["Merkle Trees", "Cryptocurrencies", "Bitcoin", "Ethereum"]
         },
         {
           "title": "The Blockchain System",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/CKLJC3UKJNWS",
-          "skills": []
+          "skills": [
+            "Blockchain",
+            "Decentralization",
+            "Consensus Algorithms",
+            "Proof of Work",
+            "Proof of Stake"
+          ]
         }
       ],
       "provider": "Coursera",
@@ -816,32 +1508,52 @@
         {
           "title": "Collaborate Effectively for Professional Success",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/XYEPHPQZPCRK",
-          "skills": []
+          "skills": [
+            "Collaboration",
+            "Teamwork",
+            "Communication",
+            "Conflict Resolution"
+          ]
         },
         {
           "title": "Present with Purpose: Create/Deliver Effective Presentations",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/ZUE9M3KPAJ6K",
-          "skills": []
+          "skills": [
+            "Public Speaking",
+            "Presentation Skills",
+            "Storytelling",
+            "Visual Aids"
+          ]
         },
         {
           "title": "Delivering Quality Work with Agility",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/QLDYNHU7GDCN",
-          "skills": []
+          "skills": ["Agile", "Scrum", "Kanban", "Quality Management"]
         },
         {
           "title": "Solving Problems with Creative and Critical Thinking",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/UNSACKS3P7AG",
-          "skills": []
+          "skills": [
+            "Problem-Solving",
+            "Critical Thinking",
+            "Creative Thinking",
+            "Decision-Making"
+          ]
         },
         {
           "title": "Developing Interpersonal Skills",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/PUUG3VU94B9R",
-          "skills": []
+          "skills": [
+            "Interpersonal Skills",
+            "Emotional Intelligence",
+            "Communication",
+            "Building Rapport"
+          ]
         },
         {
           "title": "People and Soft Skills Assessment",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/ZHL2B5JT9S7G",
-          "skills": []
+          "skills": ["Soft Skills", "Self-Assessment", "Personal Development"]
         }
       ],
       "provider": "Coursera",
@@ -857,27 +1569,52 @@
         {
           "title": "A Crash Course in Data Science",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/R6RBPNAFLKK5",
-          "skills": []
+          "skills": [
+            "Data Science",
+            "Machine Learning",
+            "Statistical Analysis",
+            "R Programming"
+          ]
         },
         {
           "title": "Building a Data Science Team",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/A39XE6CPCFRK",
-          "skills": []
+          "skills": [
+            "Team Management",
+            "Leadership",
+            "Project Management",
+            "Data Science"
+          ]
         },
         {
           "title": "Managing Data Analysis",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/QGHH247Y3HZJ",
-          "skills": []
+          "skills": [
+            "Data Analysis",
+            "Statistical Inference",
+            "Experimental Design",
+            "Reproducibility"
+          ]
         },
         {
           "title": "Data Science in Real Life",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/6J7XWCL3GY7Q",
-          "skills": []
+          "skills": [
+            "Data Science",
+            "Problem Solving",
+            "Communication",
+            "Ethical Considerations"
+          ]
         },
         {
           "title": "Executive Data Science Capstone",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/8VWJC599HLVE",
-          "skills": []
+          "skills": [
+            "Data Science",
+            "Project Management",
+            "Communication",
+            "Presentation Skills"
+          ]
         }
       ],
       "provider": "Coursera",
@@ -893,22 +1630,58 @@
         {
           "title": "AWS Cloud Technical Essentials",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/68M99ZNUD4WE",
-          "skills": []
+          "skills": [
+            "Amazon EC2",
+            "Containerization",
+            "Networking",
+            "Load Balancing",
+            "VPN",
+            "Amazon S3",
+            "Amazon EBS",
+            "Amazon RDS",
+            "Amazon DynamoDB",
+            "AWS IAM",
+            "AWS Shared Responsibility Model",
+            "Amazon CloudWatch",
+            "Scalability",
+            "Serverless Computing"
+          ]
         },
         {
           "title": "AWS Fundamentals: Addressing Security Risk",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/7NNZGQ4LWGE6",
-          "skills": []
+          "skills": [
+            "AWS",
+            "Cloud Security",
+            "AWS IAM",
+            "AWS Organizations",
+            "AWS Shield",
+            "AWS WAF",
+            "AWS Key Management Service (KMS)"
+          ]
         },
         {
           "title": "AWS Fundamentals: Migrating to the Cloud",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/4UAE98GYK9ZL",
-          "skills": []
+          "skills": [
+            "Cloud Migration",
+            "AWS Migration Hub",
+            "AWS Application Discovery Service",
+            "AWS Database Migration Service (DMS)",
+            "AWS Server Migration Service (SMS)"
+          ]
         },
         {
           "title": "AWS Fundamentals: Building Serverless Applications",
           "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/YK6PX8ZWCNUY",
-          "skills": []
+          "skills": [
+            "Serverless Computing",
+            "AWS Lambda",
+            "Amazon API Gateway",
+            "Amazon DynamoDB",
+            "Amazon S3",
+            "AWS Step Functions"
+          ]
         }
       ],
       "provider": "Coursera",
@@ -921,7 +1694,14 @@
       "status": "Completed",
       "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/3SCV47QQK7JE",
       "provider": "Coursera",
-      "skills": [],
+      "skills": [
+        "Personal Development",
+        "Goal Setting",
+        "Resilience",
+        "Motivation",
+        "Interpersonal Skills",
+        "Lifelong Learning"
+      ],
       "instructors": []
     },
     {
@@ -930,7 +1710,17 @@
       "status": "Completed",
       "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/MBB63XT9RKNB",
       "provider": "Coursera",
-      "skills": [],
+      "skills": [
+        "Learning Strategies",
+        "Adaptability",
+        "Cognitive Flexibility",
+        "Mentorship",
+        "Productivity",
+        "Time Management",
+        "Self-Motivation",
+        "Resilience",
+        "Personal Development"
+      ],
       "instructors": []
     },
     {
@@ -939,7 +1729,19 @@
       "status": "Completed",
       "certificateLink": "https://www.coursera.org/account/accomplishments/certificate/2UZ5KDXDHX98",
       "provider": "Coursera",
-      "skills": [],
+      "skills": [
+        "Learning Strategies",
+        "Chunking",
+        "Spaced Repetition",
+        "Pomodoro Technique",
+        "Time Management",
+        "Self-Discipline",
+        "Productivity",
+        "Interleaving",
+        "Deliberate Practice",
+        "Metacognition",
+        "Growth Mindset"
+      ],
       "instructors": []
     }
   ],

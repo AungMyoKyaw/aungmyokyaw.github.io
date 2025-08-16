@@ -229,7 +229,10 @@ const Moocs: React.FC = () => {
                     <Heading as="h5">Courses in this {mooc.type}</Heading>
                     <ul>
                       {mooc.courses.map((course) => (
-                        <li key={course.certificateLink ?? course.title}>
+                        <li
+                          key={course.certificateLink ?? course.title}
+                          style={{ marginBottom: '1rem' }}
+                        >
                           {course.certificateLink ? (
                             <Link href={course.certificateLink}>
                               {typeof highlightText(
