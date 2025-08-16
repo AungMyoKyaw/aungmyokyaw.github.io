@@ -23,6 +23,12 @@ Surprisingly, maybe because they have matured and are getting better with each r
 
 Now I'm using it to update my MOOCs data JSON. The data JSON is lacking the skills acquired for each course, so I'm asking the CLI to search for each course and then update the data JSON. It may be a simple instruction, but it's very useful for me. The best part is that since it's from Google, the Google Search integration is mind-blowing. I'm using the updated search data to update my data JSON, and the results are very good. I'm happy with it.
 
-![Gemini CLI in action](../2025-08-11-welcome/gemini-cli.png)
+![Gemini CLI in action](./gemini-cli.png)
 
 So the point is, I may use the real VS Code Copilot as my primary coding agent, but we also need a secondary coding agent for some specific tasks, and I think Gemini CLI is the one.
+
+![VS Code screenshot showing Copilot/chat session](./gemini-cli-my-new-secondary-coding-agent.png)
+
+:::info
+I think the real VS Code GitHub Copilot is doing a great job too 🤣
+:::
