@@ -22,3 +22,23 @@ personal:
   label: Personal
   permalink: /personal
   description: Personal tag description
+
+gemini:
+  label: Gemini
+  permalink: /gemini
+  description: Gemini tag description
+
+cli:
+  label: CLI
+  permalink: /cli
+  description: CLI tag description
+
+coding:
+  label: Coding
+  permalink: /coding
+  description: Coding tag description
+
+ai-assistant:
+  label: AI Assistant
+  permalink: /ai-assistant
+  description: AI Assistant tag description
