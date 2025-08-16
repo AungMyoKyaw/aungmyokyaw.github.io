@@ -25,3 +25,5 @@ Sometimes I want to save courses I plan to take in the future. The list below ca
 - "IBM Data Engineering Professional Certificate" — [https://www.coursera.org/professional-certificates/ibm-data-engineer](https://www.coursera.org/professional-certificates/ibm-data-engineer) (Coursera)
 
 - "Meta Database Engineer Professional Certificate" — [https://www.coursera.org/professional-certificates/meta-database-engineer](https://www.coursera.org/professional-certificates/meta-database-engineer) (Coursera)
+
+- "IBM Ethical Hacking with Open Source Tools Professional Certificate" — [https://www.coursera.org/professional-certificates/ibm-ethical-hacking-with-open-source-tools](https://www.coursera.org/professional-certificates/ibm-ethical-hacking-with-open-source-tools) (Coursera)
