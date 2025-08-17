@@ -4,7 +4,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
-const config: Config = {
+const config = {
   title: 'Aung Myo Kyaw',
   tagline: 'Software Engineer • Solution Architect • DevOps Expert',
   favicon: 'img/favicon.svg',
@@ -56,6 +56,12 @@ const config: Config = {
         },
         theme: {
           customCss: './src/css/custom.css'
+        },
+        // Sitemap options moved into the classic preset per plugin usage docs
+        sitemap: {
+          changefreq: 'weekly',
+          priority: 0.5,
+          filename: 'sitemap.xml'
         }
       } satisfies Preset.Options
     ]
@@ -159,4 +165,4 @@ const config: Config = {
   ]
 };
 
-export default config;
+export default config as Config;
