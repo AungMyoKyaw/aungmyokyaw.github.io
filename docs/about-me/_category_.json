@@ -1,6 +1,8 @@
 {
   "label": "About Me",
   "position": 2,
+  "collapsible": true,
+  "collapsed": false,
   "link": {
     "type": "generated-index",
     "description": "Information about me."
