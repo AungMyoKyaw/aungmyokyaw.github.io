@@ -1,68 +1,86 @@
 > **Note:** This repository is where I keep my public notes and knowledge that I want to save and publish. It is built and published using [Docusaurus](https://docusaurus.io).
+> **Note:** This repository is where I keep my public notes and knowledge that I want to save and publish. It is built and published using [Docusaurus](https://docusaurus.io).
 
-> **Live Site:** [https://aungmyokyaw.github.io/](https://aungmyokyaw.github.io/)
+> **Live Site:** https://aungmyokyaw.github.io/
 
 # 📚 meta-knowledge
 
-![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-green?style=flat-square)
+![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC--BY--NC--SA%204.0-green?style=flat-square)
 
-> **meta-knowledge** is a knowledge management project designed to help you organize, share, and grow your understanding collaboratively.
+meta-knowledge is a personal knowledge base and public notes repository used to collect, organise, and publish notes, tutorials, and references.
 
-<details>
-	<summary>🗂️ <strong>Table of Contents</strong> (click to expand/collapse)</summary>
+This repository is a Docusaurus v3 site (docs + blog) and serves as the source for the static site published to GitHub Pages.
 
-</details>
+## Quick links
 
-## 📝 About
+- Live site: https://aungmyokyaw.github.io/
+- Source: this repository
+- License: Creative Commons Attribution-NonCommercial-ShareAlike 4.0
 
-**meta-knowledge** is my personal knowledge base and public notes repository. Here, I curate, organize, and share information, ideas, and resources that I want to save and publish for myself and others. The site is built and published using [Docusaurus](https://docusaurus.io), making it easy to browse and contribute.
+## What's in this repo
 
-It encourages open learning and creative contribution, while respecting the rights of original authors.
+- `docs/` — documentation pages and notes (Docusaurus docs)
+- `blog/` — blog posts and images
+- `src/` — custom React components, pages and site styles
+- `static/` — static assets shipped with the site (favicon, images)
+- `docusaurus.config.ts` — site configuration
+- `build/` — generated static site (output from `npm run build`)
 
-## Enabling Mermaid diagrams (Docusaurus v3)
+## Quick start (local development)
 
-To render Mermaid diagrams in your Markdown, install the official Mermaid theme and enable Mermaid support in `docusaurus.config.ts`.
+# 📚 meta-knowledge
 
-Install the theme with your preferred package manager:
+1. Install dependencies
 
 ```bash
-# Using npm
-npm install --save @docusaurus/theme-mermaid
+# using npm
+npm ci
 
-# Using yarn
-yarn add @docusaurus/theme-mermaid
+# or using yarn
+yarn install
 
-# Using pnpm
-pnpm add @docusaurus/theme-mermaid
-
-# Using bun
-bun add @docusaurus/theme-mermaid
+# or using pnpm
+pnpm install
 ```
 
-Then, in `docusaurus.config.ts`, make sure you have:
+2. Start local dev server
 
-```ts
-markdown: { mermaid: true },
-themes: ['@docusaurus/theme-mermaid'],
+```bash
+npm start
+# open http://localhost:3000
 ```
 
-You can now add Mermaid code blocks in Markdown using the `mermaid` language identifier:
+3. Build for production
 
-````markdown
-```mermaid
-graph TD;
-	A --> B;
+```bash
+npm run build
+# the static site will be output to `build/`
 ```
-````
 
----
+4. Preview the built site
 
-## 🛡️ License
+```bash
+npm run serve
+# or serve the `build/` directory with any static server
+```
 
-This entire project, including all codebase and content, is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en).
+## Build & Deploy
 
-<img align="left" width="40" src="https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-green?style=flat-square" alt="License: CC BY-NC-SA 4.0" />
+This repository is configured to publish the `build/` output to GitHub Pages. CI (GitHub Actions) uses Node 22 and runs `npm ci` and `npm run build` before deploying.
 
-You are free to share and adapt the material for **non-commercial purposes**, as long as you provide **attribution** and distribute your contributions under the **same license**.
+To deploy manually:
 
-For full legal terms, see the [LICENSE](./LICENSE) file or visit the [official license page](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en).
+```bash
+npm run build
+npm run deploy
+```
+
+Refer to `.github/workflows/deploy.yml` for the CI configuration and Node version used in Actions.
+
+## License
+
+This repository (content and code) is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0).
+
+See the `LICENSE` file for full terms.
+
+![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-green?style=flat-square)
