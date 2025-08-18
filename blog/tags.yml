@@ -42,3 +42,13 @@ ai-assistant:
   label: AI Assistant
   permalink: /ai-assistant
   description: AI Assistant tag description
+
+music:
+  label: Music
+  permalink: /music
+  description: Posts about songs, listening habits, and musical reflections
+
+nostalgia:
+  label: Nostalgia
+  permalink: /nostalgia
+  description: Posts that reflect on memories, the past, and sentimental moments
