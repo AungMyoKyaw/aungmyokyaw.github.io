@@ -52,3 +52,23 @@ nostalgia:
   label: Nostalgia
   permalink: /nostalgia
   description: Posts that reflect on memories, the past, and sentimental moments
+
+ielts:
+  label: IELTS
+  permalink: /ielts
+  description: Posts and reflections about IELTS test experiences and preparation
+
+exam:
+  label: Exam
+  permalink: /exam
+  description: Content related to exams, test prep, and study experiences
+
+reflections:
+  label: Reflections
+  permalink: /reflections
+  description: Personal reflections, lessons learned, and long-form thoughts
+
+learning:
+  label: Learning
+  permalink: /learning
+  description: Notes and posts about learning, study techniques, and self-improvement
