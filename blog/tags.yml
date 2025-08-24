@@ -72,3 +72,28 @@ learning:
   label: Learning
   permalink: /learning
   description: Notes and posts about learning, study techniques, and self-improvement
+
+chatgpt:
+  label: ChatGPT
+  permalink: /chatgpt
+  description: Posts related to ChatGPT.
+
+ai:
+  label: AI
+  permalink: /ai
+  description: Posts related to Artificial Intelligence.
+
+writing:
+  label: Writing
+  permalink: /writing
+  description: Posts about writing.
+
+productivity:
+  label: Productivity
+  permalink: /productivity
+  description: Posts about productivity.
+
+voice-interaction:
+  label: Voice Interaction
+  permalink: /voice-interaction
+  description: Posts about voice interaction.

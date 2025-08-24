@@ -145,3 +145,5 @@ build
 
 # Playwright MCP runtime directory
 .playwright-mcp/
+
+.tmp.driveupload/
