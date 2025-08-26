@@ -97,3 +97,23 @@ voice-interaction:
   label: Voice Interaction
   permalink: /voice-interaction
   description: Posts about voice interaction.
+
+upload:
+  label: Upload
+  permalink: /upload
+  description: Posts related to the TV show Upload.
+
+amazon-prime:
+  label: Amazon Prime
+  permalink: /amazon-prime
+  description: Posts related to Amazon Prime Video.
+
+sci-fi:
+  label: Sci-Fi
+  permalink: /sci-fi
+  description: Posts related to science fiction.
+
+comedy:
+  label: Comedy
+  permalink: /comedy
+  description: Posts related to comedy.
