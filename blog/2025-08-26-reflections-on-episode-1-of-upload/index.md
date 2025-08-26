@@ -6,6 +6,8 @@ tags: [upload, amazon-prime, sci-fi, comedy, reflections]
 
 I just finished watching the first episode of Upload, a sci-fi comedy on Amazon Prime Video, and I wanted to reflect on what I thought about it.
 
+<!-- truncate -->
+
 The show starts with Nathan, a coder who enjoys driving and hacking systems. After a serious accident, he ends up uploaded to a digital afterlife. At first, it’s fascinating to see how the show imagines this digital world. It’s like a futuristic heaven, full of technology, but there’s an underlying tension because Nathan’s freedom is limited. For someone who loves coding and independence, being in a controlled digital afterlife must feel restrictive.
 
 One of the things that stood out to me was how the show blends humor with deeper, thought-provoking ideas. Even though it’s funny in places, it raises questions about life, death, and what it means to have control over your existence.
