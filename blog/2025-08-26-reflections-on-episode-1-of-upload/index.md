@@ -1,5 +1,5 @@
 ---
-title: "Reflections on Episode 1 of Upload"
+title: 'Reflections on Episode 1 of Upload'
 authors: amk
 tags: [upload, amazon-prime, sci-fi, comedy, reflections]
 ---
