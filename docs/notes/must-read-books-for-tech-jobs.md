@@ -18,3 +18,4 @@ sidebar_label: 'Must Read Books for Tech Jobs'
 - [ ] **The Pragmatic Programmer** by Andrew Hunt and David Thomas
 - [ ] **Clean Code** by Robert C. Martin ("Uncle Bob")
 - [ ] **The Phoenix Project** by Gene Kim, Kevin Behr, and George Spafford
+- [ ] **A Down-to-Earth Guide to SDLC Project Management** by [Joshua Boykin](https://www.google.com/search?client=safari&rls=en&q=A+Down-to-Earth+Guide+to+SDLC+Project+Management&ie=UTF-8&oe=UTF-8)
