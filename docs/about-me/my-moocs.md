@@ -29,3 +29,5 @@ Sometimes I want to save courses I plan to take in the future. The list below ca
 - "IBM Ethical Hacking with Open Source Tools Professional Certificate" — [https://www.coursera.org/professional-certificates/ibm-ethical-hacking-with-open-source-tools](https://www.coursera.org/professional-certificates/ibm-ethical-hacking-with-open-source-tools) (Coursera)
 
 - "Generative AI for Project Managers Specialization" — https://www.coursera.org/specializations/generative-ai-for-project-managers (Coursera)
+
+- "Vibe Coding Essentials - Build Apps with AI" — https://www.coursera.org/specializations/vibe-coding (Coursera)
