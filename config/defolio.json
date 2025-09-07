@@ -118,6 +118,36 @@
   ],
   "moocs": [
     {
+      "courseTitle": "Vibe Coding Essentials - Build Apps with AI",
+      "type": "Bundle",
+      "status": "Completed",
+      "certificateLink": "https://www.coursera.org/account/accomplishments/specialization/EQ9G2HHF649A",
+      "provider": "Coursera",
+      "courses": [
+        {
+          "title": "Vibe Coding with Cursor AI",
+          "certificateLink": "https://www.coursera.org/account/accomplishments/verify/ICCQ1WV9T4IB"
+        },
+        {
+          "title": "Vibe Coding with GitHub Copilot",
+          "certificateLink": "https://www.coursera.org/account/accomplishments/verify/GYE6KMGEP8UX"
+        },
+        {
+          "title": "Learn to code with AI",
+          "certificateLink": "https://www.coursera.org/account/accomplishments/verify/MP6V58XK1PRR"
+        }
+      ],
+      "skills": [
+        "Machine Learning",
+        "Software Engineering",
+        "Prompt Engineering",
+        "Web Development",
+        "Generative AI",
+        "GitHub"
+      ],
+      "instructors": ["Per Harald Borgen", "Guil Hernandez", "Maham Codes"]
+    },
+    {
       "courseTitle": "Exam Prep CKA: Certified Kubernetes Administrator",
       "type": "Course",
       "status": "In Progress",

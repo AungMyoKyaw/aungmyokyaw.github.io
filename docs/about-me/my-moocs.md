@@ -30,4 +30,6 @@ Sometimes I want to save courses I plan to take in the future. The list below ca
 
 - "Generative AI for Project Managers Specialization" — https://www.coursera.org/specializations/generative-ai-for-project-managers (Coursera)
 
-- "Vibe Coding Essentials - Build Apps with AI" — https://www.coursera.org/specializations/vibe-coding (Coursera)
+- "Fast Prototyping of GenAI Apps with Streamlit" — https://www.coursera.org/learn/fast-prototyping-of-genai-apps-with-streamlit (Coursera)
+
+- "Adobe Marketing Specialist Professional Certificate" — https://www.coursera.org/professional-certificates/adobe-marketing-specialist (Coursera)
