@@ -122,6 +122,29 @@ const Moocs: React.FC = () => {
     if (inputRef.current) inputRef.current.focus();
   };
 
+  const completedCount = moocs.reduce((count, mooc) => {
+    if (mooc.status !== 'Completed') {
+      return count;
+    }
+    if (mooc.type === 'Course') {
+      return count + 1;
+    }
+    if (mooc.courses && mooc.courses.length > 0) {
+      return count + mooc.courses.length;
+    }
+    return count;
+  }, 0);
+
+  const inProgressCount = moocs.reduce((count, mooc) => {
+    if (mooc.status !== 'In Progress') {
+      return count;
+    }
+    if (mooc.courses && mooc.courses.length > 0) {
+      return count + mooc.courses.length;
+    }
+    return count + 1;
+  }, 0);
+
   return (
     <div className="container">
       <div className="row margin-bottom--lg">
@@ -134,6 +157,7 @@ const Moocs: React.FC = () => {
             role="search"
             aria-label="Search MOOCs"
             onSubmit={(e) => e.preventDefault()}
+            style={{ display: 'flex', alignItems: 'center' }}
           >
             <div className={styles.searchIcon} aria-hidden="true">
               <SearchIcon />
@@ -147,7 +171,23 @@ const Moocs: React.FC = () => {
               value={searchQuery}
               aria-label="Search MOOCs by course title"
               onChange={(e) => setSearchQuery(e.target.value)}
+              style={{ flexGrow: 1 }}
             />
+            <div
+              style={{
+                display: 'flex',
+                alignItems: 'center',
+                fontSize: '0.8rem',
+                color: 'var(--ifm-font-color-secondary)',
+                paddingRight: '1rem',
+                whiteSpace: 'nowrap'
+              }}
+            >
+              <span style={{ marginRight: '0.75rem' }}>
+                {completedCount} Done
+              </span>
+              <span>{inProgressCount} Active</span>
+            </div>
             {searchQuery ? (
               <button
                 type="button"
