@@ -163,8 +163,9 @@
     },
     {
       "courseTitle": "AWS Generative AI for Developers Professional Certificate",
+      "certificateLink": "https://www.coursera.org/account/accomplishments/professional-cert/OLBFRBNYOMUM",
       "type": "Bundle",
-      "status": "In Progress",
+      "status": "Completed",
       "provider": "Coursera",
       "courses": [
         {
@@ -197,6 +198,7 @@
         },
         {
           "title": "Amazon Bedrock Customization, Optimization & Automation",
+          "certificateLink": "https://www.coursera.org/account/accomplishments/verify/0ZWARKWH1Z7R",
           "skills": [
             "Model Customization",
             "Advanced Optimization",
