@@ -36,6 +36,10 @@ export default defineConfig(
 				parser: ts.parser,
 				svelteConfig
 			}
+		},
+		rules: {
+			// External links don't need SvelteKit's resolve() function
+			'svelte/no-navigation-without-resolve': 'off'
 		}
 	}
 );
