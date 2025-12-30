@@ -70,6 +70,40 @@
 		name="description"
 		content="Personal website of Aung Myo Kyaw, a software engineer passionate about building elegant solutions."
 	/>
+
+	<!-- Favicon -->
+	<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+	<link rel="apple-touch-icon" sizes="180x180" href="/favicon.svg" />
+	<link rel="manifest" href="/manifest.json" />
+
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://aungmyokyaw.github.io/" />
+	<meta property="og:title" content="Aung Myo Kyaw — Software Engineer" />
+	<meta
+		property="og:description"
+		content="Personal website of Aung Myo Kyaw, a software engineer passionate about building elegant solutions."
+	/>
+	<meta property="og:image" content="https://aungmyokyaw.github.io/og-image.svg" />
+
+	<!-- Twitter -->
+	<meta property="twitter:card" content="summary_large_image" />
+	<meta property="twitter:url" content="https://aungmyokyaw.github.io/" />
+	<meta property="twitter:title" content="Aung Myo Kyaw — Software Engineer" />
+	<meta
+		property="twitter:description"
+		content="Personal website of Aung Myo Kyaw, a software engineer passionate about building elegant solutions."
+	/>
+	<meta property="twitter:image" content="https://aungmyokyaw.github.io/og-image.svg" />
+
+	<!-- Apple -->
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+	<meta name="apple-mobile-web-app-title" content="Aung Myo Kyaw" />
+
+	<!-- Theme Color -->
+	<meta name="theme-color" content="#0a0a0a" />
+	<meta name="msapplication-TileColor" content="#0a0a0a" />
 </svelte:head>
 
 <!-- Noise texture overlay -->
@@ -636,20 +670,113 @@
 	/* Responsive */
 	@media (max-width: 768px) {
 		.main-container {
-			padding: 1rem;
+			padding: 1.25rem;
 		}
 
 		.hero {
-			min-height: 70vh;
-			padding: 2rem 0;
+			min-height: 60vh;
+			padding: 2rem 0 3rem;
+			grid-template-columns: 1fr;
+		}
+
+		.greeting {
+			font-size: 1rem;
+			margin-bottom: 1rem;
+		}
+
+		.name {
+			font-size: clamp(2.5rem, 12vw, 3.5rem);
+			margin-bottom: 1rem;
+		}
+
+		.tagline {
+			font-size: 0.9rem;
+			margin-bottom: 2rem;
+		}
+
+		.primary-link {
+			padding: 1.25rem 2rem;
+			font-size: 0.8rem;
+			width: 100%;
+			justify-content: center;
+		}
+
+		.secondary-link {
+			padding: 0.75rem 0;
+			font-size: 0.9rem;
 		}
 
 		.repos-section {
-			padding: 3rem 0;
+			padding: 3rem 0 2rem;
+		}
+
+		.section-header {
+			margin-bottom: 2rem;
+		}
+
+		.section-title {
+			font-size: clamp(1.75rem, 8vw, 2.5rem);
 		}
 
 		.repos-grid {
 			grid-template-columns: 1fr;
+			gap: 1.25rem;
+		}
+
+		.repo-card {
+			padding: 1.25rem;
+		}
+
+		.repo-name {
+			font-size: 0.95rem;
+		}
+
+		.repo-description {
+			font-size: 0.85rem;
+		}
+
+		.site-footer {
+			padding: 3rem 0 2rem;
+			margin-top: 3rem;
+		}
+	}
+
+	/* iPhone SE and smaller */
+	@media (max-width: 375px) {
+		.main-container {
+			padding: 1rem;
+		}
+
+		.hero {
+			padding: 1.5rem 0 2rem;
+		}
+
+		.name {
+			font-size: clamp(2rem, 10vw, 2.5rem);
+		}
+
+		.repos-grid {
+			gap: 1rem;
+		}
+
+		.repo-card {
+			padding: 1rem;
+		}
+	}
+
+	/* Larger tablets and up */
+	@media (min-width: 769px) and (max-width: 1024px) {
+		.repos-grid {
+			grid-template-columns: repeat(2, 1fr);
+		}
+	}
+
+	/* Safe area insets for iOS notch */
+	@supports (padding: env(safe-area-inset-top)) {
+		.main-container {
+			padding-left: max(1.25rem, env(safe-area-inset-left));
+			padding-right: max(1.25rem, env(safe-area-inset-right));
+			padding-bottom: max(2rem, env(safe-area-inset-bottom));
 		}
 	}
 </style>
